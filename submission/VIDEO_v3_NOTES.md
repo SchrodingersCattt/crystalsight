@@ -1,3 +1,14 @@
+## Framing (v4-final)
+
+One-pager / social headline: **Can AI perceive 3D crystal structure?**
+
+Key finding (same numbers as narration):
+- Easy text: ~0.70–0.82
+- Hard text: ~0.20–0.43
+- Hard + tools: ~0.75–0.78
+
+Full TTS re-record not done before Beijing noon deadline; audio remains the v3 Zira track. Subtitles match that track (cue "nearest-partner" kept to match spoken audio; preferred wording in notes is "nearest contact").
+
 # Demo video v3: what changed
 
 `CrystalSight_demo_v3.mp4` is `CrystalSight_demo_v2.mp4` with only its results segment replaced. v1 and v2 are unchanged.
