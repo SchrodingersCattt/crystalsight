@@ -1,0 +1,78 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C12Cl3O3Ti",
+   "formula": "C12H20Cl3O3Ti",
+   "n_heavy": 19,
+   "elements": [
+    "C",
+    "Cl",
+    "H",
+    "O",
+    "Ti"
+   ],
+   "count": 4,
+   "disordered": true,
+   "role": "main"
+  },
+  {
+   "heavy_formula": "",
+   "formula": "H",
+   "n_heavy": 0,
+   "elements": [
+    "H"
+   ],
+   "count": 8,
+   "disordered": true,
+   "role": "isolated_H"
+  }
+ ],
+ "disorder": {
+  "disordered": true,
+  "components": [
+   "main"
+  ],
+  "types": [
+   "alternative_positions",
+   "partial_occupancy"
+  ]
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 88,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {
+  "Ti": {
+   "n_sites": 4,
+   "cns": {
+    "6": 4
+   },
+   "method": "mck_bonds",
+   "cn": 6,
+   "geometry": "octahedron",
+   "cshm": 0.4239606134201772,
+   "label_modifier": "clean"
+  }
+ },
+ "structure_id": "cod_2004754",
+ "path": "data/structures/cod/cod_2004754.cif",
+ "metals_covalent": {
+  "Ti": {
+   "n_sites": 4,
+   "cns": {
+    "6": 4
+   },
+   "cn": 6,
+   "geometry": "octahedron",
+   "cshm": 0.42396061342017727,
+   "best_match": "{'name': 'octahedron', 'cshm': 0.42396061342017727, 'method': 'core_residual_decomposition', 'point_group': 'Oh', 'category': 'platonic', 'core': {'prototype': 'octahedron', 'cn': 6, 'indices': [0, 1,",
+   "label_source": "registered",
+   "label_modifier": "clean"
+  }
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C10N4O2",
+   "formula": "C10H20N4O2",
+   "n_heavy": 16,
+   "elements": [
+    "C",
+    "H",
+    "N",
+    "O"
+   ],
+   "count": 1,
+   "disordered": false,
+   "role": "main"
+  },
+  {
+   "heavy_formula": "O",
+   "formula": "H3O",
+   "n_heavy": 1,
+   "elements": [
+    "H",
+    "O"
+   ],
+   "count": 2,
+   "disordered": true,
+   "role": "solvent"
+  }
+ ],
+ "disorder": {
+  "disordered": true,
+  "components": [
+   "solvent"
+  ],
+  "types": [
+   "partial_occupancy"
+  ]
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 26,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {},
+ "structure_id": "cod_2011852",
+ "path": "data/structures/cod/cod_2011852.cif"
+}

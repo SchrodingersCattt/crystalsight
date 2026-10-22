@@ -1,0 +1,12 @@
+.venv/
+_scratch/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+runs/*/
+!runs/.gitkeep
+reports/*/
+!reports/.gitkeep
+data/renders/

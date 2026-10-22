@@ -1,0 +1,79 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C112N64Zn16",
+   "formula": "C112H112N64Zn16",
+   "n_heavy": 192,
+   "elements": [
+    "C",
+    "H",
+    "N",
+    "Zn"
+   ],
+   "count": 1,
+   "disordered": true,
+   "role": "main"
+  },
+  {
+   "heavy_formula": "C3NO",
+   "formula": "C3H7NO",
+   "n_heavy": 5,
+   "elements": [
+    "C",
+    "H",
+    "N",
+    "O"
+   ],
+   "count": 8,
+   "disordered": false,
+   "role": "solvent"
+  }
+ ],
+ "disorder": {
+  "disordered": true,
+  "components": [
+   "main"
+  ],
+  "types": [
+   "alternative_positions"
+  ]
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 168,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {
+  "Zn": {
+   "n_sites": 16,
+   "cns": {
+    "4": 16
+   },
+   "method": "mck_bonds",
+   "cn": 4,
+   "geometry": "tetrahedron",
+   "cshm": 0.027307897994729376,
+   "label_modifier": "clean"
+  }
+ },
+ "structure_id": "mck_ZIF-4",
+ "path": "data/structures/mck/mck_ZIF-4.cif",
+ "metals_covalent": {
+  "Zn": {
+   "n_sites": 16,
+   "cns": {
+    "4": 16
+   },
+   "cn": 4,
+   "geometry": "tetrahedron",
+   "cshm": 0.027307897994729005,
+   "best_match": "{'name': 'tetrahedron', 'cshm': 0.027307897994729005, 'method': 'core_residual_decomposition', 'point_group': 'Td', 'category': 'platonic', 'core': {'prototype': 'tetrahedron', 'cn': 4, 'indices': [0,",
+   "label_source": "registered",
+   "label_modifier": "clean"
+  }
+ }
+}

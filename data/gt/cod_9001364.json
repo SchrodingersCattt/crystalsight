@@ -1,0 +1,71 @@
+{
+ "components": [
+  {
+   "heavy_formula": "Al24Mg24O32",
+   "formula": "Al24Mg24O32",
+   "n_heavy": 80,
+   "elements": [
+    "Al",
+    "Mg",
+    "O"
+   ],
+   "count": 1,
+   "disordered": true,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": true,
+  "components": [
+   "main"
+  ],
+  "types": [
+   "partial_occupancy"
+  ]
+ },
+ "hydrogen": {
+  "has_any_h": false,
+  "n_before": 0,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {
+  "Mg": {
+   "n_sites": 24,
+   "cns": {
+    "4": 8,
+    "6": 16
+   },
+   "method": "mck_bonds"
+  },
+  "Al": {
+   "n_sites": 24,
+   "cns": {
+    "4": 8,
+    "6": 16
+   },
+   "method": "mck_bonds"
+  }
+ },
+ "structure_id": "cod_9001364",
+ "path": "data/structures/cod/cod_9001364.cif",
+ "metals_covalent": {
+  "Mg": {
+   "n_sites": 24,
+   "cns": {
+    "4": 8,
+    "6": 16
+   }
+  },
+  "Al": {
+   "n_sites": 24,
+   "cns": {
+    "4": 8,
+    "6": 16
+   }
+  }
+ }
+}

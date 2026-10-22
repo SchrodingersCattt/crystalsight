@@ -1,0 +1,108 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C12K6N14Na2O6V2",
+   "formula": "C12K6N14Na2O6V2",
+   "n_heavy": 42,
+   "elements": [
+    "C",
+    "K",
+    "N",
+    "Na",
+    "O",
+    "V"
+   ],
+   "count": 1,
+   "disordered": false,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": false,
+  "n_before": 0,
+  "n_added": 21,
+  "added_by_element": {
+   "C": 15,
+   "V": 2,
+   "N": 2,
+   "O": 2
+  },
+  "missing_fraction": 1.0,
+  "missing_h": true,
+  "elements": [
+   "C"
+  ]
+ },
+ "metals": {
+  "V": {
+   "n_sites": 2,
+   "cns": {
+    "7": 2
+   },
+   "method": "mck_bonds",
+   "cn": 7,
+   "geometry": "pentagonal_bipyramid",
+   "cshm": 0.08407411568348519,
+   "label_modifier": "clean"
+  },
+  "K": {
+   "n_sites": 6,
+   "cns": {
+    "5": 2,
+    "7": 4
+   },
+   "method": "mck_bonds"
+  },
+  "Na": {
+   "n_sites": 2,
+   "cns": {
+    "6": 2
+   },
+   "method": "mck_bonds",
+   "cn": 6,
+   "geometry": "octahedron",
+   "cshm": 0.4593106992169363,
+   "label_modifier": "clean"
+  }
+ },
+ "structure_id": "cod_2106345",
+ "path": "data/structures/cod/cod_2106345.cif",
+ "metals_covalent": {
+  "V": {
+   "n_sites": 2,
+   "cns": {
+    "7": 2
+   },
+   "cn": 7,
+   "geometry": "pentagonal_bipyramid",
+   "cshm": 0.0840741156834849,
+   "best_match": "{'name': 'pentagonal_bipyramid', 'cshm': 0.0840741156834849, 'method': 'core_residual_decomposition', 'point_group': 'D5h', 'category': 'bipyramid', 'core': {'prototype': 'pentagonal_bipyramid', 'cn':",
+   "label_source": "registered",
+   "label_modifier": "clean"
+  },
+  "K": {
+   "n_sites": 6,
+   "cns": {
+    "5": 2,
+    "7": 4
+   }
+  },
+  "Na": {
+   "n_sites": 2,
+   "cns": {
+    "6": 2
+   },
+   "cn": 6,
+   "geometry": "octahedron",
+   "cshm": 0.4593106992169371,
+   "best_match": "{'name': 'octahedron', 'cshm': 0.4593106992169371, 'method': 'core_residual_decomposition', 'point_group': 'Oh', 'category': 'platonic', 'core': {'prototype': 'octahedron', 'cn': 6, 'indices': [0, 1, ",
+   "label_source": "registered",
+   "label_modifier": "clean"
+  }
+ }
+}

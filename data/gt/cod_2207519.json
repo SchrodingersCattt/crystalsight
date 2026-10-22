@@ -1,0 +1,5 @@
+{
+ "error": "super().__init__(symbols, *args, **kwargs)\n  File \".venv\\Lib\\site-packages\\ase\\atoms.py\", line 101, in __init__\n    numbers = symbols2numbers(symbols)\n              ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \".venv\\Lib\\site-packages\\ase\\symbols.py\", line 27, in symbols2numbers\n    numbers.append(atomic_numbers[s])\n                   ~~~~~~~~~~~~~~^^^\nKeyError: '.'\n",
+ "structure_id": "cod_2207519",
+ "path": "data/structures/cod/cod_2207519.cif"
+}

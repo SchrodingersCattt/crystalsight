@@ -1,0 +1,52 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C19O3",
+   "formula": "C19H21O3",
+   "n_heavy": 22,
+   "elements": [
+    "C",
+    "H",
+    "O"
+   ],
+   "count": 8,
+   "disordered": true,
+   "role": "main"
+  },
+  {
+   "heavy_formula": "C8N",
+   "formula": "C8H12N",
+   "n_heavy": 9,
+   "elements": [
+    "C",
+    "H",
+    "N"
+   ],
+   "count": 8,
+   "disordered": true,
+   "role": "other_component"
+  }
+ ],
+ "disorder": {
+  "disordered": true,
+  "components": [
+   "main",
+   "other_component"
+  ],
+  "types": [
+   "partial_occupancy"
+  ]
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 264,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {},
+ "structure_id": "cod_2100352",
+ "path": "data/structures/cod/cod_2100352.cif"
+}

@@ -1,0 +1,40 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C8NO2",
+   "formula": "C8NO2",
+   "n_heavy": 11,
+   "elements": [
+    "C",
+    "N",
+    "O"
+   ],
+   "count": 4,
+   "disordered": false,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": false,
+  "n_before": 0,
+  "n_added": 20,
+  "added_by_element": {
+   "C": 16,
+   "N": 4
+  },
+  "missing_fraction": 1.0,
+  "missing_h": true,
+  "elements": [
+   "C",
+   "N"
+  ]
+ },
+ "metals": {},
+ "structure_id": "mck_ISATIN",
+ "path": "data/structures/mck/mck_ISATIN.cif"
+}

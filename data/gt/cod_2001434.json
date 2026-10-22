@@ -1,0 +1,86 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C20N4Na8O22",
+   "formula": "C20H34N4Na8O22",
+   "n_heavy": 54,
+   "elements": [
+    "C",
+    "H",
+    "N",
+    "Na",
+    "O"
+   ],
+   "count": 1,
+   "disordered": false,
+   "role": "main"
+  },
+  {
+   "heavy_formula": "O2",
+   "formula": "H4O2",
+   "n_heavy": 2,
+   "elements": [
+    "H",
+    "O"
+   ],
+   "count": 1,
+   "disordered": false,
+   "role": "solvent"
+  },
+  {
+   "heavy_formula": "O",
+   "formula": "H2O",
+   "n_heavy": 1,
+   "elements": [
+    "H",
+    "O"
+   ],
+   "count": 2,
+   "disordered": false,
+   "role": "solvent"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 42,
+  "n_added": 8,
+  "added_by_element": {
+   "O": 4,
+   "C": 4
+  },
+  "missing_fraction": 0.16,
+  "missing_h": true,
+  "elements": [
+   "C",
+   "O"
+  ]
+ },
+ "metals": {
+  "Na": {
+   "n_sites": 8,
+   "cns": {
+    "7": 2,
+    "5": 4,
+    "4": 2
+   },
+   "method": "mck_bonds"
+  }
+ },
+ "structure_id": "cod_2001434",
+ "path": "data/structures/cod/cod_2001434.cif",
+ "metals_covalent": {
+  "Na": {
+   "n_sites": 8,
+   "cns": {
+    "7": 2,
+    "5": 4,
+    "4": 2
+   }
+  }
+ }
+}

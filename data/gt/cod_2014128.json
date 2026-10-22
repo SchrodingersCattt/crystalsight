@@ -1,0 +1,63 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C26NO5PRh",
+   "formula": "C26H19NO5PRh",
+   "n_heavy": 34,
+   "elements": [
+    "C",
+    "H",
+    "N",
+    "O",
+    "P",
+    "Rh"
+   ],
+   "count": 2,
+   "disordered": false,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 38,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {
+  "Rh": {
+   "n_sites": 2,
+   "cns": {
+    "4": 2
+   },
+   "method": "mck_bonds",
+   "cn": 4,
+   "geometry": "tetrahedron",
+   "cshm": 32.054211939158606,
+   "label_modifier": "irregular"
+  }
+ },
+ "structure_id": "cod_2014128",
+ "path": "data/structures/cod/cod_2014128.cif",
+ "metals_covalent": {
+  "Rh": {
+   "n_sites": 2,
+   "cns": {
+    "4": 2
+   },
+   "cn": 4,
+   "geometry": "tetrahedron",
+   "cshm": 32.0542119391586,
+   "best_match": "{'name': 'tetrahedron', 'cshm': 32.0542119391586, 'method': 'core_residual_decomposition', 'point_group': 'Td', 'category': 'platonic', 'core': {'prototype': 'tetrahedron', 'cn': 4, 'indices': [0, 1, ",
+   "label_source": "registered",
+   "label_modifier": "irregular"
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C8N4O2",
+   "formula": "C8H10N4O2",
+   "n_heavy": 14,
+   "elements": [
+    "C",
+    "H",
+    "N",
+    "O"
+   ],
+   "count": 32,
+   "disordered": true,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": true,
+  "components": [
+   "main"
+  ],
+  "types": [
+   "partial_occupancy"
+  ]
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 320,
+  "n_added": 32,
+  "added_by_element": {
+   "N": 8,
+   "O": 16,
+   "C": 8
+  },
+  "missing_fraction": 0.0909,
+  "missing_h": true,
+  "elements": [
+   "C",
+   "N",
+   "O"
+  ]
+ },
+ "metals": {},
+ "structure_id": "mck_anhydrousCaffeine_CGD_2007_7_1406",
+ "path": "data/structures/mck/mck_anhydrousCaffeine_CGD_2007_7_1406.cif"
+}

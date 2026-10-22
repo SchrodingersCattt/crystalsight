@@ -1,0 +1,33 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C6",
+   "formula": "C6H6",
+   "n_heavy": 6,
+   "elements": [
+    "C",
+    "H"
+   ],
+   "count": 4,
+   "disordered": false,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 24,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {},
+ "structure_id": "cod_4501702",
+ "path": "data/structures/cod/cod_4501702.cif"
+}

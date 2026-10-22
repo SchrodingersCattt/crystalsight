@@ -1,0 +1,33 @@
+{
+ "n_structures": 83,
+ "n_gt_ok": 78,
+ "gt_errors": {
+  "cod_2207519": "super().__init__(symbols, *args, **kwargs)\n  File \".venv\\Lib\\site-packages\\ase\\atoms.py\", line 101, in __init__\n    numbers = symbols2numbers(symbols)\n              ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \".venv\\Lib\\site-packages\\ase\\symbols.py\", line 27, in symbols2numbers\n    numbers.append(atomic_numbers[s])\n                   ~~~~~~~~~~~~~~^^^\nKeyError: '.'\n",
+  "mck_DAC-4": "timeout after 480s",
+  "mck_DACMOR01": "ne 1585, in read_cif_symmetry\n    return _crystal_symmetry_from_data_block(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \".venv\\Lib\\site-packages\\molcrys_kit\\io\\cif.py\", line 1502, in _crystal_symmetry_from_data_block\n    raise ValueError(\nValueError: incomplete non-P1 symmetry operation loop: CIF declares space group #4 (P12_11) with 2 operations but provides only 1\n",
+  "mck_DAN-2": "timeout after 480s",
+  "mck_anhydrousCaffeine2_CGD_2007_7_1406": "timeout after 480s"
+ },
+ "out_of_scope_inorganic": [
+  "cod_1000022",
+  "cod_1000043",
+  "cod_1011185",
+  "cod_1530150",
+  "cod_9000629",
+  "cod_9001364",
+  "cod_9002348",
+  "cod_9008789",
+  "mck_Diamond",
+  "mck_NaCl",
+  "mck_SUXRUA"
+ ],
+ "n_structures_with_tasks": 67,
+ "n_tasks": 247,
+ "by_qtype": {
+  "Q3_hydrogen": 67,
+  "Q4_disorder": 67,
+  "Q7_usability": 67,
+  "Q6_coordination": 11,
+  "Q8_compare": 35
+ }
+}

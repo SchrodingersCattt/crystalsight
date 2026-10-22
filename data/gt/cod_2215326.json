@@ -1,0 +1,39 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C20N4O2",
+   "formula": "C20H38N4O2",
+   "n_heavy": 26,
+   "elements": [
+    "C",
+    "H",
+    "N",
+    "O"
+   ],
+   "count": 4,
+   "disordered": true,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": true,
+  "components": [
+   "main"
+  ],
+  "types": [
+   "alternative_positions"
+  ]
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 152,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {},
+ "structure_id": "cod_2215326",
+ "path": "data/structures/cod/cod_2215326.cif"
+}

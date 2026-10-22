@@ -1,0 +1,78 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C17FeN5O2",
+   "formula": "C17H21FeN5O2",
+   "n_heavy": 25,
+   "elements": [
+    "C",
+    "Fe",
+    "H",
+    "N",
+    "O"
+   ],
+   "count": 4,
+   "disordered": false,
+   "role": "main"
+  },
+  {
+   "heavy_formula": "O",
+   "formula": "H2O",
+   "n_heavy": 1,
+   "elements": [
+    "H",
+    "O"
+   ],
+   "count": 8,
+   "disordered": true,
+   "role": "solvent"
+  }
+ ],
+ "disorder": {
+  "disordered": true,
+  "components": [
+   "solvent"
+  ],
+  "types": [
+   "partial_occupancy"
+  ]
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 100,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {
+  "Fe": {
+   "n_sites": 4,
+   "cns": {
+    "7": 4
+   },
+   "method": "mck_bonds",
+   "cn": 7,
+   "geometry": "pentagonal_bipyramid",
+   "cshm": 0.1643359838061628,
+   "label_modifier": "clean"
+  }
+ },
+ "structure_id": "cod_2014451",
+ "path": "data/structures/cod/cod_2014451.cif",
+ "metals_covalent": {
+  "Fe": {
+   "n_sites": 4,
+   "cns": {
+    "5": 4
+   },
+   "cn": 5,
+   "geometry": "trigonal_bipyramid",
+   "cshm": 1.0908147356896012,
+   "best_match": "{'name': 'trigonal_bipyramid', 'cshm': 1.0908147356896012, 'method': 'core_residual_decomposition', 'point_group': 'D3h', 'category': 'bipyramid', 'core': {'prototype': 'trigonal_bipyramid', 'cn': 5, ",
+   "label_source": "registered",
+   "label_modifier": "distorted"
+  }
+ }
+}

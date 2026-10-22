@@ -1,0 +1,50 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C6FN",
+   "formula": "C6H11FN",
+   "n_heavy": 8,
+   "elements": [
+    "C",
+    "F",
+    "H",
+    "N"
+   ],
+   "count": 8,
+   "disordered": true,
+   "role": "main"
+  },
+  {
+   "heavy_formula": "Br",
+   "formula": "Br",
+   "n_heavy": 1,
+   "elements": [
+    "Br"
+   ],
+   "count": 4,
+   "disordered": false,
+   "role": "counterion"
+  }
+ ],
+ "disorder": {
+  "disordered": true,
+  "components": [
+   "main"
+  ],
+  "types": [
+   "partial_occupancy"
+  ]
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 88,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {},
+ "structure_id": "mck_368K",
+ "path": "data/structures/mck/mck_368K.cif"
+}

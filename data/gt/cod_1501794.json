@@ -1,0 +1,61 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C15O7",
+   "formula": "C15H10O7",
+   "n_heavy": 22,
+   "elements": [
+    "C",
+    "H",
+    "O"
+   ],
+   "count": 4,
+   "disordered": false,
+   "role": "main"
+  },
+  {
+   "heavy_formula": "C8N4O2",
+   "formula": "C8H10N4O2",
+   "n_heavy": 14,
+   "elements": [
+    "C",
+    "H",
+    "N",
+    "O"
+   ],
+   "count": 4,
+   "disordered": false,
+   "role": "other_component"
+  },
+  {
+   "heavy_formula": "CO",
+   "formula": "CH4O",
+   "n_heavy": 2,
+   "elements": [
+    "C",
+    "H",
+    "O"
+   ],
+   "count": 4,
+   "disordered": false,
+   "role": "solvent"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 96,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {},
+ "structure_id": "cod_1501794",
+ "path": "data/structures/cod/cod_1501794.cif"
+}

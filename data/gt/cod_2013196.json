@@ -1,0 +1,36 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C8ClN4O",
+   "formula": "C8H11ClN4O",
+   "n_heavy": 14,
+   "elements": [
+    "C",
+    "Cl",
+    "H",
+    "N",
+    "O"
+   ],
+   "count": 8,
+   "disordered": false,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 88,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {},
+ "structure_id": "cod_2013196",
+ "path": "data/structures/cod/cod_2013196.cif"
+}

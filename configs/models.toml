@@ -1,0 +1,63 @@
+# CrystalSight model registry. Only environment-variable NAMES live here; no secrets, no paths.
+#
+# Credentials come from the process environment, or from an optional repo-local `.env`
+# (KEY=VALUE lines, gitignored; see `.env.example`). `env_files` entries are resolved
+# relative to the repository root and loaded with os.environ.setdefault, so values already
+# set in the environment win. Nothing from these files is written to runs/ or reports/.
+#
+# Any OpenAI-compatible endpoint works (OPENAI_BASE_URL should end in /v1).
+# `model` is a generic default id; if your gateway uses a different id, set the variable named in
+# `model_env` (environment or .env) instead of editing this file.
+
+[[models]]
+name = "deepseek-v4-flash"                
+model = "deepseek-v4-flash"
+model_env = "CRYSTALSIGHT_MODEL_DEEPSEEK"      # optional override of the model id
+base_url_env = ["DEEPSEEK_BASE_URL", "OPENAI_BASE_URL"]   # DEEPSEEK_* first, then OPENAI_*
+api_key_env = ["DEEPSEEK_API_KEY", "OPENAI_API_KEY"]
+env_files = [".env"]
+vision = false                            # evaluated as text-only (image channel skipped)
+max_output_tokens = 16384   # 4096 truncated long reasoning outputs
+temperature = 0
+max_retries = 3
+timeout_s = 240
+
+[[models]]
+name = "gpt-4o-2024-08-06"                # optional; not used in the reported run
+model = "gpt-4o-2024-08-06"
+model_env = "CRYSTALSIGHT_MODEL_GPT4O"
+base_url_env = "OPENAI_BASE_URL"
+api_key_env = "OPENAI_API_KEY"
+env_files = [".env"]
+vision = true
+max_output_tokens = 4096
+temperature = 0
+max_retries = 1
+timeout_s = 240
+
+[[models]]
+name = "gemini-2.5-flash"
+model = "gemini-2.5-flash"
+model_env = "CRYSTALSIGHT_MODEL_GEMINI"
+base_url_env = "OPENAI_BASE_URL"
+api_key_env = "OPENAI_API_KEY"
+env_files = [".env"]
+vision = true
+max_output_tokens = 16384   # 4096 truncated long reasoning outputs
+temperature = 0
+max_retries = 3
+timeout_s = 240
+
+[[models]]
+name = "gpt-5-mini"                       # optional; not used in the reported run
+model = "gpt-5-mini"
+model_env = "CRYSTALSIGHT_MODEL_GPT5MINI"
+base_url_env = "OPENAI_BASE_URL"
+api_key_env = "OPENAI_API_KEY"
+env_files = [".env"]
+vision = true
+max_output_tokens = 4096
+temperature = 1
+max_retries = 3
+timeout_s = 240
+

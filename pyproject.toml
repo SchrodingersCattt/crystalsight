@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crystalsight"
+version = "0.1.0"
+description = "CrystalSight: cross-modal crystal-structure perception benchmark (CIF text / MatterVis renders / MatterVis ASCII TUI / MolCrysKit tools)"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = [
+  "molcrys-kit @ git+https://github.com/SchrodingersCattt/MolCrysKit.git@main",
+  "matter-vis[tui] @ git+https://github.com/SchrodingersCattt/MatterVis.git@main",
+  "matplotlib>=3.8",
+]
+
+[tool.setuptools.packages.find]
+include = ["crystalsight*"]

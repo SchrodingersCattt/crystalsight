@@ -1,0 +1,63 @@
+{
+ "components": [
+  {
+   "heavy_formula": "MgO2",
+   "formula": "MgO2",
+   "n_heavy": 3,
+   "elements": [
+    "Mg",
+    "O"
+   ],
+   "count": 1,
+   "disordered": false,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": false,
+  "n_before": 0,
+  "n_added": 2,
+  "added_by_element": {
+   "O": 2
+  },
+  "missing_fraction": 1.0,
+  "missing_h": true,
+  "elements": [
+   "O"
+  ]
+ },
+ "metals": {
+  "Mg": {
+   "n_sites": 1,
+   "cns": {
+    "6": 1
+   },
+   "method": "mck_bonds",
+   "cn": 6,
+   "geometry": "octahedron",
+   "cshm": 0.8528194292874963,
+   "label_modifier": "distorted"
+  }
+ },
+ "structure_id": "cod_9002348",
+ "path": "data/structures/cod/cod_9002348.cif",
+ "metals_covalent": {
+  "Mg": {
+   "n_sites": 1,
+   "cns": {
+    "6": 1
+   },
+   "cn": 6,
+   "geometry": "octahedron",
+   "cshm": 0.8528194292874961,
+   "best_match": "{'name': 'octahedron', 'cshm': 0.8528194292874961, 'method': 'core_residual_decomposition', 'point_group': 'Oh', 'category': 'platonic', 'core': {'prototype': 'octahedron', 'cn': 6, 'indices': [0, 1, ",
+   "label_source": "registered",
+   "label_modifier": "distorted"
+  }
+ }
+}

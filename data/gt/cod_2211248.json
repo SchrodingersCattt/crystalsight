@@ -1,0 +1,45 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C13N",
+   "formula": "C13H16N",
+   "n_heavy": 14,
+   "elements": [
+    "C",
+    "H",
+    "N"
+   ],
+   "count": 8,
+   "disordered": false,
+   "role": "main"
+  },
+  {
+   "heavy_formula": "I",
+   "formula": "I",
+   "n_heavy": 1,
+   "elements": [
+    "I"
+   ],
+   "count": 8,
+   "disordered": false,
+   "role": "counterion"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 128,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {},
+ "structure_id": "cod_2211248",
+ "path": "data/structures/cod/cod_2211248.cif"
+}

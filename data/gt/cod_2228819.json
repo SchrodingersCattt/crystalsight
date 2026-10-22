@@ -1,0 +1,36 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C30BN7O3",
+   "formula": "C30H16BN7O3",
+   "n_heavy": 41,
+   "elements": [
+    "B",
+    "C",
+    "H",
+    "N",
+    "O"
+   ],
+   "count": 4,
+   "disordered": false,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 64,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {},
+ "structure_id": "cod_2228819",
+ "path": "data/structures/cod/cod_2228819.cif"
+}

@@ -1,0 +1,93 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C5N2",
+   "formula": "C5H14N2",
+   "n_heavy": 7,
+   "elements": [
+    "C",
+    "H",
+    "N"
+   ],
+   "count": 8,
+   "disordered": false,
+   "role": "main"
+  },
+  {
+   "heavy_formula": "AgClO4",
+   "formula": "AgClO4",
+   "n_heavy": 6,
+   "elements": [
+    "Ag",
+    "Cl",
+    "O"
+   ],
+   "count": 4,
+   "disordered": true,
+   "role": "other_component"
+  },
+  {
+   "heavy_formula": "ClO4",
+   "formula": "ClO4",
+   "n_heavy": 5,
+   "elements": [
+    "Cl",
+    "O"
+   ],
+   "count": 20,
+   "disordered": false,
+   "role": "counterion"
+  },
+  {
+   "heavy_formula": "Ag",
+   "formula": "Ag",
+   "n_heavy": 1,
+   "elements": [
+    "Ag"
+   ],
+   "count": 8,
+   "disordered": true,
+   "role": "counterion"
+  }
+ ],
+ "disorder": {
+  "disordered": true,
+  "components": [
+   "counterion",
+   "other_component"
+  ],
+  "types": [
+   "partial_occupancy"
+  ]
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 112,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {
+  "Ag": {
+   "n_sites": 12,
+   "cns": {
+    "0": 8,
+    "1": 4
+   },
+   "method": "mck_bonds"
+  }
+ },
+ "structure_id": "mck_PAP-M5",
+ "path": "data/structures/mck/mck_PAP-M5.cif",
+ "metals_covalent": {
+  "Ag": {
+   "n_sites": 8,
+   "cns": {
+    "0": 4,
+    "1": 4
+   }
+  }
+ }
+}

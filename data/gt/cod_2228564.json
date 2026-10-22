@@ -1,0 +1,34 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C8Br4",
+   "formula": "C8H12Br4",
+   "n_heavy": 12,
+   "elements": [
+    "Br",
+    "C",
+    "H"
+   ],
+   "count": 4,
+   "disordered": false,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 48,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {},
+ "structure_id": "cod_2228564",
+ "path": "data/structures/cod/cod_2228564.cif"
+}

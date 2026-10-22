@@ -1,0 +1,74 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C22N8NiO7",
+   "formula": "C22H26N8NiO7",
+   "n_heavy": 38,
+   "elements": [
+    "C",
+    "H",
+    "N",
+    "Ni",
+    "O"
+   ],
+   "count": 2,
+   "disordered": false,
+   "role": "main"
+  },
+  {
+   "heavy_formula": "O",
+   "formula": "H2O",
+   "n_heavy": 1,
+   "elements": [
+    "H",
+    "O"
+   ],
+   "count": 2,
+   "disordered": false,
+   "role": "solvent"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 56,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {
+  "Ni": {
+   "n_sites": 2,
+   "cns": {
+    "6": 2
+   },
+   "method": "mck_bonds",
+   "cn": 6,
+   "geometry": "octahedron",
+   "cshm": 0.14225913699093476,
+   "label_modifier": "clean"
+  }
+ },
+ "structure_id": "cod_2204677",
+ "path": "data/structures/cod/cod_2204677.cif",
+ "metals_covalent": {
+  "Ni": {
+   "n_sites": 2,
+   "cns": {
+    "6": 2
+   },
+   "cn": 6,
+   "geometry": "octahedron",
+   "cshm": 0.1422591369909348,
+   "best_match": "{'name': 'octahedron', 'cshm': 0.1422591369909348, 'method': 'core_residual_decomposition', 'point_group': 'Oh', 'category': 'platonic', 'core': {'prototype': 'octahedron', 'cn': 6, 'indices': [0, 1, ",
+   "label_source": "registered",
+   "label_modifier": "clean"
+  }
+ }
+}

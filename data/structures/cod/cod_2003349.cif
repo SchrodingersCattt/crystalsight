@@ -1,0 +1,286 @@
+#------------------------------------------------------------------------------
+#$Date: 2025-08-19 01:52:38 +0300 (Tue, 19 Aug 2025) $
+#$Revision: 301791 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/00/33/2003349.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003349
+loop_
+_publ_author_name
+'\"Ozbey, S.'
+'Kendi, E.'
+'\.Ide, S.'
+'Mak, T. C. W.'
+_publ_section_title
+;
+ 2-Methyl-2-(2-methylphenylazo)-1,3-indandione
+;
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              707
+_journal_page_last               709
+_journal_paper_doi               10.1107/S010827019400867X
+_journal_volume                  51
+_journal_year                    1995
+_chemical_compound_source        'Phillips (1959)'
+_chemical_formula_moiety         'C17 H14 N2 O2'
+_chemical_formula_sum            'C17 H14 N2 O2'
+_chemical_formula_weight         278.3
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yab'
+_symmetry_space_group_name_H-M   'P 1 21/a 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.
+_cell_angle_beta                 107.73(2)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   8.205(2)
+_cell_length_b                   14.321(5)
+_cell_length_c                   12.838(4)
+_cell_measurement_reflns_used    15
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      20
+_cell_measurement_theta_min      6
+_cell_volume                     1436.9(8)
+_diffrn_measurement_device       'Nicolet R3m/V'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       13
+_diffrn_reflns_limit_l_min       -13
+_diffrn_reflns_number            1174
+_diffrn_reflns_theta_max         22.5
+_diffrn_standards_decay_%        0.5
+_diffrn_standards_interval_time  125
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    0.08
+_exptl_absorpt_correction_T_max  0.986
+_exptl_absorpt_correction_T_min  0.959
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    1.287
+_exptl_crystal_description       plate
+_exptl_crystal_size_max          0.44
+_exptl_crystal_size_mid          0.44
+_exptl_crystal_size_min          0.22
+_refine_diff_density_max         0.16
+_refine_diff_density_min         -0.21
+_refine_ls_extinction_method     none
+_refine_ls_hydrogen_treatment    refxyz
+_refine_ls_number_parameters     232
+_refine_ls_number_reflns         991
+_refine_ls_R_factor_obs          0.0529
+_refine_ls_shift/esd_max         0.186
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 2.7065/[\s^2^(F) + 0.000846F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0565
+_reflns_number_observed          1079
+_reflns_number_total             1174
+_reflns_observed_criterion       F>4\s(F)
+_cod_data_source_file            hr1008.cif
+_cod_data_source_block           hr1008a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '2.7065/[\s^2^(F) +
+0.000846F^2^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 2.7065/[\s^2^(F) + 0.000846F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      'P 21/a'
+_cod_database_code               2003349
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,1/2-y,z
+-x,-y,-z
+1/2-x,1/2+y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+O2 .0821(4) .2828(2) .3834(3) .074(2)
+O1 .0899(5) -.0437(2) .3887(3) .086(2)
+N2 .1614(4) .1170(3) .2506(3) .060(1)
+N1 .0758(4) .1331(2) .1564(3) .060(2)
+C1 .1308(6) .2032(3) .4055(4) .056(3)
+C2 .0615(5) .1186(3) .3303(3) .055(2)
+C3 .1350(6) .0364(3) .4065(4) .059(3)
+C4 .2679(6) .0724(3) .5040(4) .051(3)
+C9 .2634(6) .1700(3) .5035(4) .054(3)
+C1' .1708(6) .1307(3) .0792(4) .058(2)
+C2' .0745(7) .1251(3) -.0296(4) .078(2)
+C5 .3879(7) .0254(4) .5889(4) .063(3)
+C6 .5001(7) .0757(4) .6697(5) .073(3)
+C7 .4913(7) .1728(4) .6695(5) .076(3)
+C8 .3734(7) .2206(3) .5874(5) .065(3)
+C10 -.1301(6) .1179(4) .2813(5) .075(2)
+C11 -.1170(10) .1239(4) -.0637(6) .113(3)
+C3' .1678(13) .1172(4) -.1072(5) .104(4)
+C4' .3421(13) .1166(5) -.0737(6) .107(4)
+C5' .4344(9) .1255(4) .0355(5) .092(3)
+C6' .3502(7) .1321(3) .1100(4) .067(2)
+H5 .389(5) -.034(3) .584(3) .050
+H6 .595(5) .044(3) .729(3) .065
+H7 .572(5) .200(3) .727(3) .065
+H8 .365(5) .286(3) .585(3) .060
+H101 -.182(5) .124(3) .336(3) .070
+H102 -.166(5) .064(3) .234(3) .070
+H103 -.175(5) .179(3) .233(3) .070
+H111 -.152(5) .124(3) -.140(4) .070
+H112 -.154(6) .172(3) -.079(4) .070
+H113 -.156(5) .073(3) -.043(4) .070
+H3' .088(6) .114(3) -.169(4) .090
+H4' .384(6) .114(3) -.133(5) .100
+H5' .566(6) .136(3) .053(4) .090
+H6' .404(6) .139(3) .176(4) .060
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+N1 N2 C2 113.9(3) yes
+N2 N1 C1' 114.2(4) yes
+O2 C1 C9 127.6(4) yes
+O2 C1 C2 123.9(4) yes
+C2 C1 C9 108.5(4) yes
+N2 C2 C1 105.4(3) yes
+C1 C2 C10 113.9(4) yes
+C1 C2 C3 101.8(4) yes
+N2 C2 C10 115.8(4) yes
+N2 C2 C3 103.6(4) yes
+C3 C2 C10 114.8(4) yes
+O1 C3 C2 124.9(4) yes
+C2 C3 C4 108.5(4) yes
+O1 C3 C4 126.6(6) yes
+C5 C6 C7 120.2(6) yes
+C6 C7 C8 121.5(5) yes
+C9 C8 C7 118.4(5) yes
+C4 C5 C6 119.4(5) yes
+C3 C4 C5 130.8(4) yes
+C3 C4 C9 109.4(4) yes
+C9 C4 C5 119.7(4) yes
+C1 C9 C4 109.8(4) yes
+C4 C9 C8 120.7(5) yes
+C1 C9 C8 129.5(4) yes
+N1 C1' C6' 123.3(4) yes
+N1 C1' C2' 115.8(5) yes
+C2' C1' C6' 120.9(5) yes
+C1' C2' C3' 116.4(6) yes
+C1' C2' C11 121.5(6) yes
+C11 C2' C3' 122.1(5) yes
+C3' C4' C5' 121.2(9) yes
+C4' C5' C6' 119.2(7) yes
+C1' C6' C5' 121.4(5) yes
+C2' C3' C4' 120.8(6) yes
+C4 C5 H5 116.(3) no
+C6 C6 H5 124.(3) no
+C5 C6 H6 121.(2) no
+C7 C6 H6 119.(2) no
+C6 C7 H7 114.(3) no
+C8 C7 H7 125.(3) no
+C7 C8 H8 123.(2) no
+C9 C8 H8 118.(2) no
+C2 C10 H103 112.(2) no
+C2 C10 H102 110.(3) no
+C2 C10 H101 110.(3) no
+C2' C11 H113 112.(3) no
+C2' C11 H112 111.(4) no
+C2' C11 H111 105.(3) no
+C2' C3' H3' 104.(4) no
+C4' C3' H3' 136.(4) no
+C3' C4' H4' 111.(4) no
+C5' C4' H4' 127.(3) no
+C4' C5' H5' 118.(3) no
+C6' C5' H5' 122.(3) no
+C5' C6' H6' 121.(3) no
+C1' C6' H6' 118.(3) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O2 C1 1.212(5) yes
+O1 C3 1.205(5) yes
+N2 N1 1.221(4) yes
+N2 C2 1.493(6) yes
+N1 C1' 1.436(7) yes
+C1 C2 1.546(6) yes
+C1 C9 1.469(6) yes
+C2 C3 1.532(6) yes
+C2 C10 1.505(6) yes
+C3 C4 1.479(6) yes
+C4 C9 1.398(6) yes
+C4 C5 1.400(6) yes
+C5 C6 1.364(7) yes
+C6 C7 1.392(8) yes
+C7 C8 1.376(7) yes
+C9 C8 1.381(7) yes
+C1' C6' 1.403(7) yes
+C2' C11 1.497(10) yes
+C2' C3' 1.434(12) yes
+C9 C8 1.381(7) yes
+C3' C4' 1.362(14) yes
+C4' C5' 1.382(9) yes
+C5' C6' 1.343(10) yes
+C1' C2' 1.382(6) yes
+C5 H5 0.85(4) no
+C6 H6 1.02(4) no
+C7 H7 0.91(4) no
+C8 H8 0.95(4) no
+C10 H101 0.93(5) no
+C10 H102 0.97(4) no
+C10 H103 1.06(4) no
+C11 H111 0.93(4) no
+C11 H112 0.76(4) no
+C11 H113 0.87(5) no
+C3' H3' 0.86(5) no
+C4' H4' 0.93(6) no
+C5' H5' 1.04(4) no
+C6' H6' 0.84(4) no
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_publ_flag
+C2 N2 N1 C1' -179.4(4) yes
+N2 N1 C1' C2' -14.5(6) yes
+N2 N1 C1' C2' 164.4(4) yes
+N1 N2 C2 C1 -113.7(4) yes
+N1 N2 C2 C3 139.7(4) yes
+C3 C2 C1 C9 12.8(5) yes
+C2 C1 C9 C4 -7.9(5) yes
+C1 C9 C4 C3 -0.9(5) yes
+C9 C4 C3 C2 9.5(5) yes
+C4 C3 C2 C1 -13.3(5) yes
+N1 N2 C2 C10 13.2(5) yes
+C6' C1' C2' C11 -179.8(5) yes
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 PubChem 85654288

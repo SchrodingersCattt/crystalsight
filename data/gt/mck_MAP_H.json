@@ -1,0 +1,47 @@
+{
+ "components": [
+  {
+   "heavy_formula": "ClO4",
+   "formula": "H4ClO4",
+   "n_heavy": 5,
+   "elements": [
+    "Cl",
+    "H",
+    "O"
+   ],
+   "count": 8,
+   "disordered": false,
+   "role": "main"
+  },
+  {
+   "heavy_formula": "CN",
+   "formula": "CH5N",
+   "n_heavy": 2,
+   "elements": [
+    "C",
+    "H",
+    "N"
+   ],
+   "count": 8,
+   "disordered": false,
+   "role": "counterion"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 72,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {},
+ "structure_id": "mck_MAP_H",
+ "path": "data/structures/mck/mck_MAP_H.cif"
+}

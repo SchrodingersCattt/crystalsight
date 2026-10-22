@@ -1,0 +1,89 @@
+{
+ "components": [
+  {
+   "heavy_formula": "Al6Cl2Na8O24Si6",
+   "formula": "Al6Cl2Na8O24Si6",
+   "n_heavy": 46,
+   "elements": [
+    "Al",
+    "Cl",
+    "Na",
+    "O",
+    "Si"
+   ],
+   "count": 1,
+   "disordered": false,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": false,
+  "n_before": 0,
+  "n_added": 8,
+  "added_by_element": {
+   "O": 8
+  },
+  "missing_fraction": 1.0,
+  "missing_h": true,
+  "elements": [
+   "O"
+  ]
+ },
+ "metals": {
+  "Na": {
+   "n_sites": 8,
+   "cns": {
+    "4": 8
+   },
+   "method": "mck_bonds",
+   "cn": 4,
+   "geometry": "tetrahedron",
+   "cshm": 0.10141624916030054,
+   "label_modifier": "clean"
+  },
+  "Al": {
+   "n_sites": 6,
+   "cns": {
+    "4": 6
+   },
+   "method": "mck_bonds",
+   "cn": 4,
+   "geometry": "tetrahedron",
+   "cshm": 0.0009879825538849963,
+   "label_modifier": "clean"
+  }
+ },
+ "structure_id": "cod_1011185",
+ "path": "data/structures/cod/cod_1011185.cif",
+ "metals_covalent": {
+  "Na": {
+   "n_sites": 8,
+   "cns": {
+    "4": 8
+   },
+   "cn": 4,
+   "geometry": "tetrahedron",
+   "cshm": 0.10141624916030019,
+   "best_match": "{'name': 'tetrahedron', 'cshm': 0.10141624916030019, 'method': 'core_residual_decomposition', 'point_group': 'Td', 'category': 'platonic', 'core': {'prototype': 'tetrahedron', 'cn': 4, 'indices': [0, ",
+   "label_source": "registered",
+   "label_modifier": "clean"
+  },
+  "Al": {
+   "n_sites": 6,
+   "cns": {
+    "4": 6
+   },
+   "cn": 4,
+   "geometry": "tetrahedron",
+   "cshm": 0.0009879825538849534,
+   "best_match": "{'name': 'tetrahedron', 'cshm': 0.0009879825538849534, 'method': 'core_residual_decomposition', 'point_group': 'Td', 'category': 'platonic', 'core': {'prototype': 'tetrahedron', 'cn': 4, 'indices': [0",
+   "label_source": "registered",
+   "label_modifier": "clean"
+  }
+ }
+}

@@ -1,0 +1,254 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/00/14/2001434.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2001434
+loop_
+_publ_author_name
+'Font-Bardia, M.'
+'Solans, X.'
+'Font-Altaba, M.'
+_publ_section_title
+;
+ Sodium ion complexes with ethylenediaminetetraacetic acid
+;
+_journal_issue                   8
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1452
+_journal_page_last               1456
+_journal_paper_doi               10.1107/S0108270193001350
+_journal_volume                  49
+_journal_year                    1993
+_chemical_formula_sum            'C10 H22 N2 Na4 O13'
+_chemical_formula_weight         470
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                99.71(3)
+_cell_angle_beta                 115.41(3)
+_cell_angle_gamma                92.34(3)
+_cell_formula_units_Z            2
+_cell_length_a                   13.326(4)
+_cell_length_b                   9.353(3)
+_cell_length_c                   8.478(3)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      12
+_cell_measurement_theta_min      8
+_cell_volume                     933.1(6)
+_diffrn_measurement_device       'Phillips PW1100'
+_diffrn_measurement_method       \w
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       -14
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            2663
+_diffrn_reflns_theta_max         25
+_diffrn_standards_decay_%        'not significant'
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.241
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.67
+_exptl_crystal_description       prismatic
+_exptl_crystal_F_000             488
+_exptl_crystal_size_max          0.10
+_exptl_crystal_size_mid          0.08
+_exptl_crystal_size_min          0.06
+_refine_diff_density_max         0.03
+_refine_diff_density_min         -0.03
+_refine_ls_extinction_method     none
+_refine_ls_number_parameters     317
+_refine_ls_number_reflns         2134
+_refine_ls_R_factor_obs          0.063
+_refine_ls_shift/esd_max         0.01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      \s^-2^(F~o~)
+_refine_ls_wR_factor_obs         0.063
+_reflns_number_observed          2134
+_reflns_number_total             2663
+_reflns_observed_criterion       I>=2.5\s(I)
+_cod_data_source_file            al1024.cif
+_cod_data_source_block           al1024_structure_2_of_2
+_cod_original_cell_volume        933.1(9)
+_cod_database_code               2001434
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Na(1) .6029(2) -.0899(2) .4233(4)
+Na(2) .8000(2) .4884(3) .9716(4)
+Na(3) .5911(2) .3154(3) .5196(4)
+Na(4) .6055(2) .3299(3) 1.0589(4)
+N(1) .7627(3) -.0828(5) .7306(8)
+C(1) .8652(4) -.1224(6) .7178(10)
+C(2) .8800(4) -.0550(6) .5748(9)
+N(2) .7846(3) -.0992(5) .3996(8)
+O(11) .7064(3) -.4528(4) .6903(7)
+O(12) .5922(3) -.3224(4) .5095(7)
+C(11) .6697(4) -.3329(6) .6561(10)
+C(12) .7221(4) -.1953(6) .8024(10)
+O(21) .5841(3) .0626(5) .6783(9)
+O(22) .6850(3) .2678(4) .8517(7)
+C(21) .6739(4) .1374(6) .7893(9)
+C(22) .7802(4) .0624(6) .8339(11)
+O(31) .5844(3) -.2512(5) .1461(7)
+O(32) .6675(3) -.4257(4) .0536(7)
+C(31) .6677(4) -.3143(6) .1548(10)
+C(32) .7828(4) -.2459(6) .3124(9)
+O(41) .6843(4) .1498(5) .4210(8)
+O(42) .7709(3) .2587(5) .2902(8)
+C(41) .7403(5) .1464(7) .3306(11)
+C(42) .7790(5) .0028(7) .2802(11)
+O(W1) .8756(4) .4509(5) .6106(9)
+O(W2) .9254(3) .3598(5) 1.1797(7)
+O(W3) .5313(3) .4262(5) .2581(7)
+O(W4) .9713(3) .6601(5) 1.0796(8)
+O(W5) .5289(19) .045(2) 1.018(6)
+H(1)' .9367(4) -.0821(6) .8452(10)
+H(1) .8593(4) -.240(7) .6867(10)
+H(2) .9540(4) -.0892(6) .5653(9)
+H(2)' .8905(4) .0627(6) .6148(9)
+H(12) .7915(4) -.2203(6) .9159(10)
+H(12)' .6602(4) -.1545(6) .8427(10)
+H(22) .8154(4) .0562(6) .9731(11)
+H(22)' .8391(4) .1287(6) .8113(11)
+H(32) .8444(4) -.2446(6) .2615(9)
+H(32)' .8049(4) -.3141(6) .4103(9)
+H(42) .8612(5) .0254(7) .2879(11)
+H(W1) .9652(4) .4699(5) .6922(9)
+H(W1)' .8369(4) .5360(5) .6581(9)
+H(W2) 1.0003(3) .3270(5) 1.1725(7)
+H(W2)' .9375(3) .3757(5) 1.3161(7)
+H(W3) .4467(3) .4051(5) .1525(7)
+H(W3)' .5700(3) .5309(5) .2609(7)
+H(W4) 1.0152(3) .6684(5) .9994(8)
+H(W4)' .9849(3) .7641(5) 1.1684(8)
+H(W5) .5804(19) -.015(2) 1.15(6)
+H(W5)' .4423(19) .020(2) .990(6)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+N(2) Na(1) N(1) . . . 70.4(2)
+O(12) Na(1) N(2) . . . 98.70(10)
+O(21) Na(1) N(2) . . . 123.8(2)
+O(31) Na(1) N(1) . . . 123.7(2)
+O(31) Na(1) O(12) . . . 82.1(2)
+O(41) Na(1) N(1) . . . 89.7(2)
+O(41) Na(1) O(12) . . . 158.8(2)
+O(21) Na(1) O(21) 2_656 . . 73.7(2)
+O(21) Na(1) N(1) 2_656 . . 133.9(2)
+O(21) Na(1) O(31) 2_656 . . 96.3(2)
+O(41) Na(1) O(31) . . . 104.6(2)
+O(32) Na(2) O(11) 1_566 . 1_565 91.2(2)
+O(W2) Na(2) O(11) . . 1_565 154.4(2)
+O(W2) Na(2) O(32) . . 1_566 112.5(2)
+O(W4) Na(2) O(22) . . . 157.9(2)
+O(W4) Na(2) O(W2) . . . 81.9(2)
+O(41) Na(3) O(11) . . 1_565 113.3(2)
+O(W3) Na(3) O(11) . . 1_565 86.8(2)
+O(W3) Na(3) O(41) . . . 93.9(2)
+O(42) Na(4) O(22) 1_556 . . 88.8(2)
+O(W3) Na(4) O(22) 1_556 . . 171.7(2)
+O(W3) Na(4) O(42) 1_556 . 1_556 94.5(2)
+Na(3) O(11) Na(2) . 1_565 . 100.2(2)
+Na(4) O(22) Na(3) . . . 122.9(2)
+O(12) Na(1) N(1) . . . 70.3(2)
+O(21) Na(1) N(1) . . . 64.6(2)
+O(21) Na(1) O(12) . . . 96.4(2)
+O(31) Na(1) N(2) . . . 66.5(2)
+O(31) Na(1) O(21) . . . 169.70(10)
+O(41) Na(1) N(2) . . . 67.10(10)
+O(41) Na(1) O(21) . . . 80.4(2)
+O(21) Na(1) O(12) 2_656 . . 96.8(2)
+O(21) Na(1) N(2) 2_656 . . 154.8(2)
+O(21) Na(1) O(41) 2_656 . . 102.2(2)
+O(22) Na(2) O(11) . . 1_565 87.0(2)
+O(32) Na(2) O(22) 1_566 . . 86.6(2)
+O(W2) Na(2) O(22) . . . 84.9(2)
+O(W4) Na(2) O(11) . . 1_565 97.3(2)
+O(W4) Na(2) O(32) . . 1_566 114.8(2)
+O(22) Na(3) O(11) . . 1_565 77.6(2)
+O(41) Na(3) O(22) . . . 93.6(2)
+O(W3) Na(3) O(22) . . . 164.3(2)
+O(32) Na(4) O(22) 1_566 . . 81.5(2)
+O(42) Na(4) O(32) 1_556 . 1_566 103.5(2)
+O(W3) Na(4) O(32) 1_556 . 1_566 90.3(2)
+Na(4) O(W3) Na(3) . 1_556 1_556 113.1(2)
+Na(4) O(22) Na(2) . . . 89.9(2)
+Na(4) O(32) Na(2) . 1_566 . 90.6(2)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_distance
+N(1) Na(1) . 2.549(6)
+O(12) Na(1) . 2.425(4)
+O(31) Na(1) . 2.477(6)
+O(21) Na(1) 2_656 2.303(6)
+O(W4) Na(2) . 2.457(5)
+O(32) Na(2) 1_566 2.286(5)
+O(22) Na(3) . 2.671(6)
+O(W3) Na(3) . 2.440(5)
+O(12) Na(3) 2_656 2.352(5)
+O(22) Na(4) . 2.419(5)
+O(31) Na(4) 2_656 2.368(5)
+O(42) Na(4) 1_556 2.449(5)
+C(1) N(1) . 1.472(6)
+C(22) N(1) . 1.436(8)
+N(2) C(2) . 1.457(8)
+C(42) N(2) . 1.485(8)
+C(11) O(12) . 1.253(8)
+C(21) O(21) . 1.245(7)
+C(22) C(21) . 1.534(6)
+C(31) O(32) . 1.232(8)
+C(41) O(41) . 1.276(8)
+C(42) C(41) . 1.517(8)
+N(2) Na(1) . 2.518(4)
+O(21) Na(1) . 2.494(7)
+O(41) Na(1) . 2.458(4)
+O(W2) Na(2) . 2.387(5)
+O(22) Na(2) . 2.310(5)
+O(11) Na(2) 1_565 2.344(5)
+O(41) Na(3) . 2.292(5)
+O(21) Na(3) . 2.927(5)
+O(11) Na(3) 1_565 2.432(5)
+O(W5) Na(4) . 2.722(5)
+O(32) Na(4) 1_566 2.414(4)
+O(W3) Na(4) 1_556 2.374(6)
+C(12) N(1) . 1.491(7)
+C(2) C(1) . 1.536(8)
+C(32) N(2) . 1.439(7)
+C(11) O(11) . 1.270(6)
+C(12) C(11) . 1.526(9)
+C(21) O(22) . 1.221(7)
+C(31) O(31) . 1.258(6)
+C(32) C(31) . 1.555(8)
+C(41) O(42) . 1.262(7)

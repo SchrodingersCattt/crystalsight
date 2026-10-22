@@ -1,0 +1,59 @@
+{
+ "components": [
+  {
+   "heavy_formula": "ClCs",
+   "formula": "ClCs",
+   "n_heavy": 2,
+   "elements": [
+    "Cl",
+    "Cs"
+   ],
+   "count": 1,
+   "disordered": false,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": false,
+  "n_before": 0,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {
+  "Cs": {
+   "n_sites": 1,
+   "cns": {
+    "8": 1
+   },
+   "method": "mck_bonds",
+   "cn": 8,
+   "geometry": "cube",
+   "cshm": 2.0029671421627253e-30,
+   "label_modifier": "clean"
+  }
+ },
+ "structure_id": "cod_9008789",
+ "path": "data/structures/cod/cod_9008789.cif",
+ "metals_covalent": {
+  "Cs": {
+   "n_sites": 1,
+   "cns": {
+    "8": 1
+   },
+   "cn": 8,
+   "geometry": "cube",
+   "cshm": 2.6192647243666408e-30,
+   "best_match": "{'name': 'cube', 'cshm': 2.6192647243666408e-30, 'method': 'core_residual_decomposition', 'point_group': 'Oh', 'category': 'platonic', 'core': {'prototype': 'cube', 'cn': 8, 'indices': [0, 1, 2, 3, 4,",
+   "label_source": "registered",
+   "label_modifier": "clean"
+  }
+ }
+}

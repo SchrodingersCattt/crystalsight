@@ -1,0 +1,100 @@
+[
+ {
+  "title": "TUI misses disorder that the CIF text reveals",
+  "model": "deepseek-v4-flash",
+  "channel": "tui",
+  "task_id": "cod_2011852:Q4_disorder",
+  "answer": {
+   "disordered": false,
+   "components": [],
+   "types": []
+  },
+  "gold": {
+   "disordered": true,
+   "components": [
+    "solvent"
+   ],
+   "types": [
+    "partial_occupancy"
+   ]
+  },
+  "score": 0.0
+ },
+ {
+  "title": "TUI misses disorder that the CIF text reveals",
+  "model": "deepseek-v4-flash",
+  "channel": "tui",
+  "task_id": "cod_2013465:Q4_disorder",
+  "answer": {
+   "disordered": false,
+   "components": [],
+   "types": []
+  },
+  "gold": {
+   "disordered": true,
+   "components": [
+    "main"
+   ],
+   "types": [
+    "partial_occupancy"
+   ]
+  },
+  "score": 0.0
+ },
+ {
+  "title": "Image: wrong coordination number",
+  "model": "gemini-2.5-flash",
+  "channel": "image",
+  "task_id": "cod_2004754:Q6_coordination",
+  "answer": {
+   "cn": 4,
+   "geometry": "tetrahedron"
+  },
+  "gold": {
+   "cn": 6,
+   "geometry": "octahedron"
+  },
+  "score": 0.0
+ },
+ {
+  "title": "Image: wrong coordination number",
+  "model": "gemini-2.5-flash",
+  "channel": "image",
+  "task_id": "cod_2014451:Q6_coordination",
+  "answer": {
+   "cn": 6,
+   "geometry": "octahedron"
+  },
+  "gold": {
+   "cn": 7,
+   "geometry": "pentagonal_bipyramid"
+  },
+  "score": 0.0
+ },
+ {
+  "title": "Image/TUI: false alarm on missing H",
+  "model": "gemini-2.5-flash",
+  "channel": "tui",
+  "task_id": "cod_1008775:Q3_hydrogen",
+  "answer": {
+   "missing_h": true,
+   "elements": [
+    "O"
+   ]
+  },
+  "gold": {
+   "missing_h": false,
+   "elements": []
+  },
+  "score": 0.0
+ },
+ {
+  "title": "Comparison answered wrongly from pictures",
+  "model": "gemini-2.5-flash",
+  "channel": "image",
+  "task_id": "cod_2004754|cod_2001125:Q8_solvent",
+  "answer": "B",
+  "gold": "neither",
+  "score": 0.0
+ }
+]

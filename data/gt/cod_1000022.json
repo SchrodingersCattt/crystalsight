@@ -1,0 +1,87 @@
+{
+ "components": [
+  {
+   "heavy_formula": "Ca4O12Ti4",
+   "formula": "Ca4O12Ti4",
+   "n_heavy": 20,
+   "elements": [
+    "Ca",
+    "O",
+    "Ti"
+   ],
+   "count": 1,
+   "disordered": false,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": false,
+  "n_before": 0,
+  "n_added": 3,
+  "added_by_element": {
+   "O": 3
+  },
+  "missing_fraction": 1.0,
+  "missing_h": true,
+  "elements": [
+   "O"
+  ]
+ },
+ "metals": {
+  "Ti": {
+   "n_sites": 4,
+   "cns": {
+    "6": 4
+   },
+   "method": "mck_bonds",
+   "cn": 6,
+   "geometry": "octahedron",
+   "cshm": 0.005290980135371517,
+   "label_modifier": "clean"
+  },
+  "Ca": {
+   "n_sites": 4,
+   "cns": {
+    "8": 4
+   },
+   "method": "mck_bonds",
+   "cn": 8,
+   "geometry": "trigonal_prism + 2 face_cap",
+   "cshm": 2.9202600546838373,
+   "label_modifier": "distorted"
+  }
+ },
+ "structure_id": "cod_1000022",
+ "path": "data/structures/cod/cod_1000022.cif",
+ "metals_covalent": {
+  "Ti": {
+   "n_sites": 4,
+   "cns": {
+    "6": 4
+   },
+   "cn": 6,
+   "geometry": "octahedron",
+   "cshm": 0.005290980135371979,
+   "best_match": "{'name': 'octahedron', 'cshm': 0.005290980135371979, 'method': 'core_residual_decomposition', 'point_group': 'Oh', 'category': 'platonic', 'core': {'prototype': 'octahedron', 'cn': 6, 'indices': [0, 1",
+   "label_source": "registered",
+   "label_modifier": "clean"
+  },
+  "Ca": {
+   "n_sites": 4,
+   "cns": {
+    "8": 4
+   },
+   "cn": 8,
+   "geometry": "trigonal_prism + 2 face_cap",
+   "cshm": 2.9202600546838355,
+   "best_match": "{'name': 'trigonal_prism + 2 face_cap', 'cshm': 2.9202600546838355, 'method': 'core_residual_decomposition', 'point_group': 'D3h', 'category': 'prism', 'core': {'prototype': 'trigonal_prism', 'cn': 6,",
+   "label_source": "ad_hoc",
+   "label_modifier": "distorted"
+  }
+ }
+}

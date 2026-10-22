@@ -1,0 +1,402 @@
+{
+ "cod_1530150": {
+  "structure_id": "cod_1530150",
+  "render_s": 9.5,
+  "tui_load_s": 2.1
+ },
+ "cod_1008775": {
+  "structure_id": "cod_1008775",
+  "render_s": 10.0,
+  "tui_load_s": 2.2
+ },
+ "cod_1000022": {
+  "structure_id": "cod_1000022",
+  "render_s": 11.0,
+  "tui_load_s": 2.4
+ },
+ "cod_1011185": {
+  "structure_id": "cod_1011185",
+  "render_s": 12.8,
+  "tui_load_s": 2.7
+ },
+ "cod_1000043": {
+  "structure_id": "cod_1000043",
+  "render_s": 17.7,
+  "tui_load_s": 6.3
+ },
+ "cod_2001434": {
+  "structure_id": "cod_2001434",
+  "render_s": 24.6,
+  "tui_load_s": 1.1
+ },
+ "cod_2003967": {
+  "structure_id": "cod_2003967",
+  "render_s": 21.9,
+  "tui_load_s": 1.5
+ },
+ "cod_1501794": {
+  "structure_id": "cod_1501794",
+  "render_s": 31.9,
+  "tui_load_s": 9.5
+ },
+ "cod_2003349": {
+  "structure_id": "cod_2003349",
+  "render_s": 25.8,
+  "tui_load_s": 5.1
+ },
+ "cod_2004754": {
+  "structure_id": "cod_2004754",
+  "render_s": 26.4,
+  "tui_load_s": 1.5
+ },
+ "cod_2011852": {
+  "structure_id": "cod_2011852",
+  "render_s": 15.6,
+  "tui_load_s": 0.4
+ },
+ "cod_2013129": {
+  "structure_id": "cod_2013129",
+  "render_s": 19.1,
+  "tui_load_s": 0.3
+ },
+ "cod_2013196": {
+  "structure_id": "cod_2013196",
+  "render_s": 21.6,
+  "tui_load_s": 1.5
+ },
+ "cod_2014128": {
+  "structure_id": "cod_2014128",
+  "render_s": 16.8,
+  "tui_load_s": 0.6
+ },
+ "cod_2013465": {
+  "structure_id": "cod_2013465",
+  "render_s": 24.7,
+  "tui_load_s": 2.4
+ },
+ "cod_2018386": {
+  "structure_id": "cod_2018386",
+  "render_s": 14.6,
+  "tui_load_s": 1.1
+ },
+ "cod_2001125": {
+  "structure_id": "cod_2001125",
+  "render_s": 17.9,
+  "tui_load_s": 58.6
+ },
+ "cod_2014451": {
+  "structure_id": "cod_2014451",
+  "render_s": 26.8,
+  "tui_load_s": 1.8
+ },
+ "cod_2019279": {
+  "structure_id": "cod_2019279",
+  "render_s": 20.9,
+  "tui_load_s": 2.2
+ },
+ "cod_2022300": {
+  "structure_id": "cod_2022300",
+  "render_s": 18.1,
+  "tui_load_s": 1.5
+ },
+ "cod_2022524": {
+  "structure_id": "cod_2022524",
+  "render_s": 22.2,
+  "tui_load_s": 3.7
+ },
+ "cod_2102172": {
+  "structure_id": "cod_2102172",
+  "render_s": 14.4,
+  "tui_load_s": 0.5
+ },
+ "cod_2104603": {
+  "structure_id": "cod_2104603",
+  "render_s": 17.2,
+  "tui_load_s": 0.6
+ },
+ "cod_2106345": {
+  "structure_id": "cod_2106345",
+  "render_s": 19.2,
+  "tui_load_s": 0.6
+ },
+ "cod_2201125": {
+  "structure_id": "cod_2201125",
+  "render_s": 19.9,
+  "tui_load_s": 1.3
+ },
+ "cod_2201336": {
+  "structure_id": "cod_2201336",
+  "render_s": 18.9,
+  "tui_load_s": 1.1
+ },
+ "cod_2202969": {
+  "structure_id": "cod_2202969",
+  "render_s": 21.5,
+  "tui_load_s": 1.8
+ },
+ "cod_2203991": {
+  "structure_id": "cod_2203991",
+  "render_s": 24.8,
+  "tui_load_s": 5.5
+ },
+ "cod_2100352": {
+  "structure_id": "cod_2100352",
+  "render_s": 73.1,
+  "tui_load_s": 8.6
+ },
+ "cod_2207659": {
+  "structure_id": "cod_2207659",
+  "render_s": 15.6,
+  "tui_load_s": 0.7
+ },
+ "cod_2211700": {
+  "structure_id": "cod_2211700",
+  "render_s": 14.1,
+  "tui_load_s": 0.6
+ },
+ "cod_2208931": {
+  "structure_id": "cod_2208931",
+  "render_s": 19.5,
+  "tui_load_s": 2.6
+ },
+ "cod_2211248": {
+  "structure_id": "cod_2211248",
+  "render_s": 19.9,
+  "tui_load_s": 1.9
+ },
+ "cod_2215326": {
+  "structure_id": "cod_2215326",
+  "render_s": 32.4,
+  "tui_load_s": 1.5
+ },
+ "cod_2212532": {
+  "structure_id": "cod_2212532",
+  "render_s": 36.0,
+  "tui_load_s": 6.9
+ },
+ "cod_2217746": {
+  "structure_id": "cod_2217746",
+  "render_s": 13.2,
+  "tui_load_s": 5.2
+ },
+ "cod_2216029": {
+  "structure_id": "cod_2216029",
+  "render_s": 19.1,
+  "tui_load_s": 3.9
+ },
+ "cod_2012216": {
+  "structure_id": "cod_2012216",
+  "render_s": 182.8,
+  "tui_load_s": 49.9
+ },
+ "cod_2219952": {
+  "structure_id": "cod_2219952",
+  "render_s": 23.1,
+  "tui_load_s": 3.1
+ },
+ "cod_2223290": {
+  "structure_id": "cod_2223290",
+  "render_s": 32.2,
+  "tui_load_s": 8.4
+ },
+ "cod_2228035": {
+  "structure_id": "cod_2228035",
+  "render_s": 20.3,
+  "tui_load_s": 2.4
+ },
+ "cod_2228564": {
+  "structure_id": "cod_2228564",
+  "render_s": 14.5,
+  "tui_load_s": 0.6
+ },
+ "cod_2016228": {
+  "structure_id": "cod_2016228",
+  "render_s": 185.3,
+  "tui_load_s": 53.2
+ },
+ "cod_2224411": {
+  "structure_id": "cod_2224411",
+  "render_s": 38.2,
+  "tui_load_s": 8.3
+ },
+ "cod_2230084": {
+  "structure_id": "cod_2230084",
+  "render_s": 13.3,
+  "tui_load_s": 1.2
+ },
+ "cod_2236038": {
+  "structure_id": "cod_2236038",
+  "render_s": 17.9,
+  "tui_load_s": 2.2
+ },
+ "cod_2237963": {
+  "structure_id": "cod_2237963",
+  "render_s": 15.6,
+  "tui_load_s": 1.1
+ },
+ "cod_2238135": {
+  "structure_id": "cod_2238135",
+  "render_s": 19.3,
+  "tui_load_s": 2.3
+ },
+ "cod_4501702": {
+  "structure_id": "cod_4501702",
+  "render_s": 11.4,
+  "tui_load_s": 0.3
+ },
+ "cod_9000629": {
+  "structure_id": "cod_9000629",
+  "render_s": 17.9,
+  "tui_load_s": 2.9
+ },
+ "cod_9001364": {
+  "structure_id": "cod_9001364",
+  "render_s": 52.0,
+  "tui_load_s": 4.6
+ },
+ "cod_9002348": {
+  "structure_id": "cod_9002348",
+  "render_s": 9.7,
+  "tui_load_s": 0.1
+ },
+ "cod_2213328": {
+  "structure_id": "cod_2213328",
+  "render_s": 170.2,
+  "tui_load_s": 80.8
+ },
+ "cod_9008789": {
+  "structure_id": "cod_9008789",
+  "render_s": 9.1,
+  "tui_load_s": 0.2
+ },
+ "cod_2204677": {
+  "structure_id": "cod_2204677",
+  "render_s": 248.7,
+  "tui_load_s": 60.8
+ },
+ "mck_Acetaminophen_HXACAN": {
+  "structure_id": "mck_Acetaminophen_HXACAN",
+  "render_s": 12.7,
+  "tui_load_s": 0.8
+ },
+ "mck_368K": {
+  "structure_id": "mck_368K",
+  "render_s": 22.0,
+  "tui_load_s": 1.2
+ },
+ "mck_BRCRIM10": {
+  "structure_id": "mck_BRCRIM10",
+  "render_s": 13.0,
+  "tui_load_s": 0.7
+ },
+ "mck_DACMOR": {
+  "structure_id": "mck_DACMOR",
+  "render_s": 13.8,
+  "tui_load_s": 0.7
+ },
+ "mck_DAP-4_order": {
+  "structure_id": "mck_DAP-4_order",
+  "render_s": 25.4,
+  "tui_load_s": 3.4
+ },
+ "mck_Diamond": {
+  "structure_id": "mck_Diamond",
+  "render_s": 9.4,
+  "tui_load_s": 0.2
+ },
+ "mck_ISATIN": {
+  "structure_id": "mck_ISATIN",
+  "render_s": 10.2,
+  "tui_load_s": 0.2
+ },
+ "cod_2241263": {
+  "structure_id": "cod_2241263",
+  "render_s": 159.2,
+  "tui_load_s": 68.5
+ },
+ "mck_MAF-4-no-water": {
+  "structure_id": "mck_MAF-4-no-water",
+  "render_s": 27.2,
+  "tui_load_s": 2.4
+ },
+ "mck_MAP": {
+  "structure_id": "mck_MAP",
+  "render_s": 0.0,
+  "tui_load_s": 0.3
+ },
+ "mck_MAP_H": {
+  "structure_id": "mck_MAP_H",
+  "render_s": 14.3,
+  "tui_load_s": 0.7
+ },
+ "mck_NaCl": {
+  "structure_id": "mck_NaCl",
+  "render_s": 9.1,
+  "tui_load_s": 0.1
+ },
+ "mck_OCHTET12": {
+  "structure_id": "mck_OCHTET12",
+  "render_s": 18.5,
+  "tui_load_s": 2.9
+ },
+ "mck_PAP-M5": {
+  "structure_id": "mck_PAP-M5",
+  "render_s": 28.1,
+  "tui_load_s": 3.2
+ },
+ "mck_PETN_PERYTN10": {
+  "structure_id": "mck_PETN_PERYTN10",
+  "render_s": 11.9,
+  "tui_load_s": 0.2
+ },
+ "mck_MAF-4": {
+  "structure_id": "mck_MAF-4",
+  "render_s": 148.4,
+  "tui_load_s": 24.6
+ },
+ "mck_SUXRUA": {
+  "structure_id": "mck_SUXRUA",
+  "render_s": 10.4,
+  "tui_load_s": 0.2
+ },
+ "mck_DAN-2": {
+  "structure_id": "mck_DAN-2",
+  "render_s": 230.0,
+  "tui_load_s": 26.8
+ },
+ "cod_2228819": {
+  "structure_id": "cod_2228819",
+  "render_s": 289.0,
+  "tui_load_s": 169.8
+ },
+ "mck_ZIF-8": {
+  "structure_id": "mck_ZIF-8",
+  "render_s": 31.9,
+  "tui_load_s": 4.3
+ },
+ "mck_anhydrousCaffeine_CGD_2007_7_1406": {
+  "structure_id": "mck_anhydrousCaffeine_CGD_2007_7_1406",
+  "render_s": 69.4,
+  "tui_load_s": 11.6
+ },
+ "mck_PUBMUU03": {
+  "structure_id": "mck_PUBMUU03",
+  "render_s": 228.4,
+  "tui_load_s": 89.2
+ },
+ "mck_ZIF-4": {
+  "structure_id": "mck_ZIF-4",
+  "render_s": 251.1,
+  "tui_load_s": 97.2
+ },
+ "mck_DAC-4": {
+  "structure_id": "mck_DAC-4",
+  "render_s": 800.5,
+  "tui_load_s": 72.6
+ },
+ "cod_4002052": {
+  "structure_id": "cod_4002052",
+  "render_s": 964.8,
+  "tui_load_s": 363.9
+ }
+}

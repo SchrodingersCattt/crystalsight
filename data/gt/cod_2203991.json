@@ -1,0 +1,62 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C11CuN2O8",
+   "formula": "C11H12CuN2O8",
+   "n_heavy": 22,
+   "elements": [
+    "C",
+    "Cu",
+    "H",
+    "N",
+    "O"
+   ],
+   "count": 4,
+   "disordered": false,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 48,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {
+  "Cu": {
+   "n_sites": 4,
+   "cns": {
+    "4": 4
+   },
+   "method": "mck_bonds",
+   "cn": 4,
+   "geometry": "tetrahedron",
+   "cshm": 34.30785728400418,
+   "label_modifier": "irregular"
+  }
+ },
+ "structure_id": "cod_2203991",
+ "path": "data/structures/cod/cod_2203991.cif",
+ "metals_covalent": {
+  "Cu": {
+   "n_sites": 4,
+   "cns": {
+    "4": 4
+   },
+   "cn": 4,
+   "geometry": "tetrahedron",
+   "cshm": 34.307857284004186,
+   "best_match": "{'name': 'tetrahedron', 'cshm': 34.307857284004186, 'method': 'core_residual_decomposition', 'point_group': 'Td', 'category': 'platonic', 'core': {'prototype': 'tetrahedron', 'cn': 4, 'indices': [0, 1",
+   "label_source": "registered",
+   "label_modifier": "irregular"
+  }
+ }
+}

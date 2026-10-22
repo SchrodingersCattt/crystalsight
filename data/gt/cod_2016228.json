@@ -1,0 +1,63 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C56Cd2N20O4S8",
+   "formula": "C56H40Cd2N20O4S8",
+   "n_heavy": 90,
+   "elements": [
+    "C",
+    "Cd",
+    "H",
+    "N",
+    "O",
+    "S"
+   ],
+   "count": 1,
+   "disordered": false,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 40,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {
+  "Cd": {
+   "n_sites": 2,
+   "cns": {
+    "6": 2
+   },
+   "method": "mck_bonds",
+   "cn": 6,
+   "geometry": "octahedron",
+   "cshm": 0.4587281295388352,
+   "label_modifier": "clean"
+  }
+ },
+ "structure_id": "cod_2016228",
+ "path": "data/structures/cod/cod_2016228.cif",
+ "metals_covalent": {
+  "Cd": {
+   "n_sites": 2,
+   "cns": {
+    "6": 2
+   },
+   "cn": 6,
+   "geometry": "octahedron",
+   "cshm": 0.45872812953883507,
+   "best_match": "{'name': 'octahedron', 'cshm': 0.45872812953883507, 'method': 'core_residual_decomposition', 'point_group': 'Oh', 'category': 'platonic', 'core': {'prototype': 'octahedron', 'cn': 6, 'indices': [0, 1,",
+   "label_source": "registered",
+   "label_modifier": "clean"
+  }
+ }
+}

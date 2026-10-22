@@ -1,0 +1,50 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C24Fe",
+   "formula": "C24H30Fe",
+   "n_heavy": 25,
+   "elements": [
+    "C",
+    "Fe",
+    "H"
+   ],
+   "count": 2,
+   "disordered": false,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 60,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {
+  "Fe": {
+   "n_sites": 2,
+   "cns": {
+    "10": 2
+   },
+   "method": "mck_bonds"
+  }
+ },
+ "structure_id": "cod_2201336",
+ "path": "data/structures/cod/cod_2201336.cif",
+ "metals_covalent": {
+  "Fe": {
+   "n_sites": 2,
+   "cns": {
+    "10": 2
+   }
+  }
+ }
+}

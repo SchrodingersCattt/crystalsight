@@ -1,0 +1,100 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/01/11/1011185.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1011185
+loop_
+_publ_author_name
+'Pauling, L'
+_publ_section_title              'The structure of sodalite and helvite'
+_journal_coden_ASTM              ZEKGAX
+_journal_name_full
+;
+Zeitschrift fuer Kristallographie, Kristallgeometrie, Kristallphysik,
+Kristallchemie (-144,1977)
+;
+_journal_page_first              213
+_journal_page_last               225
+_journal_volume                  74
+_journal_year                    1930
+_chemical_compound_source        'from Bancroft, Ontario'
+_chemical_formula_structural     'Na8 (Al6 Si6 O24) Cl2'
+_chemical_formula_sum            'Al6 Cl2 Na8 O24 Si6'
+_chemical_name_mineral           Sodalite
+_chemical_name_systematic
+;
+Octasodium tecto-hexaalumohexasilicate dichloride
+;
+_space_group_IT_number           218
+_symmetry_cell_setting           cubic
+_symmetry_Int_Tables_number      218
+_symmetry_space_group_name_Hall  'P -4n 2 3'
+_symmetry_space_group_name_H-M   'P -4 3 n'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   8.87
+_cell_length_b                   8.87
+_cell_length_c                   8.87
+_cell_volume                     697.9
+_exptl_crystal_density_meas      2.3
+_cod_database_code               1011185
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+y,z,x
+z,x,y
+-x,y,-z
+-y,z,-x
+-z,x,-y
+x,-y,-z
+y,-z,-x
+z,-x,-y
+-x,-y,z
+-y,-z,x
+-z,-x,y
+1/2+x,1/2+z,1/2+y
+1/2+y,1/2+x,1/2+z
+1/2+z,1/2+y,1/2+x
+1/2-x,1/2-z,1/2+y
+1/2-y,1/2-x,1/2+z
+1/2-z,1/2-y,1/2+x
+1/2+x,1/2-z,1/2-y
+1/2+y,1/2-x,1/2-z
+1/2+z,1/2-y,1/2-x
+1/2-x,1/2+z,1/2-y
+1/2-y,1/2+x,1/2-z
+1/2-z,1/2+y,1/2-x
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Cl1 Cl1- 2 a 0. 0. 0. 1. 0 d
+Na1 Na1+ 8 e 0.175 0.175 0.175 1. 0 d
+Si1 Si4+ 6 d 0.25 0. 0.5 1. 0 d
+Al1 Al3+ 6 c 0.25 0.5 0. 1. 0 d
+O1 O2- 24 i 0.135 0.44 0.15 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Cl1- -1.000
+Na1+ 1.000
+Si4+ 4.000
+Al3+ 3.000
+O2- -2.000

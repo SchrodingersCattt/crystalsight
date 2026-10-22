@@ -1,0 +1,35 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C17Cl2N2",
+   "formula": "C17H16Cl2N2",
+   "n_heavy": 21,
+   "elements": [
+    "C",
+    "Cl",
+    "H",
+    "N"
+   ],
+   "count": 2,
+   "disordered": false,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 32,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {},
+ "structure_id": "cod_2211700",
+ "path": "data/structures/cod/cod_2211700.cif"
+}

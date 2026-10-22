@@ -1,0 +1,116 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C96N48Zn12",
+   "formula": "C96H192N48Zn12",
+   "n_heavy": 156,
+   "elements": [
+    "C",
+    "H",
+    "N",
+    "Zn"
+   ],
+   "count": 1,
+   "disordered": true,
+   "role": "main"
+  },
+  {
+   "heavy_formula": "O4",
+   "formula": "H12O4",
+   "n_heavy": 4,
+   "elements": [
+    "H",
+    "O"
+   ],
+   "count": 8,
+   "disordered": true,
+   "role": "solvent"
+  },
+  {
+   "heavy_formula": "O2",
+   "formula": "H4O2",
+   "n_heavy": 2,
+   "elements": [
+    "H",
+    "O"
+   ],
+   "count": 24,
+   "disordered": true,
+   "role": "solvent"
+  },
+  {
+   "heavy_formula": "O",
+   "formula": "H6O",
+   "n_heavy": 1,
+   "elements": [
+    "H",
+    "O"
+   ],
+   "count": 76,
+   "disordered": true,
+   "role": "solvent"
+  },
+  {
+   "heavy_formula": "",
+   "formula": "H",
+   "n_heavy": 0,
+   "elements": [
+    "H"
+   ],
+   "count": 140,
+   "disordered": true,
+   "role": "isolated_H"
+  }
+ ],
+ "disorder": {
+  "disordered": true,
+  "components": [
+   "main",
+   "solvent"
+  ],
+  "types": [
+   "alternative_positions",
+   "partial_occupancy"
+  ]
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 672,
+  "n_added": 11,
+  "added_by_element": {
+   "Zn": 11
+  },
+  "missing_fraction": 0.0161,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {
+  "Zn": {
+   "n_sites": 12,
+   "cns": {
+    "4": 12
+   },
+   "method": "mck_bonds",
+   "cn": 4,
+   "geometry": "tetrahedron",
+   "cshm": 2.5053539799240973e-05,
+   "label_modifier": "clean"
+  }
+ },
+ "structure_id": "mck_MAF-4",
+ "path": "data/structures/mck/mck_MAF-4.cif",
+ "metals_covalent": {
+  "Zn": {
+   "n_sites": 12,
+   "cns": {
+    "4": 12
+   },
+   "cn": 4,
+   "geometry": "tetrahedron",
+   "cshm": 2.505353979923172e-05,
+   "best_match": "{'name': 'tetrahedron', 'cshm': 2.505353979923172e-05, 'method': 'core_residual_decomposition', 'point_group': 'Td', 'category': 'platonic', 'core': {'prototype': 'tetrahedron', 'cn': 4, 'indices': [0",
+   "label_source": "registered",
+   "label_modifier": "clean"
+  }
+ }
+}

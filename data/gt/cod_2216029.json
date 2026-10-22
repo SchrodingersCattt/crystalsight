@@ -1,0 +1,47 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C14N5O4",
+   "formula": "C14H19N5O4",
+   "n_heavy": 23,
+   "elements": [
+    "C",
+    "H",
+    "N",
+    "O"
+   ],
+   "count": 4,
+   "disordered": false,
+   "role": "main"
+  },
+  {
+   "heavy_formula": "O",
+   "formula": "H2O",
+   "n_heavy": 1,
+   "elements": [
+    "H",
+    "O"
+   ],
+   "count": 4,
+   "disordered": false,
+   "role": "solvent"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 84,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {},
+ "structure_id": "cod_2216029",
+ "path": "data/structures/cod/cod_2216029.cif"
+}

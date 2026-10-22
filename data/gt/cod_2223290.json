@@ -1,0 +1,66 @@
+{
+ "components": [
+  {
+   "heavy_formula": "C38Co2N4O8",
+   "formula": "C38H42Co2N4O8",
+   "n_heavy": 52,
+   "elements": [
+    "C",
+    "Co",
+    "H",
+    "N",
+    "O"
+   ],
+   "count": 1,
+   "disordered": true,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": true,
+  "components": [
+   "main"
+  ],
+  "types": [
+   "alternative_positions"
+  ]
+ },
+ "hydrogen": {
+  "has_any_h": true,
+  "n_before": 42,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {
+  "Co": {
+   "n_sites": 2,
+   "cns": {
+    "5": 2
+   },
+   "method": "mck_bonds",
+   "cn": 5,
+   "geometry": "tetrahedron + 1 off_axis_cap",
+   "cshm": 4.100006265104354,
+   "label_modifier": "irregular"
+  }
+ },
+ "structure_id": "cod_2223290",
+ "path": "data/structures/cod/cod_2223290.cif",
+ "metals_covalent": {
+  "Co": {
+   "n_sites": 2,
+   "cns": {
+    "5": 2
+   },
+   "cn": 5,
+   "geometry": "tetrahedron + 1 off_axis_cap",
+   "cshm": 4.100006265104352,
+   "best_match": "{'name': 'tetrahedron + 1 off_axis_cap', 'cshm': 4.100006265104352, 'method': 'core_residual_decomposition', 'point_group': 'Td', 'category': 'platonic', 'core': {'prototype': 'tetrahedron', 'cn': 4, ",
+   "label_source": "ad_hoc",
+   "label_modifier": "irregular"
+  }
+ }
+}

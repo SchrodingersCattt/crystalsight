@@ -1,0 +1,59 @@
+{
+ "components": [
+  {
+   "heavy_formula": "Cl4Na4",
+   "formula": "Cl4Na4",
+   "n_heavy": 8,
+   "elements": [
+    "Cl",
+    "Na"
+   ],
+   "count": 1,
+   "disordered": false,
+   "role": "main"
+  }
+ ],
+ "disorder": {
+  "disordered": false,
+  "components": [],
+  "types": []
+ },
+ "hydrogen": {
+  "has_any_h": false,
+  "n_before": 0,
+  "n_added": 0,
+  "added_by_element": {},
+  "missing_fraction": 0.0,
+  "missing_h": false,
+  "elements": []
+ },
+ "metals": {
+  "Na": {
+   "n_sites": 4,
+   "cns": {
+    "6": 4
+   },
+   "method": "mck_bonds",
+   "cn": 6,
+   "geometry": "octahedron",
+   "cshm": 1.6118993767985976e-30,
+   "label_modifier": "clean"
+  }
+ },
+ "structure_id": "mck_NaCl",
+ "path": "data/structures/mck/mck_NaCl.cif",
+ "metals_covalent": {
+  "Na": {
+   "n_sites": 4,
+   "cns": {
+    "6": 4
+   },
+   "cn": 6,
+   "geometry": "octahedron",
+   "cshm": 1.6347252131765203e-30,
+   "best_match": "{'name': 'octahedron', 'cshm': 1.6347252131765203e-30, 'method': 'core_residual_decomposition', 'point_group': 'Oh', 'category': 'platonic', 'core': {'prototype': 'octahedron', 'cn': 6, 'indices': [0,",
+   "label_source": "registered",
+   "label_modifier": "clean"
+  }
+ }
+}

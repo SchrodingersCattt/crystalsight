@@ -1,0 +1,84 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-08-09 18:13:17 +0300 (Wed, 09 Aug 2017) $
+#$Revision: 199684 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/10/63/2106345.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2106345
+loop_
+_publ_author_name
+'Jagner, S.'
+'Ljungstroem, E.'
+_publ_section_title
+;
+ Tripotassium monosodium hexacyanonitrosylvanadate(I) dihydrate
+;
+_journal_name_full               'Acta Crystallographica B (24,1968-38,1982)'
+_journal_page_first              653
+_journal_page_last               656
+_journal_volume                  34
+_journal_year                    1978
+_chemical_formula_sum            'C6 H4 K3 N7 Na O3 V'
+_chemical_name_systematic        'K3 Na (V (C N)6 N O) (H2 O)2'
+_space_group_IT_number           11
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 118.86
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.243
+_cell_length_b                   11.736
+_cell_length_c                   7.786
+_cell_volume                     739.696
+_citation_journal_id_ASTM        ACBCAR
+_cod_data_source_file            Jagner_ACBCAR_1978_1133.cif
+_cod_data_source_block           C6H4K3N7Na1O3V1
+_cod_depositor_comments
+;
+ Marking attached hydrogen atoms.
+
+ Antanas Vaitkus,
+ 2017-08-09
+;
+_cod_original_cell_volume        739.6959
+_cod_original_formula_sum        'C6 H4 K3 N7 Na1 O3 V1'
+_cod_database_code               2106345
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y+1/2,-z
+-x,-y,-z
+x,-y-1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_attached_hydrogens
+V1 V+1 0.7412 0.25 0.4492 1 0.0 0
+K1 K+1 0.2362 0.25 0.6328 1 0.0 0
+K2 K+1 0.2908 -0.0538 0.0358 1 0.0 0
+Na1 Na+1 0.1355 0.25 0.0706 1 0.0 0
+C1 C+2 0.8696 0.25 0.2931 1 0.0 0
+C2 C+2 0.6787 0.0779 0.3544 1 0.0 0
+C3 C+2 0.9235 0.1439 0.6712 1 0.0 0
+C4 C+2 0.5183 0.25 0.1754 1 0.0 0
+N1 N+3 0.6296 0.25 0.586 1 0.0 0
+N2 N-3 0.9316 0.25 0.1933 1 0.0 0
+N3 N-3 0.6419 -0.0144 0.2986 1 0.0 0
+N4 N-3 0.0157 0.0905 0.8019 1 0.0 0
+N5 N-3 0.3937 0.25 0.0345 1 0.0 0
+O1 O-2 0.5646 0.25 0.6924 1 0.0 0
+O2 O-2 0.2719 0.1024 0.303 1 0.0 2
