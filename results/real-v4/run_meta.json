@@ -1,0 +1,94 @@
+{
+ "run_id": "real-v4",
+ "started_utc": "2026-10-22T12:39:49.413219+00:00",
+ "models": [
+  "gpt-6-luna",
+  "deepseek-v4.1-flash"
+ ],
+ "channels": [
+  "cif",
+  "tui",
+  "tools",
+  "image",
+  "cif_raw"
+ ],
+ "n_tasks": 20,
+ "n_jobs": 160,
+ "tasks_sha256": "a3876a8410f80276e9609ec8e871705274b1313807b6b34f424f00e3618a14e6",
+ "overrides": {
+  "max_tokens": 32768,
+  "timeout_s": 900.0
+ },
+ "notes": [
+  "Command-line override for every model in this run: {'max_tokens': 32768, 'timeout_s': 900.0} (models.toml values not used).",
+  "Early stop: deepseek-v4.1-flash cif_raw was NOT run. In the cif channel 15/20 deepseek replies were empty because the model used the whole 32768-token output budget on reasoning (runaway tokens), so the cif_raw control (same text plus CIF names) was skipped to avoid ~0.6M more tokens with the same expected result.",
+  "gpt-6-luna cif_raw ran as a separate pass (run id real-v4-p2, same overrides, same tasks) in parallel with pass 1 and its records were appended here.",
+  "gpt-6-luna text channels (cif, cif_raw) were re-run as real-v4-text2 with the fixed strip_cif and with all _geom_hbond_* loops removed from both inputs (same tasks, max_tokens 32768, timeout 900). Those records replace the first ones; superseded numbers: cif 0.310 / strict 0.250, cif_raw 0.425 / strict 0.400.",
+  "deepseek-v4.1-flash cif uses the OLD text input (pre-fix strip_cif, _geom_hbond tables present) and was not re-run; its cif_raw was never run (early stop). It is not directly comparable with the new gpt-6-luna cif."
+ ],
+ "finished_utc": "2026-10-22T13:15:54.333295+00:00",
+ "n_errors": 0,
+ "passes": [
+  {
+   "channels": [
+    "cif",
+    "tui",
+    "tools",
+    "image"
+   ],
+   "models": [
+    "gpt-6-luna",
+    "deepseek-v4.1-flash"
+   ],
+   "n_jobs": 140,
+   "finished_utc": "2026-10-22T13:15:54.333295+00:00"
+  },
+  {
+   "channels": [
+    "cif_raw"
+   ],
+   "models": [
+    "gpt-6-luna"
+   ],
+   "n_jobs": 20,
+   "finished_utc": "2026-10-22T13:01:03.795037+00:00",
+   "overrides": {
+    "max_tokens": 32768,
+    "timeout_s": 900.0
+   },
+   "merged_from": "runs/real-v4-p2"
+  },
+  {
+   "channels": [
+    "cif",
+    "cif_raw"
+   ],
+   "models": [
+    "gpt-6-luna"
+   ],
+   "n_jobs": 40,
+   "run_id": "real-v4-text2",
+   "finished_utc": "2026-10-22T14:59:15.301107+00:00",
+   "overrides": {
+    "max_tokens": 32768,
+    "timeout_s": 900.0
+   },
+   "text_input": "fixed strip_cif; _geom_hbond_* loops removed from cif and cif_raw"
+  }
+ ],
+ "early_stop": {
+  "deepseek-v4.1-flash/cif_raw": "not run"
+ },
+ "superseded": {
+  "gpt-6-luna/cif": {
+   "score": 0.31,
+   "strict": 0.25
+  },
+  "gpt-6-luna/cif_raw": {
+   "score": 0.425,
+   "strict": 0.4
+  },
+  "reason": "old strip_cif (loop_ keywords removed) and _geom_hbond tables present in both text channels",
+  "records": "records_superseded_luna_text_v1.jsonl"
+ }
+}

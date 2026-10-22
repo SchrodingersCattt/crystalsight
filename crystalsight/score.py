@@ -114,6 +114,11 @@ def score_answer(task: dict, answer) -> tuple[float, str]:
     t, gold = task["answer_type"], task["gold"]
     if answer is None:
         return 0.0, "no answer"
+    if task.get("benchmark") in ("v3", "v4"):  # tasks_v3: weighted exact match per field (score_v3.py)
+        from .score_v3 import score_v3
+
+        r = score_v3(task, answer)
+        return r["score"], ("unparseable" if r["reason"] == "unparseable answer" else "")
     if t == "object":
         return score_object(task, answer)
     if t == "choice":
@@ -162,31 +167,42 @@ def main() -> None:
             s, note = 0.0, "infra error"
         else:
             s, note = score_answer(task, r.get("answer"))
-        scored.append({"model": m, "channel": c, "task_id": tid, "qtype": task["qtype"], "structure_id": task["structure_id"],
+        strict = None
+        if task.get("benchmark") in ("v3", "v4"):
+            from .score_v3 import score_v3
+
+            strict = 0 if r.get("error") or r.get("answer") is None else score_v3(task, r.get("answer"))["strict"]
+        scored.append({"strict": strict, "model": m, "channel": c, "task_id": tid, "qtype": task["qtype"], "structure_id": task["structure_id"],
                        "score": round(s, 4), "note": note, "answer": r.get("answer"), "gold": task["gold"],
                        "error": bool(r.get("error")), "steps": r.get("steps", 0),
                        "prompt_tokens": (r.get("usage") or {}).get("prompt_tokens", 0),
                        "completion_tokens": (r.get("usage") or {}).get("completion_tokens", 0)})
     (run_dir / "scored.jsonl").write_text("\n".join(json.dumps(x, ensure_ascii=False) for x in scored) + "\n", encoding="utf-8")
 
-    agg = defaultdict(lambda: {"n": 0, "sum": 0.0, "errors": 0, "unparseable": 0})
+    agg = defaultdict(lambda: {"n": 0, "sum": 0.0, "errors": 0, "unparseable": 0, "strict": 0, "n_strict": 0})
     for x in scored:
         for key in ((x["model"], x["channel"], "ALL"), (x["model"], x["channel"], x["qtype"])):
             a = agg[key]
             a["n"] += 1
             a["sum"] += x["score"]
+            if x.get("strict") is not None:
+                a["strict"] += x["strict"]
+                a["n_strict"] += 1
             a["errors"] += x["error"]
             a["unparseable"] += x["note"] in ("unparseable", "no answer")
     rows = [{"model": k[0], "channel": k[1], "qtype": k[2], "n": v["n"], "accuracy": round(v["sum"] / v["n"], 4),
-             "infra_errors": v["errors"], "unparseable": v["unparseable"]} for k, v in sorted(agg.items())]
+             "infra_errors": v["errors"], "unparseable": v["unparseable"],
+             **({"strict_accuracy": round(v["strict"] / v["n_strict"], 4)} if v["n_strict"] else {})}
+            for k, v in sorted(agg.items())]
     with (run_dir / "leaderboard.csv").open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()) if rows else ["model"])
+        w = csv.DictWriter(f, fieldnames=list(dict.fromkeys(k for r in rows for k in r)) if rows else ["model"])
         w.writeheader()
         w.writerows(rows)
     (run_dir / "summary.json").write_text(json.dumps(rows, indent=1), encoding="utf-8")
     for r in rows:
         if r["qtype"] == "ALL":
-            print(f"{r['model']:24s} {r['channel']:8s} n={r['n']:4d} acc={r['accuracy']:.3f} err={r['infra_errors']} unparse={r['unparseable']}")
+            strict = f" strict={r['strict_accuracy']:.3f}" if "strict_accuracy" in r else ""
+            print(f"{r['model']:24s} {r['channel']:8s} n={r['n']:4d} acc={r['accuracy']:.3f}{strict} err={r['infra_errors']} unparse={r['unparseable']}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,93 @@
+{
+ "run_id": "real-v3",
+ "started_utc": "2026-10-22T10:21:06.383274+00:00",
+ "models": [
+  "gpt-6-luna",
+  "deepseek-v4.1-flash"
+ ],
+ "channels": [
+  "cif",
+  "image",
+  "tui",
+  "tools",
+  "cif_raw"
+ ],
+ "n_tasks": 20,
+ "n_jobs": 60,
+ "tasks_sha256": "245fee9745f7040ae1047a6fb4926bd986ac82926a63b6ddba7c9c659f28f954",
+ "finished_utc": "2026-10-22T10:56:30.025677+00:00",
+ "n_errors": 0,
+ "notes": [
+  "2026-10-22T11:25:25.757018+00:00: 30 deepseek-v4.1-flash jobs whose final reply was empty under max_tokens=16384 were re-run with max_tokens=32768 (timeout 900 s); records carry an 'override' field. 29 re-runs completed, 15 still empty (11 hit the 32768 cap). The re-run was stopped early (by instruction: most remaining failures were exhausting the 32k budget); 1 job(s) not re-run keep the original 16384 result: tui:v3_F1_03_ccdc_S02. All other jobs used the models.toml settings."
+ ],
+ "overrides": {
+  "deepseek-v4.1-flash": {
+   "max_tokens": 32768,
+   "timeout_s": 900,
+   "jobs_rerun": [
+    "cif:v3_F4_04_cod_4501702",
+    "cif:v3_F2_04_ccdc_S05",
+    "cif:v3_F2_02_cod_2224411",
+    "cif:v3_F3_01_cod_4501702",
+    "cif:v3_F2_03_cod_1008775",
+    "cif:v3_F3_03_ccdc_S05",
+    "cif:v3_F3_04_ccdc_S02",
+    "cif:v3_F2_01_ccdc_S04",
+    "cif_raw:v3_F2_04_ccdc_S05",
+    "cif:v3_F3_02_cod_2203991",
+    "cif_raw:v3_F2_01_ccdc_S04",
+    "cif_raw:v3_F2_03_cod_1008775",
+    "tools:v3_F2_02_cod_2224411",
+    "cif_raw:v3_F5_04_ccdc_S06",
+    "tools:v3_F2_04_ccdc_S05",
+    "cif_raw:v3_F3_01_cod_4501702",
+    "cif_raw:v3_F3_04_ccdc_S02",
+    "tools:v3_F3_04_ccdc_S02",
+    "cif_raw:v3_F3_03_ccdc_S05",
+    "cif_raw:v3_F3_02_cod_2203991",
+    "tools:v3_F3_03_ccdc_S05",
+    "tools:v3_F1_03_ccdc_S02",
+    "tools:v3_F2_01_ccdc_S04",
+    "tui:v3_F4_03_ccdc_S06",
+    "tools:v3_F4_02_cod_2003349",
+    "tui:v3_F4_02_cod_2003349",
+    "tools:v3_F5_02_mck_Acetaminophen_HXACAN",
+    "tools:v3_F5_01_cod_2019279",
+    "tools:v3_F5_04_ccdc_S06"
+   ],
+   "still_empty": [
+    "cif:v3_F3_01_cod_4501702",
+    "cif:v3_F3_03_ccdc_S05",
+    "cif:v3_F3_04_ccdc_S02",
+    "cif:v3_F2_01_ccdc_S04",
+    "cif:v3_F3_02_cod_2203991",
+    "cif_raw:v3_F2_01_ccdc_S04",
+    "cif_raw:v3_F2_03_cod_1008775",
+    "tools:v3_F2_02_cod_2224411",
+    "tools:v3_F2_04_ccdc_S05",
+    "cif_raw:v3_F3_01_cod_4501702",
+    "cif_raw:v3_F3_04_ccdc_S02",
+    "cif_raw:v3_F3_03_ccdc_S05",
+    "cif_raw:v3_F3_02_cod_2203991",
+    "tools:v3_F2_01_ccdc_S04",
+    "tools:v3_F5_04_ccdc_S06"
+   ],
+   "hit_cap": [
+    "cif:v3_F3_01_cod_4501702",
+    "cif:v3_F3_03_ccdc_S05",
+    "cif:v3_F3_04_ccdc_S02",
+    "cif:v3_F2_01_ccdc_S04",
+    "cif:v3_F3_02_cod_2203991",
+    "cif_raw:v3_F2_01_ccdc_S04",
+    "cif_raw:v3_F2_03_cod_1008775",
+    "cif_raw:v3_F3_01_cod_4501702",
+    "cif_raw:v3_F3_04_ccdc_S02",
+    "cif_raw:v3_F3_03_ccdc_S05",
+    "cif_raw:v3_F3_02_cod_2203991"
+   ],
+   "not_rerun": [
+    "tui:v3_F1_03_ccdc_S02"
+   ]
+  }
+ }
+}

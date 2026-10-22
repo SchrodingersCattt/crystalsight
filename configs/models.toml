@@ -61,3 +61,82 @@ temperature = 1
 max_retries = 3
 timeout_s = 240
 
+# --- additional models (2026-10-22) ---
+
+[[models]]
+name = "qwen3.8-max"
+model = "qwen3.8-max"
+model_env = "CRYSTALSIGHT_MODEL_QWEN"
+base_url_env = "OPENAI_BASE_URL"
+api_key_env = "OPENAI_API_KEY"
+env_files = [".env"]
+vision = true
+max_output_tokens = 16384
+temperature = 0
+max_retries = 3
+timeout_s = 240
+
+[[models]]
+name = "glm-5.3"
+model = "glm-5.3"
+model_env = "CRYSTALSIGHT_MODEL_GLM"
+base_url_env = "OPENAI_BASE_URL"
+api_key_env = "OPENAI_API_KEY"
+env_files = [".env"]
+vision = false                            # image parts were ignored in our probe; text-only
+max_output_tokens = 16384
+temperature = 0
+max_retries = 3
+timeout_s = 240
+
+[[models]]
+name = "kimi-k3"
+model = "kimi-k3"
+model_env = "CRYSTALSIGHT_MODEL_KIMI"
+base_url_env = "OPENAI_BASE_URL"
+api_key_env = "OPENAI_API_KEY"
+env_files = [".env"]
+vision = true
+max_output_tokens = 16384
+temperature = 0
+max_retries = 3
+timeout_s = 240
+
+[[models]]
+name = "gemini-3.1-pro-preview"
+model = "gemini-3.1-pro-preview"
+model_env = "CRYSTALSIGHT_MODEL_GEMINI31PRO"
+base_url_env = "OPENAI_BASE_URL"
+api_key_env = "OPENAI_API_KEY"
+env_files = [".env"]
+vision = true
+max_output_tokens = 16384
+temperature = 0
+max_retries = 3
+timeout_s = 240
+
+[[models]]
+name = "gpt-6-luna"
+model = "gpt-6-luna"
+model_env = "CRYSTALSIGHT_MODEL_GPT6LUNA"
+base_url_env = "OPENAI_BASE_URL"
+api_key_env = "OPENAI_API_KEY"
+env_files = [".env"]
+vision = true
+max_output_tokens = 16384
+temperature = 0
+max_retries = 3
+timeout_s = 240
+
+[[models]]
+name = "deepseek-v4.1-flash"              # v3 spatial run; same gateway/env as deepseek-v4-flash
+model = "matmaster/deepseek-v4.1-flash"     # gateway id (from /models)
+model_env = "CRYSTALSIGHT_MODEL_DEEPSEEK41"   # optional override if the gateway uses another id
+base_url_env = ["DEEPSEEK_BASE_URL", "OPENAI_BASE_URL"]
+api_key_env = ["DEEPSEEK_API_KEY", "OPENAI_API_KEY"]
+env_files = [".env"]
+vision = false                            # text-only (image channel skipped)
+max_output_tokens = 16384
+temperature = 0
+max_retries = 3
+timeout_s = 240

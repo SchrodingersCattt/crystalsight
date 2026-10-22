@@ -1,0 +1,37 @@
+[camera az=0 el=90 roll=45 zoom=2.00] [display level=atom labels=label bonds=True cell=True]
+H8DO6.H8BN2H10A                 O1N1\C1\C6+C5H5.                                                    
+H8CCu1\C8C10#\H7B               O1H2C2C3C6C4H5H3                                                    
+O8+C9//\--H8AH7A     |/-\        H2C2C1C3+C4O3H3O5                                                  
+Cu1#++\   .C7  ./O2/++O1.\   .-\  H7BH7B-\/+O3O5O4\\.                                               
+O4O5O3/-.|C3\  O2O2#N1\H6\\\/H2/   C7C7H8A-C9C9#O4.||  H8C                                          
+C9H3. C4.|\-\-H2N1#+/\+H6C1+C2|+-\H7BH7A#C8\H10ACu1/.O8H8C|                                         
+O5|   H5\   C2O1N1/\##C6#\/.--#C3 H8AH7A#N2\C10Cu1#-#O8+/+                                          
+C8C4|C5+#  C1+O1/##H6#C6+C5H5+/+\\|  C8N2#H8BH10B#O7\#H8D.                                          
+H8BH5C5#C6/H6\+\+\+C1/C6#C5H5C4|#/\C9H10AH8B+#C11/\-/|H8D                                           
+H10B   |C6+/-#/#O1\C1\||H5C5/ -\#O3H10A#C10O6O6+\|                                                  
+H8A-\ /C1/\-/\N1H2C2\C3\C4\\H3 H3O5##+H10BC11O6\\-\                                                 
+C3C2\\+H6#..++O2H2C2+C3+C4O3H3O5 -\O4.+Cu1O7\H8DH8C                                                 
+/H2#O1.#++N1+O2/H7BH7B-\/+O3O5O4/\.\-H8C#O7#O7O8./                                                  
+H7BN1+\+O1+H2/--.C7C7H8A-C9C9#O4.||   O8H8D+O7.#| --\.                                              
+O2--/+C1++C2|+-\H7BH7A#C8\H10ACu1/\O8H8C++\C11Cu1+O4 \-                                             
+   |/++-/.--#C3 H8AH7A#N2H10BCu1#-#O8H8C\C11H10B\+C9#O5H3    .-\                                    
+ H6+C6\+--./-+\\|  C8N2#H8BC10##O7\H8DO6O6O6##C10H10AO3#\-  /H5/                                    
+ .-.\-+C5.+C4|#/\C9H10AH8B+#C11/H8DH8DC11C10H8BC10H10A/#C4/+C5|+-\.-.                               
+      H5//  -\#O3H10AC10#O6O6+\#H8DO7\H10B|H8B#C8H8A |\#+-/.--+C6 H6/                               
+      \-.    H3O5##+H10BC11O6H8CO8+#-#Cu1H8BC8N2H7AH7BC3\#--./-+\/|                                 
+               -\O4.+Cu1O7\H8DH8CO8\/O4H10A/N2H8AC7H7B\-+C2/#C1.+/--|/-\                            
+                .\-- |#O7#O7O8H8C  ||O4#C9C9\H8AH7B/-.--H2+O1\-\+N1.+O2.|                           
+                    O8H8D+O7.#| --\.\O5O5O3#+/C3\C7 |\O2/N1\+\\O1+H2/\--  H7B                       
+                   H8C/+\C11Cu1+O4 \- /H3O3C4#C3\C2H2O2/\/-\C1\+\C2.\-.  H8A+    H10A               
+                   \-O6C11H10B\+C9#O5H3H3 \C4+\#\C2H2N1-\/\/H6// \-+C3.\C7H7A    /H10B              
+                    |\O6O6#C10H10AO3+#\-H5C5H5||C1#O1+++H6#C6/\+---/#-// -/+++\\|C10#///-\.         
+             H8D|/-\/C11#+H8BC10H10A/#C4H5C5\C6\C1#+\O1\C1\C6#C5H5C4.\-.  C8N2H8B-\C11#O7\|         
+            .H8D#O7\H10B/H8B#C8H8A |\#+/++C5#C6+H6#N1O1#+\/.|+C5+#\-\O3/+-..\\. ///+//|.-           
+            ++O8/#-#Cu1C10C8N2H7AH7BC3\#--./\C6+##\N1+#C2 \./H5++   H3O5C9+/-\\-\O6\|               
+           |H8CO8./O4H10A/N2H8AC7H7B\-+C2/C1H6#+\/O2+H2|/+/#/C4/+O5\./+O4-#Cu1/  .-                 
+            H8C  ||O4#C9C9\H8AH7B/-   H2// .H6#N1+O2O2|-+C3 \++O3H3#+-/\-// +.                      
+                 .\O5O5O3#+/C3\C7     \-.   \O1/++/++/. /\-// \-+##O4 .|   //-+.                    
+                    /H3O3C4#C3\C2H2\.        \-/|    /\#C7H8A\\/C9+#\ /|--\O8H8D                    
+                     H3 \C4/\#\C2H2\|                H7BH7A#C8\+|-Cu1+|/O8H8C\                      
+                      H5C5#C6|C1+\/O1                   --+ N2H8B\  ./|.H8DH8C                      
+                     |H5C5\C6\C1\N1O1\                H10AC10C11O6\/.  .\+/.                        

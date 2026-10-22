@@ -1,0 +1,268 @@
+{
+ "ccdc_S01": {
+  "path": "data/structures/ccdc_local/ccdc_S01.cif",
+  "n_atoms_ir": 294,
+  "n_H": 112,
+  "n_image_atoms": 210,
+  "n_minor": 0,
+  "n_bonds": 294,
+  "unique_labels": 21,
+  "label_tokens_visible_labels_view": 53,
+  "label_tokens_default": 2,
+  "refs_needed": [
+   "C1"
+  ],
+  "ref_label_visible_any_view": {
+   "C1": true
+  },
+  "H_label_visible": true,
+  "seconds": 3.4
+ },
+ "ccdc_S02": {
+  "path": "data/structures/ccdc_local/ccdc_S02.cif",
+  "n_atoms_ir": 140,
+  "n_H": 50,
+  "n_image_atoms": 84,
+  "n_minor": 0,
+  "n_bonds": 140,
+  "unique_labels": 14,
+  "label_tokens_visible_labels_view": 17,
+  "label_tokens_default": 2,
+  "refs_needed": [
+   "C1"
+  ],
+  "ref_label_visible_any_view": {
+   "C1": true
+  },
+  "H_label_visible": true,
+  "seconds": 2.4
+ },
+ "ccdc_S03": {
+  "path": "data/structures/ccdc_local/ccdc_S03.cif",
+  "n_atoms_ir": 128,
+  "n_H": 56,
+  "n_image_atoms": 64,
+  "n_minor": 0,
+  "n_bonds": 128,
+  "unique_labels": 16,
+  "label_tokens_visible_labels_view": 40,
+  "label_tokens_default": 1,
+  "refs_needed": [
+   "N1"
+  ],
+  "ref_label_visible_any_view": {
+   "N1": true
+  },
+  "H_label_visible": true,
+  "seconds": 1.8
+ },
+ "ccdc_S04": {
+  "path": "data/structures/ccdc_local/ccdc_S04.cif",
+  "n_atoms_ir": 528,
+  "n_H": 256,
+  "n_image_atoms": 396,
+  "n_minor": 0,
+  "n_bonds": 544,
+  "unique_labels": 33,
+  "label_tokens_visible_labels_view": 103,
+  "label_tokens_default": 2,
+  "refs_needed": [
+   "C1"
+  ],
+  "ref_label_visible_any_view": {
+   "C1": true
+  },
+  "H_label_visible": true,
+  "seconds": 2.3
+ },
+ "ccdc_S05": {
+  "path": "data/structures/ccdc_local/ccdc_S05.cif",
+  "n_atoms_ir": 420,
+  "n_H": 168,
+  "n_image_atoms": 300,
+  "n_minor": 0,
+  "n_bonds": 448,
+  "unique_labels": 30,
+  "label_tokens_visible_labels_view": 82,
+  "label_tokens_default": 2,
+  "refs_needed": [
+   "C1"
+  ],
+  "ref_label_visible_any_view": {
+   "C1": true
+  },
+  "H_label_visible": true,
+  "seconds": 2.4
+ },
+ "ccdc_S06": {
+  "path": "data/structures/ccdc_local/ccdc_S06.cif",
+  "n_atoms_ir": 242,
+  "n_H": 77,
+  "n_image_atoms": 86,
+  "n_minor": 0,
+  "n_bonds": 250,
+  "unique_labels": 39,
+  "label_tokens_visible_labels_view": 66,
+  "label_tokens_default": 2,
+  "refs_needed": [
+   "C1"
+  ],
+  "ref_label_visible_any_view": {
+   "C1": true
+  },
+  "H_label_visible": true,
+  "seconds": 2.4
+ },
+ "cod_1008775": {
+  "path": "data/structures/cod/cod_1008775.cif",
+  "n_atoms_ir": 64,
+  "n_H": 32,
+  "n_image_atoms": 48,
+  "n_minor": 0,
+  "n_bonds": 59,
+  "unique_labels": 5,
+  "label_tokens_visible_labels_view": 10,
+  "label_tokens_default": 0,
+  "refs_needed": [
+   "C1"
+  ],
+  "ref_label_visible_any_view": {
+   "C1": true
+  },
+  "H_label_visible": true,
+  "seconds": 0.1
+ },
+ "cod_2003349": {
+  "path": "data/structures/cod/cod_2003349.cif",
+  "n_atoms_ir": 560,
+  "n_H": 224,
+  "n_image_atoms": 420,
+  "n_minor": 0,
+  "n_bonds": 592,
+  "unique_labels": 35,
+  "label_tokens_visible_labels_view": 107,
+  "label_tokens_default": 2,
+  "refs_needed": [
+   "O1"
+  ],
+  "ref_label_visible_any_view": {
+   "O1": true
+  },
+  "H_label_visible": true,
+  "seconds": 0.2
+ },
+ "cod_2019279": {
+  "path": "data/structures/cod/cod_2019279.cif",
+  "n_atoms_ir": 676,
+  "n_H": 234,
+  "n_image_atoms": 468,
+  "n_minor": 0,
+  "n_bonds": 728,
+  "unique_labels": 26,
+  "label_tokens_visible_labels_view": 98,
+  "label_tokens_default": 1,
+  "refs_needed": [
+   "S1"
+  ],
+  "ref_label_visible_any_view": {
+   "S1": true
+  },
+  "H_label_visible": true,
+  "seconds": 0.2
+ },
+ "cod_2203991": {
+  "path": "data/structures/cod/cod_2203991.cif",
+  "n_atoms_ir": 544,
+  "n_H": 192,
+  "n_image_atoms": 408,
+  "n_minor": 0,
+  "n_bonds": 576,
+  "unique_labels": 34,
+  "label_tokens_visible_labels_view": 98,
+  "label_tokens_default": 2,
+  "refs_needed": [
+   "Cu1"
+  ],
+  "ref_label_visible_any_view": {
+   "Cu1": true
+  },
+  "H_label_visible": true,
+  "seconds": 0.2
+ },
+ "cod_2211700": {
+  "path": "data/structures/cod/cod_2211700.cif",
+  "n_atoms_ir": 114,
+  "n_H": 38,
+  "n_image_atoms": 40,
+  "n_minor": 0,
+  "n_bonds": 112,
+  "unique_labels": 37,
+  "label_tokens_visible_labels_view": 42,
+  "label_tokens_default": 2,
+  "refs_needed": [
+   "C1"
+  ],
+  "ref_label_visible_any_view": {
+   "C1": true
+  },
+  "H_label_visible": true,
+  "seconds": 0.1
+ },
+ "cod_2224411": {
+  "path": "data/structures/cod/cod_2224411.cif",
+  "n_atoms_ir": 256,
+  "n_H": 58,
+  "n_image_atoms": 136,
+  "n_minor": 0,
+  "n_bonds": 256,
+  "unique_labels": 30,
+  "label_tokens_visible_labels_view": 64,
+  "label_tokens_default": 2,
+  "refs_needed": [
+   "O5"
+  ],
+  "ref_label_visible_any_view": {
+   "O5": true
+  },
+  "H_label_visible": true,
+  "seconds": 0.1
+ },
+ "cod_4501702": {
+  "path": "data/structures/cod/cod_4501702.cif",
+  "n_atoms_ir": 144,
+  "n_H": 72,
+  "n_image_atoms": 96,
+  "n_minor": 0,
+  "n_bonds": 144,
+  "unique_labels": 6,
+  "label_tokens_visible_labels_view": 7,
+  "label_tokens_default": 1,
+  "refs_needed": [
+   "C1"
+  ],
+  "ref_label_visible_any_view": {
+   "C1": true
+  },
+  "H_label_visible": true,
+  "seconds": 0.1
+ },
+ "mck_Acetaminophen_HXACAN": {
+  "path": "data/structures/mck/mck_Acetaminophen_HXACAN.cif",
+  "n_atoms_ir": 360,
+  "n_H": 162,
+  "n_image_atoms": 200,
+  "n_minor": 0,
+  "n_bonds": 360,
+  "unique_labels": 20,
+  "label_tokens_visible_labels_view": 45,
+  "label_tokens_default": 2,
+  "refs_needed": [
+   "O1"
+  ],
+  "ref_label_visible_any_view": {
+   "O1": true
+  },
+  "H_label_visible": true,
+  "seconds": 0.1
+ }
+}

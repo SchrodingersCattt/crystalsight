@@ -10,3 +10,9 @@ runs/*/
 reports/*/
 !reports/.gitkeep
 data/renders/
+# licensed CSD-derived structures (do not redistribute)
+data/structures/ccdc_local/
+# TUI frames rendered from licensed CSD-derived structures
+tasks_v3/tui_check/ccdc_*/
+# TUI frames rendered from licensed CSD-derived structures (v4 task ids)
+tasks_v4/tui_check/*ccdc_*/

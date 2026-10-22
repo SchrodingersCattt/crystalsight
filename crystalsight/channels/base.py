@@ -25,7 +25,7 @@ FORMAT["choice"] = "The answer must be exactly one of the options as a JSON stri
 
 def _field_desc(name: str, spec: dict) -> str:
     t = spec["type"]
-    d = {"bool": "true/false", "int": "integer", "set": "JSON list", "choice": "one string"}[t]
+    d = {"bool": "true/false", "int": "integer", "set": "JSON list", "choice": "one string", "label": "atom label string"}[t]
     if spec.get("options"):
         d += " from [" + ", ".join(spec["options"]) + "]"
     if spec.get("hint"):
@@ -34,6 +34,13 @@ def _field_desc(name: str, spec: dict) -> str:
 
 
 def answer_instructions(task: dict) -> str:
+    if task.get("benchmark") in ("v3", "v4"):  # the question already states the answer object; only the wrapper is added
+        keys = list(task["gold"])
+        if keys == ["answer"]:
+            return 'Final reply format: {"answer": "<letter>"}.'
+        inner = ", ".join(f'"{k}": ...' for k in keys)
+        return ('Final reply format: {"answer": {' + inner + '}} - the JSON object requested above wrapped in '
+                '{"answer": ...}. ' + ('Write atom copies in the copy-aware label form defined in the question.' if task.get("benchmark") == "v4" else 'Use atom labels exactly as written in the CIF (no symmetry/copy suffixes).'))
     if task["answer_type"] == "object":
         fields = "\n".join(_field_desc(k, v) for k, v in task["schema"].items())
         return ("The answer must be a JSON object with exactly these keys:\n" + fields +
@@ -53,7 +60,11 @@ def task_structures(task: dict) -> list[dict]:
 
 # Lenient parsing (applied identically to every model): a reply that gives the answer object
 # itself, without the {"answer": ...} wrapper, is accepted when it carries a family key.
-BARE_KEYS = {"missing_h", "disordered", "cn", "usable"}
+BARE_KEYS = {"missing_h", "disordered", "cn", "usable",
+             # v3 spatial tasks (tasks_v3/): the question text shows the bare object
+             "acceptor_label", "relation", "network", "axis", "packing", "distance_bin", "stacking",
+             # v4 (tasks_v4/)
+             "acceptor", "hops", "ring_size", "n_molecules", "count", "major", "minor"}
 
 
 def unwrap(parsed):
@@ -61,7 +72,7 @@ def unwrap(parsed):
         return None
     if "answer" in parsed:
         return parsed
-    if BARE_KEYS & set(parsed):
+    if "action" not in parsed and "tool" not in parsed and BARE_KEYS & set(parsed):
         return {"answer": parsed}
     return None
 

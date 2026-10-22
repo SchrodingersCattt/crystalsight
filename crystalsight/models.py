@@ -105,6 +105,8 @@ def _random_answer(task: dict, rng: random.Random) -> Any:
                 out[k] = rng.randint(2, 8)
             elif st == "choice":
                 out[k] = rng.choice(spec.get("options") or ["?"])
+            elif st == "label":
+                out[k] = rng.choice(spec.get("candidates") or ["?"])
             elif st == "set":
                 opts = spec.get("options") or ["C", "N", "O"]
                 out[k] = sorted(o for o in opts if rng.random() < 0.4)

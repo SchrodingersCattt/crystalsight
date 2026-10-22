@@ -1,0 +1,228 @@
+1
+00:00:00,600 --> 00:00:04,375
+This iron centre has seven neighbours: it is a pentagonal bipyramid.
+
+2
+00:00:04,675 --> 00:00:08,832
+We showed it to language models as pictures and through an interactive viewer,
+
+3
+00:00:08,832 --> 00:00:11,071
+and every visual run called it octahedral.
+
+4
+00:00:11,371 --> 00:00:14,058
+Given the CIF text, both models got it right.
+
+5
+00:00:14,358 --> 00:00:16,714
+That case is the question behind CrystalSight.
+
+6
+00:00:17,614 --> 00:00:21,220
+Before a database structure is used for simulation, someone checks it.
+
+7
+00:00:21,520 --> 00:00:22,484
+Are hydrogens missing?
+
+8
+00:00:22,784 --> 00:00:23,813
+Is part of it disordered?
+
+9
+00:00:24,113 --> 00:00:25,490
+What is the metal's coordination?
+
+10
+00:00:25,790 --> 00:00:28,249
+Can it go straight into DFT or MD?
+
+11
+00:00:28,549 --> 00:00:33,997
+LLM agents are increasingly asked to do this
+check, and we can give them the structure as text,
+
+12
+00:00:33,997 --> 00:00:36,693
+as rendered images or as an interactive viewer.
+
+13
+00:00:36,993 --> 00:00:38,500
+We don't know whether those are equivalent.
+
+14
+00:00:39,400 --> 00:00:43,594
+CrystalSight asks the same questions about the same structures:
+
+15
+00:00:43,594 --> 00:00:49,984
+67 molecular crystals from the Crystallography
+Open Database and 247 questions in five families:
+
+16
+00:00:49,984 --> 00:00:55,177
+hydrogen completeness, disorder, metal coordination, usability for simulation,
+
+17
+00:00:55,177 --> 00:00:56,774
+and pairwise comparison.
+
+18
+00:00:57,074 --> 00:01:00,695
+Gold answers are computed with MolCrysKit plus documented rules,
+
+19
+00:01:00,695 --> 00:01:04,145
+and every answer is scored automatically with partial credit.
+
+20
+00:01:05,045 --> 00:01:10,805
+The model sees one channel at a time: CIF text
+with give-away disorder annotations stripped;
+
+21
+00:01:10,805 --> 00:01:14,875
+the unstripped CIF as a leakage control; three MatterVis renders;
+
+22
+00:01:14,875 --> 00:01:19,758
+or an interactive MatterVis ASCII viewer that it can rotate, zoom and relabel.
+
+23
+00:01:20,058 --> 00:01:24,578
+Tool access to MolCrysKit is reported separately as a reference upper bound,
+
+24
+00:01:24,578 --> 00:01:27,255
+because those tools compute the gold answers.
+
+25
+00:01:27,555 --> 00:01:32,844
+Most structures are clean, so we also report
+a balanced score and two trivial baselines.
+
+26
+00:01:33,744 --> 00:01:35,884
+CIF text is clearly the best channel.
+
+27
+00:01:36,184 --> 00:01:44,522
+DeepSeek-v4-Flash scores 0.950 mean and Gemini-2.5-Flash 0.823.
+
+28
+00:01:44,822 --> 00:01:51,450
+Visual channels fall towards the baselines: Gemini with images scores 0.669,
+
+29
+00:01:51,450 --> 00:01:57,032
+DeepSeek with the viewer 0.767 and Gemini with the viewer 0.481.
+
+30
+00:01:57,332 --> 00:02:00,349
+Always answering "no problem" scores 0.678,
+
+31
+00:02:00,349 --> 00:02:06,524
+so on the raw mean Gemini's image and viewer
+runs do not beat saying everything is fine.
+
+32
+00:02:07,424 --> 00:02:08,904
+With the same model,
+
+33
+00:02:08,904 --> 00:02:15,046
+macro-balanced score drops by 0.24 to 0.28
+between text and pictures or the viewer.
+
+34
+00:02:15,346 --> 00:02:17,549
+The failures run in opposite directions.
+
+35
+00:02:17,849 --> 00:02:26,940
+On disorder, DeepSeek in the viewer almost always
+says "ordered": sensitivity 0.25, specificity 1.00.
+
+36
+00:02:27,240 --> 00:02:35,028
+Gemini in the viewer flags almost everything: sensitivity 0.94, specificity 0.27.
+
+37
+00:02:35,928 --> 00:02:42,262
+Coordination from pictures reaches 0.64, against 0.91 to 1.00 from text,
+
+38
+00:02:42,262 --> 00:02:45,253
+and that includes the iron centre.
+
+39
+00:02:45,553 --> 00:02:49,653
+With MolCrysKit tools both models reach about 0.96.
+
+40
+00:02:49,953 --> 00:02:54,332
+Stripping the CIF annotations changes the mean by minus
+
+41
+00:02:54,332 --> 00:02:57,916
+0.004 for DeepSeek and plus 0.039 for Gemini,
+
+42
+00:02:57,916 --> 00:02:59,588
+so the ranking holds.
+
+43
+00:03:00,488 --> 00:03:01,140
+There are limits.
+
+44
+00:03:01,440 --> 00:03:04,747
+The gold labels depend on heuristic thresholds,
+
+45
+00:03:04,747 --> 00:03:09,462
+and even with tools the models reach only 0.87 to 0.89 on disorder,
+
+46
+00:03:09,462 --> 00:03:12,136
+so some of those labels are ambiguous.
+
+47
+00:03:12,436 --> 00:03:17,364
+The benchmark covers 67 structures and two models, with one run each;
+
+48
+00:03:17,364 --> 00:03:20,649
+the coordination family has only 11 questions.
+
+49
+00:03:20,949 --> 00:03:23,616
+The renders may not show partial occupancy at all.
+
+50
+00:03:23,916 --> 00:03:28,977
+Next: more structures and models with repeated runs, occupancy-aware renders,
+
+51
+00:03:28,977 --> 00:03:33,447
+an opt-in local CSD task builder, expert review of ambiguous labels,
+
+52
+00:03:33,447 --> 00:03:37,193
+and agents that combine viewing with text or tool checks.
+
+53
+00:03:38,093 --> 00:03:43,914
+The code, tasks, ground truth and figures
+are open, and a mock run needs no API key.
+
+54
+00:03:44,214 --> 00:03:46,158
+Try your own model, or add a channel.
+
+55
+00:03:46,458 --> 00:03:47,356
+The link is below.
+

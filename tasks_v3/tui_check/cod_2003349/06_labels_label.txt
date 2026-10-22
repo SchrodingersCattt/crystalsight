@@ -1,0 +1,37 @@
+[camera az=0 el=90 roll=45 zoom=2.00] [display level=atom labels=label bonds=True cell=True]
+                          H5'C6H6C5H5+   H101H103  |O2 /                                            
+                        H7H5'C5'#C5H5  H102C10|---/-+\/.                                            
+                        H7C7C6H4'#C4#C3O1O1C11C2N1C1/+    H8|                                       
+                        .-C7H6'C4'N2#C3/H113.H3'N2+#C9///-\/.                                       
+                         H8C8+C6'#C3'C2/+O1\//C2'C1'C6'#C8\|                                        
+                         H8C8C9C9C1'H3'#C10\#C3\+C4#/H6'/-\+.                                       
+       H111              \\.  H7C1N1C2'C11H102/\C3'++C5'C7H7/                                       
+         H102     /-\|        H7C1+.H3'H111H113H6C5.#C6/H5'                                         
+       H101H113  |O1 /     H5'O2O2C8 H112H113  H5H6\\\H5|                                           
+     H103C10C2'./-+\/.     |H5'H6'+H8H103H102H5'C6+.C5H6|                                           
+     H112C11C2##C3/+    H6-C6#C5'#C8H8 H101O2H5'C6+#C5H5                                            
+           #N1N2\#C4+/-H5H6C6C7C4'C9+H103#O2C7C5'C4'C4#|\ .O1\+                                     
+        -./C1#C1'C4'+C5 /./C5#H4'C6'C1'C1#H7C7H6'H4'C4H3'C3O1\#                                     
+      |O2|#\-#C9|C6'C5'\\H5C5C4C4#C3'N1N1.H7|C8/#C6'#C3'C3#|\|                                      
+      .\-H103 ##++H6'+C6\H6H5\H4'#N2H3'#C10H8C8C9C9C1'H3'#C10                                       
+         H112+C8 +C7-H5' H101 O1C3N2C2'#+H112H8 C1C1N2C2'#C11H102                                   
+     H101H103H8-/O2H7#/H103H102O1C3|C2#H111H103 .O2+N1N1H112H113                                    
+       H101##C2'.#O2-+|  H101H113# O1O1#C11H112 #O2++.C2|H111H113                                   
+     H102C10#N1N1C1+#\ H103C10#H3'\C3#H113H101.H7C7#\/H8H103H102                                    
+      H113C11C2C2C1C9 H8H8#C11#C2'#C3-H102H5. H5'H6'+C8.+ H101                                      
+     H102./H3'N2##C9##C8H112 N1C2N2#C4'\C5H5#C6C5'C4'C9#H103/-\.                                    
+       .O1#C3N2C1'C6'#C8+#--/C1#C1'#C4C4C5H6\\+/#H4'\C1'C1\#O2\|                                    
+      |+O1+C3+#C4C4H6'C7#O2##C1C9C9C6'C5'C6H6/C5/#C6'C3'N1./.-                                      
+      |+\-\//\+C5C4'C5'C7H7O2\++#C3'H6'#C6\H6H5-/C4#N2H3'#C10                                       
+        --.  H5C5.#C6-H5'H7H103H8C8##C7C7++++-    +C3+#C2'#+H103                                    
+             H5#++C6H6H5'  H103H8C8+#O2H5'|     ./++-/.C2C11H112                                    
+           .H6C6\\\+H6H102H101H112 ++H7O2       /O1.|    |H111                                      
+          |H5'C5'#C5H5 H102C10+H3'/C1H7H5'      |\-/    H113H101                                    
+         H7C7/#H4'+\\|\-H113C11#C1'C1-+|  H8\.          H102                                        
+         .+\/H6'C4'C4#C3|#H111#C2N1#C9+#C8H8+|                                                      
+          |C8.#C6'#C3'#-//O1\+C2'N2#C9##C8-/|                                                       
+         ./\-//C9C1'H3'#C10O1#C3#C4C4'H6'C7H7/                                                      
+         H8/    C1N2C2'C11O1\C3C4C3'#C6'#C7H7+|                                                     
+              ./++-/N1H112H113  H5C5C6C6+H5'-.                                                      
+              /O2.|  C2H111H102|H5C5+#C5'H5'                                                        
+              |\-/    H103H101  /+.   H6H6                                                          

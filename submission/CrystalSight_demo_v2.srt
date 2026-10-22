@@ -1,0 +1,233 @@
+1
+00:00:00,500 --> 00:00:04,024
+This iron centre has seven neighbours: it is a pentagonal bipyramid.
+
+2
+00:00:04,244 --> 00:00:05,851
+Here we replay our recorded run.
+
+3
+00:00:06,071 --> 00:00:10,285
+Gemini answers the same question from CIF text, from three rendered images,
+
+4
+00:00:10,285 --> 00:00:13,487
+through an interactive viewer, and with MolCrysKit tools.
+
+5
+00:00:13,707 --> 00:00:17,409
+From the text and the tools it gets seven, pentagonal bipyramid.
+
+6
+00:00:17,629 --> 00:00:23,332
+From the images and the viewer it says six, octahedral, and so does DeepSeek in the viewer.
+
+7
+00:00:23,552 --> 00:00:25,729
+That gap is the question behind CrystalSight.
+
+8
+00:00:26,379 --> 00:00:29,743
+Before a database structure is used for simulation, someone checks it.
+
+9
+00:00:29,963 --> 00:00:34,305
+Are hydrogens missing? Is it disordered? What is the metal's coordination?
+
+10
+00:00:34,305 --> 00:00:36,300
+Can it go straight into DFT or MD?
+
+11
+00:00:36,520 --> 00:00:41,792
+LLM agents are increasingly asked to do this
+check, and we can give them the structure as text,
+
+12
+00:00:41,792 --> 00:00:45,954
+as images rendered with MatterVis, like these, or as an interactive viewer.
+
+13
+00:00:46,174 --> 00:00:47,585
+We don't know whether those are equivalent.
+
+14
+00:00:48,235 --> 00:00:52,208
+CrystalSight asks the same questions about the same structures:
+
+15
+00:00:52,208 --> 00:00:58,263
+67 molecular crystals from the Crystallography
+Open Database and 247 questions in five families:
+
+16
+00:00:58,263 --> 00:01:04,003
+hydrogens, disorder, metal coordination, usability for simulation, and pairwise comparison.
+
+17
+00:01:04,223 --> 00:01:05,688
+Each task has a question,
+
+18
+00:01:05,688 --> 00:01:10,728
+a JSON answer schema and a gold answer
+computed with MolCrysKit plus documented rules.
+
+19
+00:01:11,378 --> 00:01:15,424
+Scoring is automatic, with partial credit: flag the problem correctly,
+
+20
+00:01:15,424 --> 00:01:20,221
+then name what is affected; coordination splits credit between number and geometry.
+
+21
+00:01:20,441 --> 00:01:23,049
+The no-problem baseline always answers "clean",
+
+22
+00:01:23,049 --> 00:01:26,545
+or the most common gold answer for coordination and comparison.
+
+23
+00:01:26,765 --> 00:01:29,141
+The random baseline guesses with the right answer type.
+
+24
+00:01:29,361 --> 00:01:33,522
+The balanced score averages problem and clean structures within each family,
+
+25
+00:01:33,522 --> 00:01:35,165
+then across the five families.
+
+26
+00:01:35,815 --> 00:01:41,256
+The model sees one channel at a time: CIF text
+with give-away disorder annotations stripped;
+
+27
+00:01:41,256 --> 00:01:45,100
+the unstripped CIF as a leakage control; three MatterVis renders;
+
+28
+00:01:45,100 --> 00:01:50,186
+or the interactive MatterVis viewer shown here, which it can rotate, zoom and relabel.
+
+29
+00:01:50,406 --> 00:01:54,630
+Tool access to MolCrysKit is reported separately as a reference upper bound,
+
+30
+00:01:54,630 --> 00:01:57,131
+because those tools compute the gold answers.
+
+31
+00:01:57,781 --> 00:01:59,779
+CIF text is clearly the best channel.
+
+32
+00:01:59,999 --> 00:02:07,790
+DeepSeek-v4-Flash scores 0.950 mean and Gemini-2.5-Flash 0.823.
+
+33
+00:02:08,010 --> 00:02:14,209
+Visual channels fall towards the baselines: Gemini with images scores 0.669,
+
+34
+00:02:14,209 --> 00:02:19,430
+DeepSeek with the viewer 0.767 and Gemini with the viewer 0.481.
+
+35
+00:02:19,650 --> 00:02:22,468
+Always answering "no problem" scores 0.678,
+
+36
+00:02:22,468 --> 00:02:28,237
+so on the raw mean Gemini's image and viewer runs do not beat saying everything is fine.
+
+37
+00:02:28,887 --> 00:02:30,270
+With the same model,
+
+38
+00:02:30,270 --> 00:02:36,007
+macro-balanced score drops by 0.24 to 0.28 between text and pictures or the viewer.
+
+39
+00:02:36,227 --> 00:02:38,284
+The failures run in opposite directions.
+
+40
+00:02:38,504 --> 00:02:47,000
+On disorder, DeepSeek in the viewer almost always
+says "ordered": sensitivity 0.25, specificity 1.00.
+
+41
+00:02:47,220 --> 00:02:54,491
+Gemini in the viewer flags almost everything: sensitivity 0.94, specificity 0.27.
+
+42
+00:02:55,141 --> 00:03:01,846
+Coordination from pictures reaches 0.64, against 0.91 to 1.00 from text.
+
+43
+00:03:02,066 --> 00:03:05,889
+With MolCrysKit tools both models reach about 0.96.
+
+44
+00:03:06,109 --> 00:03:10,197
+Stripping the CIF annotations changes the mean by minus
+
+45
+00:03:10,197 --> 00:03:13,542
+0.004 for DeepSeek and plus 0.039 for Gemini,
+
+46
+00:03:13,542 --> 00:03:15,103
+so the ranking holds.
+
+47
+00:03:15,753 --> 00:03:16,357
+There are limits.
+
+48
+00:03:16,577 --> 00:03:19,550
+Gold labels depend on heuristic thresholds,
+
+49
+00:03:19,550 --> 00:03:25,427
+and even with tools disorder reaches only 0.87 to 0.89, so some labels are ambiguous.
+
+50
+00:03:25,647 --> 00:03:29,204
+We cover 67 structures and two models with one run each,
+
+51
+00:03:29,204 --> 00:03:32,380
+and the coordination family has only 11 questions.
+
+52
+00:03:32,600 --> 00:03:37,126
+Next: more structures, models and repeated runs, occupancy-aware renders,
+
+53
+00:03:37,126 --> 00:03:40,660
+and agents that combine viewing with text or tool checks.
+
+54
+00:03:41,310 --> 00:03:44,520
+The code, tasks, ground truth and figures are open,
+
+55
+00:03:44,520 --> 00:03:47,416
+and a mock run like this one needs no API key.
+
+56
+00:03:47,636 --> 00:03:49,444
+Try your own model, or add a channel.
+
+57
+00:03:49,664 --> 00:03:50,505
+The link is below.
+

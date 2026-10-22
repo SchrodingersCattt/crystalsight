@@ -4,9 +4,47 @@
 
 CrystalSight is a small, reproducible benchmark that asks LLM agents the questions a crystallographer asks before using a CIF (missing hydrogens, disorder, metal coordination, overall usability, pairwise comparison) and presents the *same* structure through different channels: CIF text, rendered images, and an interactive terminal (TUI) viewer. Ground truth is computed with [MolCrysKit](https://github.com/SchrodingersCattt/MolCrysKit) plus documented rules; images and the TUI come from [MatterVis](https://github.com/SchrodingersCattt/MatterVis). A tool-using channel is reported separately as a reference upper bound.
 
+## Key finding (spatial question sets)
+
+**When a question about a crystal needs real 3D work, text-only reasoning collapses, and the right geometry tools recover it.** The hard set (v4, 20 questions) asks for exact enumeration and graph search: which symmetry copy of an acceptor is nearest, how many H-bond steps lead to a lattice translate, how big the smallest H-bond ring is, how many molecules sit in a shell, and how the ordered disorder replicas differ. On this set, the two models score:
+
+- 0.20–0.43 from CIF text;
+- 0.10–0.22 from rendered images or the interactive ASCII 3D viewer (random: 0.13);
+- 0.75–0.78 with geometry tools.
+
+On the easy set (v3), where one contact or one plane is enough, CIF text alone reaches 0.70–0.82.
+
+![On hard spatial questions, text reasoning collapses and only geometry tools hold up](figures/v4_fig1_channels.png)
+
+![Without tools, only the single-contact question (G1) is reliably solved](figures/v4_fig2_families.png)
+
+| set | GPT-6-Luna cif / cif_raw / image / tui / tools | DeepSeek-v4.1-Flash cif / cif_raw / tui / tools |
+|---|---|---|
+| v4 hard | 0.37 / 0.43 / 0.10 / 0.20 / **0.78** | 0.20* / not run / 0.22 / **0.75** |
+| v3 easy | 0.80 / 0.82 / 0.40 / 0.40 / 0.49 | 0.75 / 0.70 / 0.40 / 0.44 |
+
+\* DeepSeek CIF on v4: 15 of 20 replies were empty because the model used its whole 32k-token output budget on reasoning. That run also predates the text-input fix described below. DeepSeek is text-only, so it has no image channel.
+
+**How the spatial sets are built.** Gold answers are computed from symmetry-expanded geometry in `crystalsight/gt_spatial.py`. Atoms are named in the copy-aware form `SITE#k[i,j,k]`. Every answer is recomputed with all cutoffs shifted by ±5 %, and fragile questions were replaced. For v4, the precomputed `_geom_hbond_*` tables are removed from both text channels, because they would hand over answers. We also fixed a stripping bug that removed the `loop_` keyword from CIF tables; GPT-6-Luna's v4 text channels were re-run with the fixed input. The tools channel adds six small geometry tools built for this benchmark (`crystalsight/channels/geom_tools.py`). They return raw lists, not answers. The viewer gets an H-bond overlay, a distance query and a disorder-component switch (`crystalsight/channels/tui_extras.py`). Details are in [`DESIGN.md`](DESIGN.md), [`tasks_v4/TASKS_v4.md`](tasks_v4/TASKS_v4.md) and [`analysis/results_v4.md`](analysis/results_v4.md).
+
+**Reproduce the spatial results without an API key.**
+
+```bash
+python scripts/make_figures_v4.py           # figures/v4_fig*.png + analysis/results_v4.{md,csv} from results/real-v3, results/real-v4
+python -m crystalsight run --models mock-oracle mock-random --channels cif cif_raw image tui tools \
+       --tasks tasks_v4/tasks_v4.jsonl --run-id mock-v4 --workers 4
+python -m crystalsight score mock-v4 --tasks tasks_v4/tasks_v4.jsonl
+```
+
+To run real models, use `scripts/real_v4.ps1` (`--max-tokens 32768 --timeout 900` are recorded in `run_meta.json`). Three v4 tasks and nine v3 tasks use licensed CSD-derived structures. These are kept locally under anonymous ids in the gitignored `data/structures/ccdc_local/` and are not distributed, so those tasks need your own CSD licence to rerun. All other tasks use public COD and MolCrysKit structures.
+
+## Structure-check set (v1, 247 questions)
+
+The original set below asks structure-check questions. It found the same ordering, with CIF text above images and the viewer.
+
 * Design and rules: [`DESIGN.md`](DESIGN.md)
-* One-page write-up: [`writeup/CrystalSight_onepager.pdf`](writeup/CrystalSight_onepager.pdf) (source: `.md`)
-* Results: [`analysis/results.md`](analysis/results.md), [`analysis/results.csv`](analysis/results.csv), figures in [`figures/`](figures/)
+* One-page write-up (spatial sets): [`writeup/CrystalSight_onepager.pdf`](writeup/CrystalSight_onepager.pdf) (source: `.md`); the v1 write-up is `writeup/CrystalSight_onepager_v1.pdf`
+* Results: spatial sets [`analysis/results_v4.md`](analysis/results_v4.md); v1 [`analysis/results.md`](analysis/results.md), [`analysis/results.csv`](analysis/results.csv), figures in [`figures/`](figures/)
 
 ## Question families
 
@@ -97,9 +135,10 @@ The task set uses COD structures (public domain / CC0) and MolCrysKit's MIT-lice
 crystalsight/        runner, channels (cif_text, image, tui, tools), models, gt, taskgen, score, report
 configs/models.toml  model registry (env-var names only)
 data/                structures (CIF), ground truth (data/gt), manifest
-tasks/tasks.jsonl    the 247 benchmark questions with gold answers and evidence
+tasks/tasks.jsonl    the 247 v1 questions with gold answers and evidence
+tasks_v3/, tasks_v4/ spatial question sets (easy, hard) with gold, robustness checks and TUI feasibility notes
 scripts/             fetch_data, analyze, make_figures, real-run helpers
-results/             scored answers of the reported run (compact)
+results/             scored answers of the reported runs (real-full = v1, real-v3, real-v4; mock baselines)
 analysis/, figures/  results of the reported run
 writeup/             one-page summary
 ```

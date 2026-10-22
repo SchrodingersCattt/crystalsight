@@ -1,0 +1,482 @@
+[
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.2,
+  "infra_errors": 0,
+  "unparseable": 15,
+  "strict_accuracy": 0.2
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif",
+  "qtype": "v4_G1_copy_partner",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif",
+  "qtype": "v4_G2_hbond_hops",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 4,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif",
+  "qtype": "v4_G3_hbond_ring",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 4,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif",
+  "qtype": "v4_G4_shell_count",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 3,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif",
+  "qtype": "v4_G5_disorder_replica",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 4,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tools",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.75,
+  "infra_errors": 0,
+  "unparseable": 4,
+  "strict_accuracy": 0.75
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tools",
+  "qtype": "v4_G1_copy_partner",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tools",
+  "qtype": "v4_G2_hbond_hops",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tools",
+  "qtype": "v4_G3_hbond_ring",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tools",
+  "qtype": "v4_G4_shell_count",
+  "n": 4,
+  "accuracy": 0.5,
+  "infra_errors": 0,
+  "unparseable": 1,
+  "strict_accuracy": 0.5
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tools",
+  "qtype": "v4_G5_disorder_replica",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 3,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tui",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.22,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.2
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tui",
+  "qtype": "v4_G1_copy_partner",
+  "n": 4,
+  "accuracy": 0.6,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.5
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tui",
+  "qtype": "v4_G2_hbond_hops",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tui",
+  "qtype": "v4_G3_hbond_ring",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tui",
+  "qtype": "v4_G4_shell_count",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tui",
+  "qtype": "v4_G5_disorder_replica",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.37,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.3
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif",
+  "qtype": "v4_G1_copy_partner",
+  "n": 4,
+  "accuracy": 0.85,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.75
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif",
+  "qtype": "v4_G2_hbond_hops",
+  "n": 4,
+  "accuracy": 0.5,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.5
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif",
+  "qtype": "v4_G3_hbond_ring",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif",
+  "qtype": "v4_G4_shell_count",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif",
+  "qtype": "v4_G5_disorder_replica",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif_raw",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.425,
+  "infra_errors": 0,
+  "unparseable": 1,
+  "strict_accuracy": 0.4
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif_raw",
+  "qtype": "v4_G1_copy_partner",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif_raw",
+  "qtype": "v4_G2_hbond_hops",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 1,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif_raw",
+  "qtype": "v4_G3_hbond_ring",
+  "n": 4,
+  "accuracy": 0.625,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.5
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif_raw",
+  "qtype": "v4_G4_shell_count",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif_raw",
+  "qtype": "v4_G5_disorder_replica",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "image",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.095,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.05
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "image",
+  "qtype": "v4_G1_copy_partner",
+  "n": 4,
+  "accuracy": 0.1,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "image",
+  "qtype": "v4_G2_hbond_hops",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "image",
+  "qtype": "v4_G3_hbond_ring",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "image",
+  "qtype": "v4_G4_shell_count",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "image",
+  "qtype": "v4_G5_disorder_replica",
+  "n": 4,
+  "accuracy": 0.125,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tools",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.775,
+  "infra_errors": 0,
+  "unparseable": 1,
+  "strict_accuracy": 0.75
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tools",
+  "qtype": "v4_G1_copy_partner",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tools",
+  "qtype": "v4_G2_hbond_hops",
+  "n": 4,
+  "accuracy": 0.75,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.75
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tools",
+  "qtype": "v4_G3_hbond_ring",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tools",
+  "qtype": "v4_G4_shell_count",
+  "n": 4,
+  "accuracy": 0.75,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.75
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tools",
+  "qtype": "v4_G5_disorder_replica",
+  "n": 4,
+  "accuracy": 0.375,
+  "infra_errors": 0,
+  "unparseable": 1,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tui",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.195,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.15
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tui",
+  "qtype": "v4_G1_copy_partner",
+  "n": 4,
+  "accuracy": 0.6,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.5
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tui",
+  "qtype": "v4_G2_hbond_hops",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tui",
+  "qtype": "v4_G3_hbond_ring",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tui",
+  "qtype": "v4_G4_shell_count",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tui",
+  "qtype": "v4_G5_disorder_replica",
+  "n": 4,
+  "accuracy": 0.125,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ }
+]

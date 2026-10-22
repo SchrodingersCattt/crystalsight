@@ -1,0 +1,542 @@
+[
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.75,
+  "infra_errors": 0,
+  "unparseable": 5,
+  "strict_accuracy": 0.75
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 0.75,
+  "infra_errors": 0,
+  "unparseable": 1,
+  "strict_accuracy": 0.75
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 4,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif_raw",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.7,
+  "infra_errors": 0,
+  "unparseable": 6,
+  "strict_accuracy": 0.7
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif_raw",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif_raw",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 0.5,
+  "infra_errors": 0,
+  "unparseable": 2,
+  "strict_accuracy": 0.5
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif_raw",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 4,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif_raw",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "cif_raw",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tools",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.44,
+  "infra_errors": 0,
+  "unparseable": 4,
+  "strict_accuracy": 0.4
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tools",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 0.325,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tools",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 3,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tools",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 0.5,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.5
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tools",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 0.5,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.5
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tools",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 0.625,
+  "infra_errors": 0,
+  "unparseable": 1,
+  "strict_accuracy": 0.5
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tui",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.405,
+  "infra_errors": 0,
+  "unparseable": 1,
+  "strict_accuracy": 0.3
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tui",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 0.4,
+  "infra_errors": 0,
+  "unparseable": 1,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tui",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 0.5,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.5
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tui",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 0.5,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.5
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tui",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "deepseek-v4.1-flash",
+  "channel": "tui",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 0.375,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.8,
+  "infra_errors": 0,
+  "unparseable": 1,
+  "strict_accuracy": 0.8
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 0.75,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.75
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 1,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif_raw",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.815,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.8
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif_raw",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 0.825,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.75
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif_raw",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 0.75,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.75
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif_raw",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 0.5,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.5
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif_raw",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "cif_raw",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "image",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.405,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.3
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "image",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 0.4,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "image",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "image",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 0.5,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.5
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "image",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 0.5,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.5
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "image",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 0.375,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tools",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.49,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.45
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tools",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 0.825,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.75
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tools",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tools",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tools",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tools",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 0.375,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tui",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.4,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.35
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tui",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tui",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tui",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tui",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 0.75,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.75
+ },
+ {
+  "model": "gpt-6-luna",
+  "channel": "tui",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 0.5,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ }
+]

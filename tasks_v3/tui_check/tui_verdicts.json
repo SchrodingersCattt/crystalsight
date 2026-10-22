@@ -1,0 +1,31 @@
+{
+ "_method": "No LLM. Frames captured with crystalsight.channels.tui.load_crystal + mat_viewer.tui.TerminalSession(100x36, ascii7): default, align a/b/c, orbit, zoom x2, set_display label_mode=label/atom level, molecule level, fit. Atom counts from tui_probe_summary.json. Verdict = whether the information needed for the gold is perceivable from frames with the actions the CrystalSight TUI channel allows.",
+ "_global_findings": [
+  "Scene = one unit cell + boundary replicas of whole molecules (load_for_tui display_mode=unit_cell); no supercell / neighbour shell, so contacts across cell faces are only partly visible.",
+  "Default display for all 14 structures is level=molecule (hull/centroid outlines with a formula tag) because atom_count > 64; at atom level label_mode=auto resolves to 'dot' (>160 atoms) or 'element' (>32 atoms), so atom LABELS appear only after set_display label_mode='label'.",
+  "The CrystalSight channel GUIDE advertises label_mode auto|element|none: 'none' is rejected by mat-vis (valid: auto,label,element,molecule,dot) and 'label' is never mentioned, so a model following the guide cannot get atom labels.",
+  "All symmetry copies carry the identical CIF label (no image/symop suffix), so the reference molecule (x,y,z copy) cannot be singled out.",
+  "No H-bond / short-contact overlay, no distance query (select/focus refused by the channel), no scale bar and cell parameters are not shown; ascii7 drops the colour-only depth tiers, so depth ordering is ambiguous.",
+  "Zoomed label views of small cells (<=150 atoms) are legible (see ccdc_S02 frames); 400-700-atom cells are cluttered with overlapping labels (see cod_2003349/09_align_b_label_zoom2.5.txt)."
+ ],
+ "v3_F1_01_mck_Acetaminophen_HXACAN": ["partially", "O2 near H5 can be spotted in a zoomed label view, but no H-bond line, depth ambiguous, reference copy not identifiable; glide vs 2_1 needs comparing orientations in several aligned views (360 atoms)."],
+ "v3_F1_02_ccdc_S01": ["partially", "Carboxylic-acid dimer about an inversion centre is a recognisable antiparallel pair; distinguishing O2 from the other carbonyl/ester O requires label mode and zoom (294 atoms)."],
+ "v3_F1_03_ccdc_S02": ["partially", "Small cell (140 atoms): labels legible at zoom 3, head-to-tail O-H...N chain visible; deciding 2_1 screw vs glide/translation from projections is error-prone."],
+ "v3_F1_04_ccdc_S03": ["partially", "Translation partner = identical copy one b-vector away, visible along a or c; amide N-H...O pairing must be inferred from proximity (128 atoms)."],
+ "v3_F2_01_ccdc_S04": ["not", "528-atom cell, H-bonds not drawn; a 2D layer spanning b and c cannot be traced beyond one cell from cluttered frames."],
+ "v3_F2_02_cod_2224411": ["partially", "Acid dimers plus N-H...O chains along a; chain direction guessable from molecule-level view, but contacts are not shown (256 atoms)."],
+ "v3_F2_03_cod_1008775": ["partially", "Tiny cell (64 atoms, element labels); network topology needs mental periodic extension in all three directions."],
+ "v3_F2_04_ccdc_S05": ["partially", "Amide dimers recognisable; proving there is no further H-bond link (0D) needs distances (420 atoms)."],
+ "v3_F3_01_cod_4501702": ["not", "Counting molecules with any contact < 3.5 A needs distances; no ruler/measure and neighbours outside the cell are missing."],
+ "v3_F3_02_cod_2203991": ["not", "Same as above; 544-atom cell."],
+ "v3_F3_03_ccdc_S05": ["not", "Same as above; 4.0 A cutoff vs 3.7-4.4 A contacts indistinguishable in ASCII."],
+ "v3_F3_04_ccdc_S02": ["not", "Same as above; 3.0 A cutoff."],
+ "v3_F4_01_cod_2019279": ["partially", "align a/b/c lets one see a ring face-on vs edge-on, but locating ring C7-C12 among 676 atoms needs label mode and heavy zoom."],
+ "v3_F4_02_cod_2003349": ["partially", "Ring normal ~5 deg from b would appear face-on along b, but the frame along b is saturated with overlapping labels (560 atoms)."],
+ "v3_F4_03_ccdc_S06": ["partially", "Ring nearly normal to c (11.5 deg) -> face-on hexagon in align c; identification of ring C1/C15-C19 needs labels (242 atoms)."],
+ "v3_F4_04_cod_4501702": ["perceivable", "Single species; molecule-level hulls and atom view along a/b/c clearly show alternating face-on / edge-on benzene (herringbone)."],
+ "v3_F5_01_cod_2019279": ["partially", "Overlapping inversion-related rings are visible when viewing along the ring normal, but the <4.0 A bin needs a metric (no scale)."],
+ "v3_F5_02_mck_Acetaminophen_HXACAN": ["not", "4.65 A centroid distance and 58 deg tilt between specific ring copies cannot be measured from ASCII."],
+ "v3_F5_03_cod_2211700": ["partially", "Parallel offset stacking visible (114 atoms, legible), distance bin 5-6 A only roughly estimable from bond lengths."],
+ "v3_F5_04_ccdc_S06": ["not", "Nearest same-ring copy is >6 A away and offset; requires metric reasoning across copies."]
+}

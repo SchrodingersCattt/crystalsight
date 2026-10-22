@@ -1,0 +1,230 @@
+{
+ "v4_G1_01_cod_1501794": {
+  "verdict": "perceivable",
+  "reason": "acceptor copy is in the scene with its label_sym tag (distance action available to compare candidates)",
+  "checks": {
+   "scene_atoms": 1230,
+   "minor_atoms": 0,
+   "labels_in_frames": 1025,
+   "gold_in_scene": true,
+   "ref_in_scene": true,
+   "gold_in_a_frame": true,
+   "ref_in_a_frame": true,
+   "gold_in_hbond_overlay": false
+  }
+ },
+ "v4_G1_02_cod_2018386": {
+  "verdict": "perceivable",
+  "reason": "acceptor copy is in the scene; the ad hoc H-bond overlay lists H1B...O3#4[1,0,0] with its distance and the distance action can confirm it is the closest N/O",
+  "checks": {
+   "scene_atoms": 550,
+   "minor_atoms": 0,
+   "labels_in_frames": 923,
+   "gold_in_scene": true,
+   "ref_in_scene": true,
+   "gold_in_a_frame": true,
+   "ref_in_a_frame": true,
+   "gold_in_hbond_overlay": true
+  }
+ },
+ "v4_G1_03_cod_2216029": {
+  "verdict": "perceivable",
+  "reason": "acceptor copy is in the scene; the ad hoc H-bond overlay lists H2W...O2#3[0,0,1] with its distance and the distance action can confirm it is the closest N/O",
+  "checks": {
+   "scene_atoms": 444,
+   "minor_atoms": 0,
+   "labels_in_frames": 949,
+   "gold_in_scene": true,
+   "ref_in_scene": true,
+   "gold_in_a_frame": true,
+   "ref_in_a_frame": true,
+   "gold_in_hbond_overlay": true
+  }
+ },
+ "v4_G1_04_mck_SUXRUA": {
+  "verdict": "perceivable",
+  "reason": "acceptor copy is in the scene; the ad hoc H-bond overlay lists H2...O3#3 with its distance and the distance action can confirm it is the closest N/O",
+  "checks": {
+   "scene_atoms": 126,
+   "minor_atoms": 0,
+   "labels_in_frames": 813,
+   "gold_in_scene": true,
+   "ref_in_scene": true,
+   "gold_in_a_frame": true,
+   "ref_in_a_frame": true,
+   "gold_in_hbond_overlay": true
+  }
+ },
+ "v4_G2_01_cod_2018386": {
+  "verdict": "partially",
+  "reason": "both M0 and its translate are inside the 2x2x2 supercell and labelled and the show_hbonds overlay draws/lists on-screen H-bonds, but the chain must be followed across views and intermediate molecules may be cut at the supercell edge",
+  "checks": {
+   "scene_atoms": 1216,
+   "minor_atoms": 0,
+   "labels_in_frames": 835,
+   "target_in_scene": true,
+   "ref_in_scene": true
+  }
+ },
+ "v4_G2_02_cod_2216029": {
+  "verdict": "partially",
+  "reason": "both M0 and its translate are inside the 2x2x2 supercell and labelled and the show_hbonds overlay draws/lists on-screen H-bonds, but the chain must be followed across views and intermediate molecules may be cut at the supercell edge",
+  "checks": {
+   "scene_atoms": 1440,
+   "minor_atoms": 0,
+   "labels_in_frames": 974,
+   "target_in_scene": true,
+   "ref_in_scene": true
+  }
+ },
+ "v4_G2_03_mck_Acetaminophen_HXACAN": {
+  "verdict": "partially",
+  "reason": "both M0 and its translate are inside the 2x2x2 supercell and labelled and the show_hbonds overlay draws/lists on-screen H-bonds, but the chain must be followed across views and intermediate molecules may be cut at the supercell edge",
+  "checks": {
+   "scene_atoms": 1280,
+   "minor_atoms": 0,
+   "labels_in_frames": 952,
+   "target_in_scene": true,
+   "ref_in_scene": true
+  }
+ },
+ "v4_G2_04_cod_2224411": {
+  "verdict": "partially",
+  "reason": "both M0 and its translate are inside the 2x2x2 supercell and labelled and the show_hbonds overlay draws/lists on-screen H-bonds, but the chain must be followed across views and intermediate molecules may be cut at the supercell edge",
+  "checks": {
+   "scene_atoms": 960,
+   "minor_atoms": 0,
+   "labels_in_frames": 641,
+   "target_in_scene": true,
+   "ref_in_scene": true
+  }
+ },
+ "v4_G3_01_cod_1501794": {
+  "verdict": "partially",
+  "reason": "all 32 ring atoms are inside the grow_radius scene with label_sym tags, but tracing a 32-atom ring through overlay-listed H-bonds in 100x36 ASCII is hard",
+  "checks": {
+   "scene_atoms": 4732,
+   "minor_atoms": 0,
+   "labels_in_frames": 1065,
+   "ring_atoms_in_scene": "32/32"
+  }
+ },
+ "v4_G3_02_cod_2204677": {
+  "verdict": "partially",
+  "reason": "all 24 ring atoms are inside the grow_radius scene with label_sym tags, but tracing a 24-atom ring through overlay-listed H-bonds in 100x36 ASCII is hard",
+  "checks": {
+   "scene_atoms": 1896,
+   "minor_atoms": 0,
+   "labels_in_frames": 1054,
+   "ring_atoms_in_scene": "24/24"
+  }
+ },
+ "v4_G3_03_cod_2224411": {
+  "verdict": "partially",
+  "reason": "all 36 ring atoms are inside the grow_radius scene with label_sym tags, but tracing a 36-atom ring through overlay-listed H-bonds in 100x36 ASCII is hard",
+  "checks": {
+   "scene_atoms": 2546,
+   "minor_atoms": 0,
+   "labels_in_frames": 921,
+   "ring_atoms_in_scene": "36/36"
+  }
+ },
+ "v4_G3_04_cod_2104603": {
+  "verdict": "partially",
+  "reason": "all 12 ring atoms are inside the grow_radius scene with label_sym tags, but tracing a 12-atom ring through overlay-listed H-bonds in 100x36 ASCII is hard",
+  "checks": {
+   "scene_atoms": 1534,
+   "minor_atoms": 0,
+   "labels_in_frames": 1084,
+   "ring_atoms_in_scene": "12/12"
+  }
+ },
+ "v4_G4_01_cod_1008775": {
+  "verdict": "partially",
+  "reason": "scene has 2368 atoms; molecules out to the cutoff are present (grow_radius 12.6 A) and display_level=molecule gives one marker each, but counting dozens of markers inside a 3D radius from ASCII projections is unreliable; scale bar gives the radius",
+  "checks": {
+   "scene_atoms": 2368,
+   "minor_atoms": 0,
+   "labels_in_frames": 698
+  }
+ },
+ "v4_G4_02_cod_2022300": {
+  "verdict": "partially",
+  "reason": "scene has 3500 atoms; molecules out to the cutoff are present (grow_radius 10.3 A) and display_level=molecule gives one marker each, but counting dozens of markers inside a 3D radius from ASCII projections is unreliable; scale bar gives the radius",
+  "checks": {
+   "scene_atoms": 3500,
+   "minor_atoms": 0,
+   "labels_in_frames": 591
+  }
+ },
+ "v4_G4_03_cod_2019279": {
+  "verdict": "partially",
+  "reason": "scene has 3044 atoms; molecules out to the cutoff are present (grow_radius 7.0 A) and display_level=molecule gives one marker each, but counting dozens of markers inside a 3D radius from ASCII projections is unreliable; scale bar gives the radius",
+  "checks": {
+   "scene_atoms": 3044,
+   "minor_atoms": 0,
+   "labels_in_frames": 564
+  }
+ },
+ "v4_G4_04_cod_2238135": {
+  "verdict": "partially",
+  "reason": "scene has 2358 atoms; molecules out to the cutoff are present (grow_radius 7.0 A) and display_level=molecule gives one marker each, but counting dozens of markers inside a 3D radius from ASCII projections is unreliable; scale bar gives the radius",
+  "checks": {
+   "scene_atoms": 2358,
+   "minor_atoms": 0,
+   "labels_in_frames": 462
+  }
+ },
+ "v4_G5_01_ccdc_S07": {
+  "verdict": "partially",
+  "reason": "set_component loads ordered major/minor scenes ({'major': 1658, 'minor': 1584}); the reference molecule and its neighbours are labelled, but counting molecules inside a 3-4.5 A contact cutoff from ASCII still needs many distance actions",
+  "checks": {
+   "scene_atoms": 1854,
+   "minor_atoms": 194,
+   "labels_in_frames": 511,
+   "component_scene_atoms": {
+    "major": 1658,
+    "minor": 1584
+   }
+  }
+ },
+ "v4_G5_02_ccdc_S08": {
+  "verdict": "partially",
+  "reason": "set_component loads ordered major/minor scenes ({'major': 952, 'minor': 734}); the reference molecule and its neighbours are labelled, but counting molecules inside a 3-4.5 A contact cutoff from ASCII still needs many distance actions",
+  "checks": {
+   "scene_atoms": 1902,
+   "minor_atoms": 984,
+   "labels_in_frames": 551,
+   "component_scene_atoms": {
+    "major": 952,
+    "minor": 734
+   }
+  }
+ },
+ "v4_G5_03_cod_2100352": {
+  "verdict": "partially",
+  "reason": "set_component loads ordered major/minor scenes ({'major': 1851, 'minor': 1776}); the reference molecule and its neighbours are labelled, but counting molecules inside a 3-4.5 A contact cutoff from ASCII still needs many distance actions",
+  "checks": {
+   "scene_atoms": 3795,
+   "minor_atoms": 2592,
+   "labels_in_frames": 399,
+   "component_scene_atoms": {
+    "major": 1851,
+    "minor": 1776
+   }
+  }
+ },
+ "v4_G5_04_ccdc_S09": {
+  "verdict": "partially",
+  "reason": "set_component loads ordered major/minor scenes ({'major': 2504, 'minor': 2540}); the reference molecule and its neighbours are labelled, but counting molecules inside a 3-4.5 A contact cutoff from ASCII still needs many distance actions",
+  "checks": {
+   "scene_atoms": 2646,
+   "minor_atoms": 112,
+   "labels_in_frames": 665,
+   "component_scene_atoms": {
+    "major": 2504,
+    "minor": 2540
+   }
+  }
+ }
+}

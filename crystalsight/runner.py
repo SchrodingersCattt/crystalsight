@@ -55,10 +55,20 @@ def main() -> None:
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--run-id", default=None)
     ap.add_argument("--resume", action="store_true", help="skip (model,channel,task) already in records.jsonl")
+    ap.add_argument("--max-tokens", type=int, default=0, help="override max_output_tokens for every model (recorded in run_meta)")
+    ap.add_argument("--timeout", type=float, default=0, help="override per-request timeout_s for every model (recorded in run_meta)")
     args = ap.parse_args()
 
     tasks = load_tasks(Path(args.tasks), args.qtypes, args.limit, args.structures)
     models = load_models(args.models)
+    overrides = {}
+    for m in models:
+        if args.max_tokens and hasattr(m, "max_tokens"):
+            m.max_tokens = args.max_tokens
+            overrides.setdefault("max_tokens", args.max_tokens)
+        if args.timeout and hasattr(m, "timeout"):
+            m.timeout = args.timeout
+            overrides.setdefault("timeout_s", args.timeout)
     run_id = args.run_id or datetime.now().strftime("%Y%m%d-%H%M%S")
     out_dir = RUNS / run_id
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -81,12 +91,18 @@ def main() -> None:
     meta = {"run_id": run_id, "started_utc": datetime.now(timezone.utc).isoformat(), "models": [m.name for m in models],
             "channels": args.channels, "n_tasks": len(tasks), "n_jobs": len(jobs),
             "tasks_sha256": hashlib.sha256(Path(args.tasks).read_bytes()).hexdigest()}
+    if overrides:
+        meta["overrides"] = overrides
+        meta["notes"] = [f"Command-line override for every model in this run: {overrides} (models.toml values not used)."]
     meta_path = out_dir / "run_meta.json"
     if args.resume and meta_path.exists():  # multi-pass runs: keep the union of channels/models
         old = json.loads(meta_path.read_text(encoding="utf-8"))
         meta["channels"] = list(dict.fromkeys(old.get("channels", []) + meta["channels"]))
         meta["models"] = list(dict.fromkeys(old.get("models", []) + meta["models"]))
         meta["started_utc"] = old.get("started_utc", meta["started_utc"])
+        for k in ("overrides", "notes"):
+            if k in old and k not in meta:
+                meta[k] = old[k]
     (out_dir / "run_meta.json").write_text(json.dumps(meta, indent=1), encoding="utf-8")
     print(f"run {run_id}: {len(jobs)} jobs", flush=True)
     n_err = 0

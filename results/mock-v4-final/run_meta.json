@@ -1,0 +1,20 @@
+{
+ "run_id": "mock-v4-final",
+ "started_utc": "2026-10-22T15:26:55.854384+00:00",
+ "models": [
+  "mock-random",
+  "mock-oracle"
+ ],
+ "channels": [
+  "cif",
+  "cif_raw",
+  "image",
+  "tui",
+  "tools"
+ ],
+ "n_tasks": 20,
+ "n_jobs": 200,
+ "tasks_sha256": "7b44bc1b95efa95dbdacedcf01a1f282851ca4e5329ec9c4d38f65a9c4ada232",
+ "finished_utc": "2026-10-22T15:28:21.420787+00:00",
+ "n_errors": 0
+}

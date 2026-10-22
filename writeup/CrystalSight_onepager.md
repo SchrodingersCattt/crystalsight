@@ -1,22 +1,44 @@
 ---
-title: "CrystalSight: does the way a crystal structure is shown change what an LLM can judge about it?"
-author: "[Author placeholder] · Open Scientific Intelligence Hackathon 2026"
+title: "CrystalSight: language models read a crystal's text well, but not its 3D space"
+author: "Open Scientific Intelligence Hackathon 2026"
 ---
 
-**Motivation.** Before a crystal structure from a database is used for simulation or design, a crystallographer checks it: are hydrogens missing, is part of it disordered, what is the metal's coordination, is it usable as is? LLM agents are increasingly asked to do this, and they can be given the structure as CIF text, as rendered pictures, or as an interactive viewer. We do not know whether these representations are equivalent.
+::: headline
+**Key finding.** When a question about a crystal needs real 3D work (enumerating symmetry copies, following a hydrogen-bond network, counting neighbours), text-only reasoning collapses. From CIF text, two current models score 0.20–0.43, and from rendered images or an interactive ASCII 3D viewer 0.10–0.22 (random: 0.13). Give the same models small geometry tools and both reach about 0.75.
+:::
 
-**Research question.** For the same structure and the same question, how does an LLM's judgement depend on the representation (CIF text, static images, interactive terminal viewer), and how does it compare with trivial baselines and with tool access?
+**Question.** LLM agents are asked to check crystal structures, shown to them as CIF text, pictures, an interactive viewer or analysis tools. Does that choice decide what they can work out?
 
-**Benchmark design.** Five question families a crystallographer asks: **Q3** missing hydrogens (and on which elements), **Q4** disorder (components, alternative positions vs partial occupancy), **Q6** metal coordination number and geometry, **Q7** usability for simulation (issues: disorder / missing H / solvent), **Q8** pairwise comparison (A / B / both / neither). 247 questions over 67 structures from the Crystallography Open Database plus MolCrysKit examples. Ground truth is computed with **MolCrysKit** (molecule splitting, occupancies and disorder groups, hydrogen completion, bond records, continuous-shape-measure polyhedron fit) followed by documented rules (e.g. H counted missing if completion adds more than 5 % of the hydrogen atoms; CShM ≤ 3 for Q6; Q7 issues = disorder ∪ missing H ∪ solvent). Every gold answer carries its evidence. Channels: **cif** (CIF text with give-away disorder/occupancy annotations stripped), **cif_raw** (unstripped, leakage control), **image** (3 MatterVis renders), **tui** (an interactive MatterVis ASCII viewer, 8 actions: rotate, zoom, display level, labels). A **tools** channel (MolCrysKit analysis calls) is reported only as a reference upper bound. Field-level partial credit; **balanced** score = mean of problem and clean subsets per family, macro-averaged. Models: DeepSeek-v4-Flash (text only) and Gemini-2.5-Flash (vision), via an OpenAI-compatible gateway, temperature 0.
+**Two sets of spatial questions** (20 each, five families of four). The *easy set* (v3) needs one contact or one plane: a donor–acceptor symmetry relation, the H-bond motif, nearest neighbours, a ring's orientation, π-stacking. The *hard set* (v4) needs exact enumeration or graph search, with atoms named in a copy-aware form `SITE#k[i,j,k]` (symmetry operation k, lattice shift [i,j,k]). Its five families are:
 
-![Mean and macro balanced scores by model and channel, with trivial baselines; tools shown separately as a reference upper bound.](../figures/fig1_leaderboard.png)
+- **G1:** the acceptor copy nearest a given hydrogen;
+- **G2:** the number of H-bond steps from a molecule to its own lattice translate;
+- **G3:** the size of the smallest H-bond ring through a given bond, and how many molecules it spans;
+- **G4:** how many molecules lie within a radius;
+- **G5:** neighbour counts in the ordered major and minor replicas of a disordered structure.
 
-**Results.** CIF text is by far the strongest representation: DeepSeek 0.950 mean / 0.934 macro balanced, Gemini 0.823 / 0.849. Visual channels fall towards the baselines: Gemini image 0.669 / 0.612, DeepSeek TUI 0.767 / 0.658, Gemini TUI 0.481 / 0.571. A trivial "no problem / majority" answer scores **0.678 mean** (0.474 balanced) and random 0.435 / 0.336, so on the raw mean Gemini's image and TUI runs do *not* beat answering "everything is fine". Tools reach 0.968 / 0.963 (DeepSeek) and 0.958 / 0.955 (Gemini). Leakage control: unstripped CIFs change DeepSeek by −0.004 and Gemini by +0.039 mean (Q3 +0.17), so the stripping matters little for the main ranking.
+Structures come from the Crystallography Open Database and MolCrysKit examples, plus a few licensed CSD entries. The CSD entries are used locally under anonymous ids and are not redistributed.
 
-**Key findings.** (1) *Representation dominates model choice:* the same model differs by 0.24–0.28 macro-balanced points between CIF text and pictures/viewer. (2) *Visual channels fail asymmetrically:* on disorder, DeepSeek-TUI has sensitivity 0.25 / specificity 1.00 (it almost always says "ordered"), Gemini-TUI 0.94 / 0.27 (it flags almost everything); on the problem subset DeepSeek-TUI scores 0.334, below random (0.345). (3) *Coordination from pictures is unreliable:* image and TUI reach 0.64 on Q6 versus 0.91–1.00 from text, e.g. a 7-coordinate Fe (pentagonal bipyramid) is read as octahedral by every visual run while both text runs are correct. (4) *Imbalance hides failure:* because most structures are clean, plain accuracy rewards "no problem"; balanced scores and trivial baselines are needed to read such benchmarks.
+**Gold answers from geometry.** Gold answers are computed from symmetry-expanded coordinates. A hydrogen bond is D–H···A with D and A in {N, O}, H···A ≤ 2.5 Å and an angle of at least 120°. Every answer is recomputed with all cutoffs shifted by ±5 %, and questions whose answer changed were replaced. Partial credit per JSON field; a copy label earns credit for site, operation and shift separately.
 
-**Limitations.** Ground-truth thresholds are heuristic (H completion, alternative-position distance, CShM cut-off); tools reach only 0.87–0.89 on Q4, pointing at ambiguity in the disorder component/type rules. Classes are imbalanced (52 problem items of 201 in Q3/Q4/Q7) and Q6 has only 11 questions. 67 structures, 2 models, a single run each. COD only: the pipeline also runs on CSD entries locally, but those cannot be redistributed. Renders may not visually encode partial occupancy at all, which partly explains Q4 failures in the image channel.
+**Five channels, one at a time:**
 
-**Future work.** More structures and models with repeated runs and confidence intervals; occupancy-aware renders and TUI display modes; an opt-in local CSD task builder; expert review of the ambiguous gold labels; agent strategies that combine viewing with text or tool checks.
+- CIF text with publication metadata stripped;
+- unstripped CIF, as a leakage control;
+- three rendered images;
+- an interactive MatterVis ASCII 3D viewer (rotate, zoom, relabel, with an H-bond overlay, distance query and disorder-component switch);
+- **geometry tools**: MolCrysKit plus six small tools built for this benchmark (H-bond list, nearest atoms, H-bond path, H-bond ring, neighbour shell, disorder components). The tools return raw lists, which the model must still count and interpret.
 
-*Code, tasks, ground truth and figures are released with the repository; see README for reproduction.*
+The models are GPT-6-Luna and DeepSeek-v4.1-Flash (text only), at temperature 0 with up to 32k output tokens.
+
+![](../figures/v4_fig1_channels.png)
+
+![](../figures/v4_fig2_families.png){.side}
+**Results.** On the easy set, CIF text alone scores 0.70–0.82, and images and the viewer about 0.40. On the hard set, GPT-6-Luna's text scores fall to 0.37 (CIF) and 0.43 (unstripped CIF). DeepSeek returned no answer to 15 of 20 CIF questions: it reasoned until the 32k-token limit. Images (0.10) and the viewer (0.20–0.22) stay near chance. With geometry tools, both models reach 0.75–0.78 (strict 0.75).
+
+The heatmap shows where text survives. G1, a single nearest contact, is solved from text (0.85–1.00). Paths, rings and counts mostly are not, and disorder replicas defeat every channel, tools included (0.25–0.38).
+
+**Leak found and removed.** Many published CIFs include a precomputed hydrogen-bond table with symmetry codes. That table gives away G1 answers and the edges of the G2/G3 network, so for the hard set we remove it from both text channels. We also fixed a text-stripping bug that dropped the `loop_` keyword from CIF tables. GPT-6-Luna's text channels were re-run on the clean input (CIF 0.31 → 0.37, unstripped CIF 0.43 → 0.43). DeepSeek's CIF result and all easy-set text results still use the old input.
+
+**Limitations.** 20 questions per set, 2 models, one run each: one question moves a score by 0.05. The tools were written for these question types, so they show what the right tools make possible, not a general agent. An earlier 247-question set of structure checks (missing H, disorder, coordination) showed the same ordering: text above images and the viewer. Code, tasks, gold and scored results are in the repository.
+

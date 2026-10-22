@@ -1,0 +1,602 @@
+[
+ {
+  "model": "mock-oracle",
+  "channel": "cif",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "cif",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "cif",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "cif",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "cif",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "cif",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "cif_raw",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "cif_raw",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "cif_raw",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "cif_raw",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "cif_raw",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "cif_raw",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "image",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "image",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "image",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "image",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "image",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "image",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "tools",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "tools",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "tools",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "tools",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "tools",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "tools",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "tui",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "tui",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "tui",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "tui",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "tui",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-oracle",
+  "channel": "tui",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 1.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 1.0
+ },
+ {
+  "model": "mock-random",
+  "channel": "cif",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.19,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.05
+ },
+ {
+  "model": "mock-random",
+  "channel": "cif",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 0.325,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "mock-random",
+  "channel": "cif",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "mock-random",
+  "channel": "cif",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "mock-random",
+  "channel": "cif",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "mock-random",
+  "channel": "cif",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 0.375,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "mock-random",
+  "channel": "cif_raw",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.23,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.15
+ },
+ {
+  "model": "mock-random",
+  "channel": "cif_raw",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 0.15,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "mock-random",
+  "channel": "cif_raw",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "mock-random",
+  "channel": "cif_raw",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "mock-random",
+  "channel": "cif_raw",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "mock-random",
+  "channel": "cif_raw",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 0.5,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "mock-random",
+  "channel": "image",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.3,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.15
+ },
+ {
+  "model": "mock-random",
+  "channel": "image",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "mock-random",
+  "channel": "image",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "mock-random",
+  "channel": "image",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "mock-random",
+  "channel": "image",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 0.5,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.5
+ },
+ {
+  "model": "mock-random",
+  "channel": "image",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 0.5,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "mock-random",
+  "channel": "tools",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.23,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.15
+ },
+ {
+  "model": "mock-random",
+  "channel": "tools",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 0.15,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "mock-random",
+  "channel": "tools",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "mock-random",
+  "channel": "tools",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "mock-random",
+  "channel": "tools",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "mock-random",
+  "channel": "tools",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 0.5,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "mock-random",
+  "channel": "tui",
+  "qtype": "ALL",
+  "n": 20,
+  "accuracy": 0.205,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.15
+ },
+ {
+  "model": "mock-random",
+  "channel": "tui",
+  "qtype": "v3_F1_symrel",
+  "n": 4,
+  "accuracy": 0.4,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "mock-random",
+  "channel": "tui",
+  "qtype": "v3_F2_hbnet",
+  "n": 4,
+  "accuracy": 0.0,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ },
+ {
+  "model": "mock-random",
+  "channel": "tui",
+  "qtype": "v3_F3_neighbors",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "mock-random",
+  "channel": "tui",
+  "qtype": "v3_F4_orientation",
+  "n": 4,
+  "accuracy": 0.25,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.25
+ },
+ {
+  "model": "mock-random",
+  "channel": "tui",
+  "qtype": "v3_F5_stacking",
+  "n": 4,
+  "accuracy": 0.125,
+  "infra_errors": 0,
+  "unparseable": 0,
+  "strict_accuracy": 0.0
+ }
+]

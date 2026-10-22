@@ -1,0 +1,37 @@
+[camera az=0 el=90 roll=360 zoom=1.00] [display level=atom labels=auto bonds=True cell=True]
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           .HH N                                                                    
+                             |HHN                                                                   
+                             .\+\. O                                                                
+                     .-- .-- .-- |CCO.-- .-- .--.                                                   
+                     |           .\+\.N.        |                                                   
+                     .               HHN|       .                                                   
+                     |     //.       .+\\.      |     //.                                           
+                     . .\H\\HH           HH     . .\H\\HH                                           
+                     | #NNH|                    | #NNH|                                             
+                    -C+++#+                   |/C+++#+                                              
+                   |OOC#                      #OOC|                                                 
+                +H+/++/|                   +H#//+-                                                  
+               |NNH# |                    |NNH# |                                                   
+             |HH-+\. .     .HH          |HH-+\. .                                                   
+             .//     |      -\\N.       .//     |                                                   
+                     .       |HHN               .                                                   
+                     |        .-.\/O/           |                                                   
+                     .-- .-- .-- |CCO.-- .-- .--.                                                   
+                                    .\N\.                                                           
+                                     HHN|                                                           
+                                        .HH                                                         
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    

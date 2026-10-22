@@ -14,6 +14,7 @@ from ..mck_cli import run_mck, trim_molecules, trim_polyhedra, trim_summary
 from ..models import extract_json
 from ..paths import DATA, ROOT
 from .base import SYSTEM, Channel, answer_instructions, task_structures, unwrap
+from .geom_tools import GEOM_TOOLS, call_geom
 
 MAX_TOOL_CHARS = 12000
 TOOLS = {
@@ -33,6 +34,8 @@ def _gt(path: Path) -> dict:
 
 
 def call_tool(name: str, args: dict, path: Path) -> object:
+    if name.startswith("geom_"):  # ad hoc geometry tools (geom_tools.py), offered for v4 tasks only
+        return call_geom(name, args, path)
     if name == "mck_analyze_summary":
         r = run_mck("summary", path)
         return trim_summary(r["data"]) if r["ok"] else {"error": r.get("error")}
@@ -72,7 +75,12 @@ class ToolsChannel(Channel):
         rec = {"channel": self.name, "steps": 0, "tool_calls": []}
         structs = {st["label"]: ROOT / st["path"] for st in task_structures(task)}
         pair = len(structs) > 1
-        tools_txt = "\n".join(f"  {k}: {v}" for k, v in TOOLS.items())
+        offered = dict(TOOLS, **(GEOM_TOOLS if task.get("benchmark") == "v4" else {}))
+        tools_txt = "\n".join(f"  {k}: {v}" for k, v in offered.items())
+        if task.get("benchmark") == "v4":
+            tools_txt += ("\n  (geom_* = ad hoc geometry tools over the expanded crystal; atoms are named with copy-aware labels "
+                          "SITE#k[i,j,k] as defined in the question; they return raw contacts/neighbours/paths - choose the "
+                          "criteria the question uses and count/interpret the results yourself)")
         user = (f"Question: {task['question']}\n{answer_instructions(task)}\n\n"
                 "You cannot see the structure, but you may call MolCrysKit analysis tools on it. "
                 "Each turn reply with exactly one JSON object: either a tool call "
@@ -101,6 +109,8 @@ class ToolsChannel(Channel):
                 result = {"error": "add \"structure\": \"A\" or \"B\" to the arguments"}
             elif not name:
                 result = {"error": "no tool or answer"}
+            elif str(name) not in offered:
+                result = {"error": f"unknown tool {name}; available: {', '.join(offered)}"}
             else:
                 result = call_tool(str(name), args, structs[label])
             txt = json.dumps(result, ensure_ascii=False)
