@@ -15,11 +15,11 @@ crystal, with gold answers computed from geometry only (`crystalsight/gt_spatial
 - **v3 (easy, `tasks_v3/`):** F1 symmetry relation of an H-bond partner, F2 H-bond motif, F3 nearest neighbours,
   F4 ring orientation, F5 stacking. One contact or one plane is enough, and text models solve most of it.
 - **v4 (hard, `tasks_v4/`):**
-  - G1: copy-aware nearest partner `SITE#k[i,j,k]`;
-  - G2: H-bond hops from a molecule to its lattice translate;
-  - G3: smallest H-bond ring through a given H-bond (ring size and number of molecules);
-  - G4: count of molecules within a centroid or contact radius;
-  - G5: neighbour counts in the ordered major and minor disorder replicas.
+  - G1 nearest contact: the copy-aware label `SITE#k[i,j,k]` of the nearest acceptor;
+  - G2 H-bond steps: steps from a molecule to its lattice translate;
+  - G3 H-bond ring: smallest H-bond ring through a given H-bond (ring size and number of molecules);
+  - G4 shell count: count of molecules within a centroid or contact radius;
+  - G5 disorder replicas: neighbour counts in the ordered major and minor disorder replicas.
 
   These need exact enumeration or graph search.
 - **Robustness:** every gold answer is recomputed with all cutoffs shifted by ±5 %. Questions whose answer changes are
@@ -29,7 +29,7 @@ crystal, with gold answers computed from geometry only (`crystalsight/gt_spatial
   0.4 for the symmetry operation and 0.4 for the shift. Strict = every field exactly right.
 - **Text inputs:** see "Text-channel inputs" below (H-bond tables removed for v4; `strip_cif` fix).
 - **Results:** `analysis/results_v4.md` and `figures/v4_fig*.png`, from `results/real-v3` and `results/real-v4`.
-  Hard set: text 0.20–0.43, images and viewer 0.10–0.22, geometry tools 0.75–0.78.
+  Hard set: text 0.20–0.43, images and viewer 0.10–0.22, geometry tools 0.75–0.78 (models: GPT-6-Luna, DeepSeek-v4.1-Flash; scores rounded half up).
 
 ## Question families: what a crystallographer asks when judging a CIF
 The v1 set (molecule counts, moiety formulas, contact types) was dropped because it mirrored

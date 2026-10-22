@@ -2,7 +2,7 @@
 html { font-family: Arial, Helvetica, sans-serif; font-size: 8.1pt; line-height: 1.26; color: #1F2328; background: #fff; }
 body { margin: 0; max-width: none; padding: 0; }
 header#title-block-header { margin: 0 0 4pt 0; padding-bottom: 4pt; border-bottom: 1px solid #D0D7DE; }
-h1.title { font-size: 14pt; margin: 0 0 2pt 0; line-height: 1.15; font-weight: 700; }
+h1.title { font-size: 13pt; margin: 0 0 2pt 0; line-height: 1.15; font-weight: 700; }
 p.author { margin: 0; color: #6E7781; font-size: 8pt; }
 p { margin: 0 0 4pt 0; }
 ul { margin: 0 0 4pt 0; padding-left: 14pt; }
@@ -14,4 +14,4 @@ figure img { width: 100%; }
 figcaption { display: none; }
 strong { color: #1F2328; }
 code { font-family: Consolas, "Courier New", monospace; font-size: 8pt; background: #F6F8FA; border: 1px solid #EAEEF2; border-radius: 3px; padding: 0 2px; }img { max-width: 100%; height: auto; display: block; margin: 2pt auto 3pt auto; }
-img.side { float: right; width: 50%; max-width: 50%; margin: 0 0 3pt 8pt; }
+img.side { float: right; width: 52%; max-width: 52%; margin: 0 0 3pt 8pt; }

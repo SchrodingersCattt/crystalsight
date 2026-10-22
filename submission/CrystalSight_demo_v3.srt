@@ -1,223 +1,211 @@
 1
+00:00:00,000 --> 00:00:25,700
+{\an8}Opening example from the earlier structure-check set (Gemini-2.5-Flash, DeepSeek-v4-Flash).
+The spatial results later in this video use GPT-6-Luna and DeepSeek-v4.1-Flash.
+
+2
 00:00:00,500 --> 00:00:04,024
 This iron centre has seven neighbours: it is a pentagonal bipyramid.
 
-2
+3
 00:00:04,244 --> 00:00:05,851
 Here we replay our recorded run.
 
-3
+4
 00:00:06,071 --> 00:00:10,285
 Gemini answers the same question from CIF text, from three rendered images,
 
-4
+5
 00:00:10,285 --> 00:00:13,487
 through an interactive viewer, and with MolCrysKit tools.
 
-5
+6
 00:00:13,707 --> 00:00:17,409
 From the text and the tools it gets seven, pentagonal bipyramid.
 
-6
+7
 00:00:17,629 --> 00:00:23,332
 From the images and the viewer it says six, octahedral, and so does DeepSeek in the viewer.
 
-7
+8
 00:00:23,552 --> 00:00:25,729
 That gap is the question behind CrystalSight.
 
-8
+9
 00:00:26,379 --> 00:00:29,743
 Before a database structure is used for simulation, someone checks it.
 
-9
+10
 00:00:29,963 --> 00:00:34,305
 Are hydrogens missing? Is it disordered? What is the metal's coordination?
 
-10
+11
 00:00:34,305 --> 00:00:36,300
 Can it go straight into DFT or MD?
 
-11
+12
 00:00:36,520 --> 00:00:41,792
 LLM agents are increasingly asked to do this
 check, and we can give them the structure as text,
 
-12
+13
 00:00:41,792 --> 00:00:45,954
 as images rendered with MatterVis, like these, or as an interactive viewer.
 
-13
+14
 00:00:46,174 --> 00:00:47,585
 We don't know whether those are equivalent.
 
-14
+15
 00:00:48,235 --> 00:00:52,208
 CrystalSight asks the same questions about the same structures:
 
-15
-00:00:52,208 --> 00:00:58,263
-67 molecular crystals from the Crystallography
-Open Database and 247 questions in five families:
-
 16
+00:00:52,208 --> 00:00:58,263
+67 molecular crystals from the Crystallography Open
+Database and MolCrysKit examples, and 247 questions in five families:
+
+17
 00:00:58,263 --> 00:01:04,003
 hydrogens, disorder, metal coordination, usability for simulation, and pairwise comparison.
 
-17
+18
 00:01:04,223 --> 00:01:05,688
 Each task has a question,
 
-18
+19
 00:01:05,688 --> 00:01:10,728
 a JSON answer schema and a gold answer
 computed with MolCrysKit plus documented rules.
 
-19
-00:01:11,378 --> 00:01:15,424
-Scoring is automatic, with partial credit: flag the problem correctly,
-
 20
-00:01:15,424 --> 00:01:20,221
-then name what is affected; coordination splits credit between number and geometry.
-
-21
-00:01:20,441 --> 00:01:23,049
-The no-problem baseline always answers "clean",
-
-22
-00:01:23,049 --> 00:01:26,545
-or the most common gold answer for coordination and comparison.
-
-23
-00:01:26,765 --> 00:01:29,141
-The random baseline guesses with the right answer type.
-
-24
-00:01:29,361 --> 00:01:33,522
-The balanced score averages problem and clean structures within each family,
-
-25
-00:01:33,522 --> 00:01:35,165
-then across the five families.
-
-26
-00:01:35,815 --> 00:01:41,256
+00:01:11,375 --> 00:01:16,816
 The model sees one channel at a time: CIF text
 with give-away disorder annotations stripped;
 
-27
-00:01:41,256 --> 00:01:45,100
+21
+00:01:16,816 --> 00:01:20,660
 the unstripped CIF as a leakage control; three MatterVis renders;
 
-28
-00:01:45,100 --> 00:01:50,186
+22
+00:01:20,660 --> 00:01:25,746
 or the interactive MatterVis viewer shown here, which it can rotate, zoom and relabel.
 
-29
-00:01:50,406 --> 00:01:54,630
+23
+00:01:25,966 --> 00:01:30,190
 Tool access to MolCrysKit is reported separately as a reference upper bound,
 
-30
-00:01:54,630 --> 00:01:57,131
+24
+00:01:30,190 --> 00:01:32,691
 because those tools compute the gold answers.
 
+25
+00:01:33,110 --> 00:01:36,666
+These structure checks put
+text ahead of pictures, but
+
+26
+00:01:36,666 --> 00:01:39,893
+most could be answered
+from one line of the file.
+
+27
+00:01:39,893 --> 00:01:43,449
+So we added two spatial sets
+of twenty questions each.
+
+28
+00:01:43,449 --> 00:01:46,873
+Gold answers are computed
+from geometry and stay the
+
+29
+00:01:46,873 --> 00:01:49,836
+same when every cutoff
+moves by five percent.
+
+30
+00:01:50,436 --> 00:01:55,888
+On the easy set, CIF text
+alone scores 0.70 to 0.82.
+
 31
-00:01:57,550 --> 00:02:03,169
-These structure checks put text ahead of pictures, but most could be answered from one
+00:01:55,888 --> 00:02:02,387
+On the hard set, which asks for
+symmetry copies, hydrogen-bond
 
 32
-00:02:03,169 --> 00:02:08,984
-line of the file. So we added two spatial sets of twenty questions each. Gold answers are
+00:02:02,387 --> 00:02:08,468
+paths, rings and shell counts,
+text drops to 0.20 to 0.43.
 
 33
-00:02:08,984 --> 00:02:14,276
-computed from geometry and stay the same when every cutoff moves by five percent.
+00:02:09,068 --> 00:02:14,528
+Rendered images and the ASCII viewer
+stay near chance, at 0.10 to 0.22,
 
 34
-00:02:14,876 --> 00:02:23,631
-On the easy set, CIF text alone scores 0.70 to 0.82. On the hard set, which asks for
+00:02:14,528 --> 00:02:19,835
+even with a hydrogen-bond overlay
+and a distance query in the viewer.
 
 35
-00:02:23,631 --> 00:02:32,908
-symmetry copies, hydrogen-bond paths, rings and shell counts, text drops to 0.20 to 0.43.
+00:02:20,435 --> 00:02:24,090
+Give the same models six
+small geometry tools that
 
 36
-00:02:33,508 --> 00:02:39,891
-Rendered images and the ASCII viewer stay near chance, at 0.10 to 0.22, even with a
+00:02:24,090 --> 00:02:27,306
+return raw lists, and
+both reach about 0.75.
 
 37
-00:02:39,891 --> 00:02:44,275
-hydrogen-bond overlay and a distance query in the viewer.
+00:02:27,306 --> 00:02:31,838
+Here one call to the ring tool
+is enough for the right answer.
 
 38
-00:02:44,875 --> 00:02:51,339
-Give the same models six small geometry tools that return raw lists, and both reach about
+00:02:32,438 --> 00:02:37,382
+Per family, only the nearest-partner
+question is solved without tools.
 
 39
-00:02:51,339 --> 00:02:56,278
-0.75. Here one call to the ring tool is enough for the right answer.
+00:02:37,382 --> 00:02:40,630
+Disorder replicas stay
+hard for every channel.
 
 40
-00:02:56,878 --> 00:03:03,093
-Per family, only the nearest-partner question is solved without tools. Disorder replicas
+00:02:41,230 --> 00:02:45,715
+We found that published hydrogen-bond
+tables leaked answers, removed
 
 41
-00:03:03,093 --> 00:03:05,070
-stay hard for every channel.
+00:02:45,715 --> 00:02:50,068
+them, fixed a stripping bug and
+re-ran the affected text channels.
 
 42
-00:03:05,670 --> 00:03:11,054
-We found that published hydrogen-bond tables leaked answers, removed them, fixed a
+00:02:50,068 --> 00:02:52,970
+The sets are small,
+with two models, and the
 
 43
-00:03:11,054 --> 00:03:16,898
-stripping bug and re-ran the affected text channels. The sets are small, with two models,
+00:02:52,970 --> 00:02:55,872
+tools were written for
+these question types.
 
 44
-00:03:16,898 --> 00:03:20,312
-and the tools were written for these question types.
-
-45
-00:03:21,135 --> 00:03:21,739
-There are limits.
-
-46
-00:03:21,959 --> 00:03:24,932
-Gold labels depend on heuristic thresholds,
-
-47
-00:03:24,932 --> 00:03:30,809
-and even with tools disorder reaches only 0.87 to 0.89, so some labels are ambiguous.
-
-48
-00:03:31,029 --> 00:03:34,586
-We cover 67 structures and two models with one run each,
-
-49
-00:03:34,586 --> 00:03:37,762
-and the coordination family has only 11 questions.
-
-50
-00:03:37,982 --> 00:03:42,508
-Next: more structures, models and repeated runs, occupancy-aware renders,
-
-51
-00:03:42,508 --> 00:03:46,042
-and agents that combine viewing with text or tool checks.
-
-52
-00:03:46,692 --> 00:03:49,902
+00:02:56,697 --> 00:02:59,907
 The code, tasks, ground truth and figures are open,
 
-53
-00:03:49,902 --> 00:03:52,798
+45
+00:02:59,907 --> 00:03:02,803
 and a mock run like this one needs no API key.
 
-54
-00:03:53,018 --> 00:03:54,826
+46
+00:03:03,023 --> 00:03:04,831
 Try your own model, or add a channel.
 
-55
-00:03:55,046 --> 00:03:55,887
+47
+00:03:05,051 --> 00:03:05,892
 The link is below.
