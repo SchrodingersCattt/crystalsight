@@ -46,7 +46,7 @@ python -m crystalsight run --models gpt-6-luna deepseek-v4.1-flash --channels ci
 python -m crystalsight score real-v4 --tasks tasks_v4/tasks_v4.jsonl
 ```
 
-On Windows, `scripts/real_v4.ps1` does the same; the overrides are recorded in `run_meta.json`. Three v4 tasks and nine v3 tasks use licensed CSD-derived structures. These are kept locally under anonymous ids in the gitignored `data/structures/ccdc_local/` and are not distributed, so those tasks need your own CSD licence to rerun. All other tasks use public COD and MolCrysKit structures.
+On Windows, `scripts/real_v4.ps1` does the same; the overrides are recorded in `run_meta.json`. Three v4 tasks and nine v3 tasks use licensed CSD-derived structures. These are kept locally under anonymous ids in the gitignored `data/structures/ccdc_local/` and are not distributed, so those tasks need your own CSD licence to rerun. All other tasks use public COD structures and the non-CSD MolCrysKit examples shipped under `data/structures/mck/` (see `data/structures/README.md`). CSD-derived MolCrysKit example CIFs are not redistributed.
 
 ## Structure-check set (v1, 247 questions)
 
@@ -66,7 +66,7 @@ The original set below asks structure-check questions and was run with two diffe
 | Q7 | Is the structure usable for simulation as is? Which issues? | `{usable, issues}` |
 | Q8 | Which of two structures has property X (A / B / both / neither)? | choice |
 
-Scoring gives partial credit per field (see `crystalsight/score.py`). The released task set has 247 questions over 67 structures from the Crystallography Open Database (COD) and MolCrysKit's examples.
+Scoring gives partial credit per field (see `crystalsight/score.py`). The released task set has 247 questions over structures from the Crystallography Open Database (COD) and redistributable (non-CSD) MolCrysKit examples. Some task IDs still name CSD-derived structures that are not shipped; those need a local CSD licence (see `data/structures/README.md`).
 
 ## Channels
 
@@ -146,7 +146,7 @@ python scripts/make_figures.py --run real-full                    # -> figures/f
 
 ## Data and licensing
 
-The v1 task set uses COD structures (public domain / CC0) and MolCrysKit's MIT-licensed examples only; three v4 tasks and nine v3 tasks use licensed CSD-derived structures, which are not distributed (see above). `scripts/fetch_data.py` re-downloads the COD files from their IDs.
+The v1 task set uses COD structures (public domain / CC0) and redistributable non-CSD MolCrysKit examples only. Several MolCrysKit example CIFs are CSD/CCDC downloads and were removed from this repository (copyright); see `data/structures/README.md`. Three v4 tasks and nine v3 tasks additionally use licensed CSD-derived structures kept only under gitignored `data/structures/ccdc_local/`. `scripts/fetch_data.py` re-downloads COD files and the safe MolCrysKit subset.
 
 ## Repository layout
 

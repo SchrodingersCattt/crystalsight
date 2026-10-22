@@ -68,9 +68,11 @@ not absolute truth; the write-up must say so.
 and a CShM shell report; pairs pass `"structure": "A"|"B"`).
 
 ## Data and CCDC note
-The pipeline works on any CIF. The public task set uses **COD only** (plus MolCrysKit's MIT-licensed
-examples) because CSD/CCDC entries cannot be redistributed. An optional local script that builds the
-same tasks from CSD refcodes for licensed users is future work.
+The pipeline works on any CIF. The public tree ships **COD** plus **non-CSD MolCrysKit examples**
+only. Many MolCrysKit `examples/` CIFs are CSD/CCDC downloads and are **not** redistributed here
+(see `data/structures/README.md`). Licensed-local CSD files belong under gitignored
+`data/structures/ccdc_local/`. An optional local script that builds the same tasks from CSD
+refcodes for licensed users is future work.
 
 ## Code provenance
 The runner, channels, scorer, report and task generator are written from scratch in this repository.

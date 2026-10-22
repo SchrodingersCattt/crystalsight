@@ -1,5 +1,0 @@
-{
- "error": "ne 1585, in read_cif_symmetry\n    return _crystal_symmetry_from_data_block(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \".venv\\Lib\\site-packages\\molcrys_kit\\io\\cif.py\", line 1502, in _crystal_symmetry_from_data_block\n    raise ValueError(\nValueError: incomplete non-P1 symmetry operation loop: CIF declares space group #4 (P12_11) with 2 operations but provides only 1\n",
- "structure_id": "mck_DACMOR01",
- "path": "data/structures/mck/mck_DACMOR01.cif"
-}

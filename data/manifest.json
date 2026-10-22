@@ -1,760 +1,641 @@
 {
- "structures": {
-  "mck_Acetaminophen_HXACAN": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/Acetaminophen_HXACAN.cif",
-   "path": "data/structures/mck/mck_Acetaminophen_HXACAN.cif",
-   "sha256": "37df391e434c51dc122f72fa6e0a43769b882e320a8bfc8e8375efb938028a51",
-   "bytes": 3077
-  },
-  "mck_anhydrousCaffeine2_CGD_2007_7_1406": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/anhydrousCaffeine2_CGD_2007_7_1406.cif",
-   "path": "data/structures/mck/mck_anhydrousCaffeine2_CGD_2007_7_1406.cif",
-   "sha256": "96c6588d116956318c5d79347d2fd070b9e53ac03013f17564d6f476de3b5b79",
-   "bytes": 12610
-  },
-  "mck_anhydrousCaffeine_CGD_2007_7_1406": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/anhydrousCaffeine_CGD_2007_7_1406.cif",
-   "path": "data/structures/mck/mck_anhydrousCaffeine_CGD_2007_7_1406.cif",
-   "sha256": "96bf8c6ad8385f25299f733a5c2a93301eae502433215c32e8bbe3e46ab70bc4",
-   "bytes": 21987
-  },
-  "mck_BRCRIM10": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/BRCRIM10.cif",
-   "path": "data/structures/mck/mck_BRCRIM10.cif",
-   "sha256": "2c55667ca83da1f08ab56f5b6bac22727ca495b08cd25eec4b55c796d6f96328",
-   "bytes": 3685
-  },
-  "mck_DACMOR": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/DACMOR.cif",
-   "path": "data/structures/mck/mck_DACMOR.cif",
-   "sha256": "6c0a4af3566397cf3155ed09d96d201c030fdf943d80aff18461371bc58c3656",
-   "bytes": 3248
-  },
-  "mck_DACMOR01": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/DACMOR01.cif",
-   "path": "data/structures/mck/mck_DACMOR01.cif",
-   "sha256": "238156f066829e95dbad7a03063bae76bacbe1b36731662f38c1f849e2eb28bd",
-   "bytes": 21272
-  },
-  "mck_ISATIN": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/ISATIN.cif",
-   "path": "data/structures/mck/mck_ISATIN.cif",
-   "sha256": "319b33681643411aa791233b79653b309c5efe7005697bc43430c2f40265665b",
-   "bytes": 2544
-  },
-  "mck_MAF-4-no-water": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/MAF-4-no-water.cif",
-   "path": "data/structures/mck/mck_MAF-4-no-water.cif",
-   "sha256": "02b996f0ba441b640371c88ebadf6de9b5055e41a9b2f67a84d30d937d2b91eb",
-   "bytes": 9966
-  },
-  "mck_MAF-4": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/MAF-4.cif",
-   "path": "data/structures/mck/mck_MAF-4.cif",
-   "sha256": "88ece48b2903acf3f578dfe4316b415d13825c006a95f39af390e3aed5fffecb",
-   "bytes": 11226
-  },
-  "mck_MAP": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/MAP.cif",
-   "path": "data/structures/mck/mck_MAP.cif",
-   "sha256": "a9ba3b88a0b2d8c9105cca7661ea38dd93042db3e62ab97fd560bf9f724dfc2b",
-   "bytes": 2454
-  },
-  "mck_MAP_H": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/MAP_H.cif",
-   "path": "data/structures/mck/mck_MAP_H.cif",
-   "sha256": "d6bb122cfda1087aefff4c8a5d5f661f835a4f4d6d8ce39f7fc01136fe3fd93a",
-   "bytes": 10814
-  },
-  "mck_OCHTET12": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/OCHTET12.cif",
-   "path": "data/structures/mck/mck_OCHTET12.cif",
-   "sha256": "c19ba88154ced6563f88e001386161574542901437162f549b33222e7305a442",
-   "bytes": 2899
-  },
-  "mck_PETN_PERYTN10": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/PETN_PERYTN10.cif",
-   "path": "data/structures/mck/mck_PETN_PERYTN10.cif",
-   "sha256": "a8438bf5c482f7c3c803b9ba8706c34765987b2aa46a61bffd47ec06693a032c",
-   "bytes": 3047
-  },
-  "mck_PUBMUU03": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/PUBMUU03.cif",
-   "path": "data/structures/mck/mck_PUBMUU03.cif",
-   "sha256": "f696a800a58a5f2d5432bf8ee91d85d528ef3406f7f242c4d93a133cc9aed491",
-   "bytes": 14149
-  },
-  "mck_SUXRUA": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/SUXRUA.cif",
-   "path": "data/structures/mck/mck_SUXRUA.cif",
-   "sha256": "09b764224fab79c2fb56ef3ab2af3f1160f548733456a57e9e234685c18fbd39",
-   "bytes": 8707
-  },
-  "mck_ZIF-4": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/ZIF-4.cif",
-   "path": "data/structures/mck/mck_ZIF-4.cif",
-   "sha256": "0ee4c6fd306923fcf5d449df8d7612f22bcaedffd92f0c175e9c2c693f273a6c",
-   "bytes": 20009
-  },
-  "mck_ZIF-8": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/ZIF-8.cif",
-   "path": "data/structures/mck/mck_ZIF-8.cif",
-   "sha256": "e63679a5f17d53664060cb86b0e46d81e78adbc5608451930eccc430f397a28f",
-   "bytes": 11958
-  },
-  "mck_NaCl": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/NaCl.cif",
-   "path": "data/structures/mck/mck_NaCl.cif",
-   "sha256": "4204922e5ef5fa5e3b2ae691c1372642de6e8d8ccec2b4f658ac5f367389cc6a",
-   "bytes": 1069
-  },
-  "mck_Diamond": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/Diamond.cif",
-   "path": "data/structures/mck/mck_Diamond.cif",
-   "sha256": "2733466a2deb473aeb0755bb2880ce61ef6691f0c67675a7a091c2f139b826a5",
-   "bytes": 1039
-  },
-  "mck_DAP-4_order": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/DAP-4_order.cif",
-   "path": "data/structures/mck/mck_DAP-4_order.cif",
-   "sha256": "b126b65d267ae4a6930e203c2124af09c137d466d27613792f83cf519bbc454b",
-   "bytes": 46099
-  },
-  "mck_DAN-2": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/DAN-2.cif",
-   "path": "data/structures/mck/mck_DAN-2.cif",
-   "sha256": "7fd57f15b5f8e8da3449bf992bef2dab78a9bff190beb38572d5470c2592bafd",
-   "bytes": 80339
-  },
-  "mck_DAC-4": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/DAC-4.cif",
-   "path": "data/structures/mck/mck_DAC-4.cif",
-   "sha256": "2199afae560abf739889fbee2b61d226656407ba3433290a766118e9d9fb10ff",
-   "bytes": 88050
-  },
-  "mck_PAP-M5": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/PAP-M5.cif",
-   "path": "data/structures/mck/mck_PAP-M5.cif",
-   "sha256": "84e80969bc7f5654f9aeb469581c5776c779dc646390739aac4184024f7828a5",
-   "bytes": 90743
-  },
-  "mck_368K": {
-   "source": "MolCrysKit examples (MIT)",
-   "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/368K.cif",
-   "path": "data/structures/mck/mck_368K.cif",
-   "sha256": "c78ac5041073ca276a259f75132ce9f05e8ef4a65d4ed604d255cc247f24504b",
-   "bytes": 100635
-  },
-  "cod_1000043": {
-   "source": "COD seed (MatterVis cod_test list)",
-   "url": "https://www.crystallography.net/cod/1000043.cif",
-   "path": "data/structures/cod/cod_1000043.cif",
-   "sha256": "ed4fc6d25246923cf64ea4346cefd9f57073d05f00feba581fc5b378666e89a1",
-   "bytes": 4783
-  },
-  "cod_1011185": {
-   "source": "COD seed (MatterVis cod_test list)",
-   "url": "https://www.crystallography.net/cod/1011185.cif",
-   "path": "data/structures/cod/cod_1011185.cif",
-   "sha256": "8ca845888f0cbf356844468ff278f1b55dc5c613af4d72f4193e37c89582d3d9",
-   "bytes": 2672
-  },
-  "cod_1501794": {
-   "source": "COD seed (MatterVis cod_test list)",
-   "url": "https://www.crystallography.net/cod/1501794.cif",
-   "path": "data/structures/cod/cod_1501794.cif",
-   "sha256": "76fef5942463d21001c5f2875f7ecae308ff002556c769abeabb325023145521",
-   "bytes": 18116
-  },
-  "cod_2013196": {
-   "source": "COD seed (MatterVis cod_test list)",
-   "url": "https://www.crystallography.net/cod/2013196.cif",
-   "path": "data/structures/cod/cod_2013196.cif",
-   "sha256": "845ba235d725a57cfd323009551957977977a227a22338277f2bf8820e1d51eb",
-   "bytes": 17586
-  },
-  "cod_2013465": {
-   "source": "COD seed (MatterVis cod_test list)",
-   "url": "https://www.crystallography.net/cod/2013465.cif",
-   "path": "data/structures/cod/cod_2013465.cif",
-   "sha256": "6160923566994cf87d6b7ea3528d3cccf1d2b3e0313d5f285ef670e13ac1d7a6",
-   "bytes": 19851
-  },
-  "cod_4002052": {
-   "source": "COD seed (MatterVis cod_test list)",
-   "url": "https://www.crystallography.net/cod/4002052.cif",
-   "path": "data/structures/cod/cod_4002052.cif",
-   "sha256": "112862d5ba30eabe7d00c16919d4864efaeefb3ee8dd87bd84d178760d4a9b5a",
-   "bytes": 11673
-  },
-  "cod_9000629": {
-   "source": "COD seed (MatterVis cod_test list)",
-   "url": "https://www.crystallography.net/cod/9000629.cif",
-   "path": "data/structures/cod/cod_9000629.cif",
-   "sha256": "13e13dd4ffecc864efe30f4d0e3b008e670c697053bc56a4c9e50bca1bd95d61",
-   "bytes": 4632
-  },
-  "cod_9001364": {
-   "source": "COD seed (MatterVis cod_test list)",
-   "url": "https://www.crystallography.net/cod/9001364.cif",
-   "path": "data/structures/cod/cod_9001364.cif",
-   "sha256": "82fa52c62dd404e322d0b9cc840e25e45965669d57c057ca5f06b448ab549ae9",
-   "bytes": 5910
-  },
-  "cod_2223290": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2223290.cif",
-   "path": "data/structures/cod/cod_2223290.cif",
-   "sha256": "7499d5207825183c8e9168cd27870e819fb02decc087b6fe4b55dd55a7c4730e",
-   "bytes": 17762
-  },
-  "cod_1530150": {
-   "source": "COD seed (MatterVis cod_test list)",
-   "url": "https://www.crystallography.net/cod/1530150.cif",
-   "path": "data/structures/cod/cod_1530150.cif",
-   "sha256": "fac50c55bd4300c87d5751ce89ca6267ccaf5be18709c7a843b8a3cbf0da46e1",
-   "bytes": 2128
-  },
-  "cod_9002348": {
-   "source": "COD seed (MatterVis cod_test list)",
-   "url": "https://www.crystallography.net/cod/9002348.cif",
-   "path": "data/structures/cod/cod_9002348.cif",
-   "sha256": "01ea718c0d268921f776c8153d6ac8f204747a098b8aca6b861c2d76d91f82db",
-   "bytes": 2305
-  },
-  "cod_1000022": {
-   "source": "COD seed (local copy of MatterVis cod_test; COD timed out)",
-   "url": "https://www.crystallography.net/cod/1000022.cif",
-   "path": "data/structures/cod/cod_1000022.cif",
-   "sha256": "b1ee97152eb789f98594bbab9d68c3faf520c5d2fc2f04d17cefa80bd16ddde9",
-   "bytes": 3120
-  },
-  "cod_1008775": {
-   "source": "COD seed (local copy of MatterVis cod_test; COD timed out)",
-   "url": "https://www.crystallography.net/cod/1008775.cif",
-   "path": "data/structures/cod/cod_1008775.cif",
-   "sha256": "a4ded98bdcb9d64e31003b5d74b97b3dae1e59165e7cf26cdd0be37629be91c0",
-   "bytes": 3091
-  },
-  "cod_4501702": {
-   "source": "COD seed (local copy of MatterVis cod_test; COD timed out)",
-   "url": "https://www.crystallography.net/cod/4501702.cif",
-   "path": "data/structures/cod/cod_4501702.cif",
-   "sha256": "fb2123a37016faf08cff05b4d437c52c367b18ab512792f80dbb924f2b668999",
-   "bytes": 13935
-  },
-  "cod_9008789": {
-   "source": "COD seed (local copy of MatterVis cod_test; COD timed out)",
-   "url": "https://www.crystallography.net/cod/9008789.cif",
-   "path": "data/structures/cod/cod_9008789.cif",
-   "sha256": "776b7702628ce1963c06d88fb7ed0fcd19d48a56654507f28f115e16ec5b20d3",
-   "bytes": 2529
-  },
-  "cod_2106345": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2106345.cif",
-   "path": "data/structures/cod/cod_2106345.cif",
-   "sha256": "b5c4fec30794938955a7e00d19a9629e0ed1ba924076df1332921ba00edf07a0",
-   "bytes": 2781
-  },
-  "cod_2238135": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2238135.cif",
-   "path": "data/structures/cod/cod_2238135.cif",
-   "sha256": "edb96344d7f68e83526a03e0639c7c2199cadd6085718e4e08531edac9316c85",
-   "bytes": 12822
-  },
-  "cod_2104603": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2104603.cif",
-   "path": "data/structures/cod/cod_2104603.cif",
-   "sha256": "e59e5596be9aa927c86dc32eaa928ef270eef87a178727f04dd10611e7ae80f4",
-   "bytes": 9319
-  },
-  "cod_2004754": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2004754.cif",
-   "path": "data/structures/cod/cod_2004754.cif",
-   "sha256": "0a730b1df3c4dbc6a9f2a7a3c7d272fcaec43574b2b41b95cb0a09fb39e6aa51",
-   "bytes": 12734
-  },
-  "cod_2014128": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2014128.cif",
-   "path": "data/structures/cod/cod_2014128.cif",
-   "sha256": "317ffa7a25dcad695a37bd0c26f5915561e496d26a481bda3f6cc3b352b23e85",
-   "bytes": 18918
-  },
-  "cod_2016228": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2016228.cif",
-   "path": "data/structures/cod/cod_2016228.cif",
-   "sha256": "c74c23590d816259e9380ec1ca87b42a8ca28a0cefcd9b1fd1ee8959dcefbe5b",
-   "bytes": 20549
-  },
-  "cod_2208931": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2208931.cif",
-   "path": "data/structures/cod/cod_2208931.cif",
-   "sha256": "13fe90b67d9fc355116b12cb252513c90ee8eccf5141077b4f2a6630195f37cd",
-   "bytes": 12817
-  },
-  "cod_2014451": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2014451.cif",
-   "path": "data/structures/cod/cod_2014451.cif",
-   "sha256": "fd7a4aa76388b17a78a081fae125e95af60977216716c85781a0c65507996c86",
-   "bytes": 12105
-  },
-  "cod_2013129": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2013129.cif",
-   "path": "data/structures/cod/cod_2013129.cif",
-   "sha256": "c8c0d5bbd159fe0772dc7be90fcdaacc1af65f7c92c7090446d7e5777128edcf",
-   "bytes": 11854
-  },
-  "cod_2237963": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2237963.cif",
-   "path": "data/structures/cod/cod_2237963.cif",
-   "sha256": "f2a6083c5d4d158e1cfe1c73965b6a08fc9adcae3bc266c7d4f9cdeab9b64ae9",
-   "bytes": 13716
-  },
-  "cod_2003349": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2003349.cif",
-   "path": "data/structures/cod/cod_2003349.cif",
-   "sha256": "ad1d08cae82257b6931a2f3db1e2f07ae7db762558c6400b1fdc73866a32b078",
-   "bytes": 8483
-  },
-  "cod_2211248": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2211248.cif",
-   "path": "data/structures/cod/cod_2211248.cif",
-   "sha256": "3203f7a614dc645cafbd0f04964947b1f6da367f139f6a5e99102f1eddb76aeb",
-   "bytes": 13004
-  },
-  "cod_2224411": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2224411.cif",
-   "path": "data/structures/cod/cod_2224411.cif",
-   "sha256": "f9dc4a95b1220b7363d45e22db48d817ccee1cfafbfd76667323a21945cbb96d",
-   "bytes": 11925
-  },
-  "cod_2022524": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2022524.cif",
-   "path": "data/structures/cod/cod_2022524.cif",
-   "sha256": "2156ee369442190848d655558210f6ec49f68b5f73f1acb2bcf79fb6722ccf62",
-   "bytes": 297185
-  },
-  "cod_2211700": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2211700.cif",
-   "path": "data/structures/cod/cod_2211700.cif",
-   "sha256": "9b398cd2fe7f62a491939d71472b9e4dbedea4439420b11317a6f8a7c262deb2",
-   "bytes": 12962
-  },
-  "cod_2100352": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2100352.cif",
-   "path": "data/structures/cod/cod_2100352.cif",
-   "sha256": "878d490863c15f2ad626106890c0fe7082df4bd7d12729c7df45927432eb7540",
-   "bytes": 21221
-  },
-  "cod_2212532": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2212532.cif",
-   "path": "data/structures/cod/cod_2212532.cif",
-   "sha256": "bb2c01e2542e382d0f1c5eaf951aa81376fd1bd145ae99469bfedd0734b971c0",
-   "bytes": 17586
-  },
-  "cod_2003967": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2003967.cif",
-   "path": "data/structures/cod/cod_2003967.cif",
-   "sha256": "97ad85285d87b1ca755c9188ef32791cda1cb541fd41738f40f849e475a86068",
-   "bytes": 11398
-  },
-  "cod_2202969": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2202969.cif",
-   "path": "data/structures/cod/cod_2202969.cif",
-   "sha256": "9dde5a4b603dbf93b43112de549fe72900325686151ea377f53bf2c2db1919c0",
-   "bytes": 16543
-  },
-  "cod_2019279": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2019279.cif",
-   "path": "data/structures/cod/cod_2019279.cif",
-   "sha256": "f38b2dde8a5ce2b3f9a014941d821c8bbda190f13a3f01455381fb1a211bf682",
-   "bytes": 14846
-  },
-  "cod_2012216": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2012216.cif",
-   "path": "data/structures/cod/cod_2012216.cif",
-   "sha256": "d0dd4ffce46a52877740e01f3609e74ef29c2c2e96b06a513f46093d35d5077f",
-   "bytes": 23901
-  },
-  "cod_2241263": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2241263.cif",
-   "path": "data/structures/cod/cod_2241263.cif",
-   "sha256": "301f63c866e3955f27ad586c28fdccc71aef9c8c4622b4ce596996d3fe56593d",
-   "bytes": 19664
-  },
-  "cod_2022300": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2022300.cif",
-   "path": "data/structures/cod/cod_2022300.cif",
-   "sha256": "d04bdebe6a7869ebe0703542636f8d4b9d6c4cbaf69ad9a3c3456cc94985a9ab",
-   "bytes": 306870
-  },
-  "cod_2001434": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2001434.cif",
-   "path": "data/structures/cod/cod_2001434.cif",
-   "sha256": "784b4447af5357aeb97155fcb4c179dbd3417298a444462a1accc45746a96d8f",
-   "bytes": 8369
-  },
-  "cod_2213328": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2213328.cif",
-   "path": "data/structures/cod/cod_2213328.cif",
-   "sha256": "1d339023e1a6ceb43832b7ec2f9aba05f3a4018dab2793aad925ca96af3ff70d",
-   "bytes": 11070
-  },
-  "cod_2236038": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2236038.cif",
-   "path": "data/structures/cod/cod_2236038.cif",
-   "sha256": "872211381e7b3dcf072031dca958c92646339308b150427239da23b45a9f81dd",
-   "bytes": 13809
-  },
-  "cod_2204677": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2204677.cif",
-   "path": "data/structures/cod/cod_2204677.cif",
-   "sha256": "e09f040a372b5a8d8593a25d7842a375c6e2493384c4bcfae408a576f1c37689",
-   "bytes": 20601
-  },
-  "cod_2215326": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2215326.cif",
-   "path": "data/structures/cod/cod_2215326.cif",
-   "sha256": "6853f9311a8d5dcd73a5d426689765826d6bec55418c18d5cfa28ce3182547c7",
-   "bytes": 17655
-  },
-  "cod_2219952": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2219952.cif",
-   "path": "data/structures/cod/cod_2219952.cif",
-   "sha256": "822fe35a7c4b0e460a5902d62a15599182d38d93d3a65e83cf4f747ead486c1f",
-   "bytes": 11776
-  },
-  "cod_2228035": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2228035.cif",
-   "path": "data/structures/cod/cod_2228035.cif",
-   "sha256": "e2de2119bffdf039107fe59ec7a023ea23e428ce3855a50945e73cca1a7de769",
-   "bytes": 12746
-  },
-  "cod_2228819": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2228819.cif",
-   "path": "data/structures/cod/cod_2228819.cif",
-   "sha256": "d0574efa048cb8021f229279ce0da842ca8e662cad043c7c3fe14e784d7daade",
-   "bytes": 17364
-  },
-  "cod_2217746": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2217746.cif",
-   "path": "data/structures/cod/cod_2217746.cif",
-   "sha256": "28ea76ed938f8f7a67334efa4a213151f957b9e70fcb59f2c29a48ce391b43b3",
-   "bytes": 10401
-  },
-  "cod_2102172": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2102172.cif",
-   "path": "data/structures/cod/cod_2102172.cif",
-   "sha256": "b33e9fba5a5f680dd59db907eb05f7c8c57deae539cd0ba293c8c023a0eb59b4",
-   "bytes": 10376
-  },
-  "cod_2201125": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2201125.cif",
-   "path": "data/structures/cod/cod_2201125.cif",
-   "sha256": "771880368fec8ef396dd30073dc63fc6c4930fe9a18d904c256fbb88bde35148",
-   "bytes": 12747
-  },
-  "cod_2230084": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2230084.cif",
-   "path": "data/structures/cod/cod_2230084.cif",
-   "sha256": "64f6c1f5cee20547f57f19d7f917ed6bfd260ece813c740d968d161b951a206d",
-   "bytes": 11603
-  },
-  "cod_2207659": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2207659.cif",
-   "path": "data/structures/cod/cod_2207659.cif",
-   "sha256": "4d34d8fda9048ab256d87211341db23ca6cd1ccfff6eee0044ffac248ea2c774",
-   "bytes": 14290
-  },
-  "cod_2001125": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2001125.cif",
-   "path": "data/structures/cod/cod_2001125.cif",
-   "sha256": "1323fbf2a801c479fa595befc3d1de1926be496d750447d7f7a4a781503ad8d0",
-   "bytes": 11219
-  },
-  "cod_2207519": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2207519.cif",
-   "path": "data/structures/cod/cod_2207519.cif",
-   "sha256": "5b057e95e88792cef29d6ad1c743019327a5bd80cd22bf3ba37ccdbb9fae39e9",
-   "bytes": 14479
-  },
-  "cod_2203991": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2203991.cif",
-   "path": "data/structures/cod/cod_2203991.cif",
-   "sha256": "0182416a44321caf435592b1971afab9a4eb167cd8422ad47ca71548017d22a7",
-   "bytes": 14278
-  },
-  "cod_2011852": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2011852.cif",
-   "path": "data/structures/cod/cod_2011852.cif",
-   "sha256": "a12a4bad40d0b97df6c7ac3662b4f689df8d0009055f5c2f63d7a4e27359efc5",
-   "bytes": 8527
-  },
-  "cod_2018386": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2018386.cif",
-   "path": "data/structures/cod/cod_2018386.cif",
-   "sha256": "3fbb1228b8bb9eef56d9e15b2be755225df4b287982cd20eeb267be3d5f56cf4",
-   "bytes": 19363
-  },
-  "cod_2216029": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2216029.cif",
-   "path": "data/structures/cod/cod_2216029.cif",
-   "sha256": "39248e65733db3d4389d2bc527083c1b340a016a904b99cdfb40615b5be2a36a",
-   "bytes": 15947
-  },
-  "cod_2201336": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2201336.cif",
-   "path": "data/structures/cod/cod_2201336.cif",
-   "sha256": "a7a6aa0a001070cb0dee1552fdc36c8d6e8bd5bb9e0af2bc5b78ca47be0d8acb",
-   "bytes": 16555
-  },
-  "cod_2228564": {
-   "source": "COD random sample seed=20261021",
-   "url": "https://www.crystallography.net/cod/2228564.cif",
-   "path": "data/structures/cod/cod_2228564.cif",
-   "sha256": "a9ab6cc1d5829fd777d9a09d39ab71b539003d4c8e02497fc945b0d35155ebbd",
-   "bytes": 11036
+  "structures": {
+    "mck_anhydrousCaffeine2_CGD_2007_7_1406": {
+      "source": "MolCrysKit non-CSD examples (MIT)",
+      "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/anhydrousCaffeine2_CGD_2007_7_1406.cif",
+      "path": "data/structures/mck/mck_anhydrousCaffeine2_CGD_2007_7_1406.cif",
+      "sha256": "96c6588d116956318c5d79347d2fd070b9e53ac03013f17564d6f476de3b5b79",
+      "bytes": 12610
+    },
+    "mck_anhydrousCaffeine_CGD_2007_7_1406": {
+      "source": "MolCrysKit non-CSD examples (MIT)",
+      "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/anhydrousCaffeine_CGD_2007_7_1406.cif",
+      "path": "data/structures/mck/mck_anhydrousCaffeine_CGD_2007_7_1406.cif",
+      "sha256": "96bf8c6ad8385f25299f733a5c2a93301eae502433215c32e8bbe3e46ab70bc4",
+      "bytes": 21987
+    },
+    "mck_MAP_H": {
+      "source": "MolCrysKit non-CSD examples (MIT)",
+      "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/MAP_H.cif",
+      "path": "data/structures/mck/mck_MAP_H.cif",
+      "sha256": "d6bb122cfda1087aefff4c8a5d5f661f835a4f4d6d8ce39f7fc01136fe3fd93a",
+      "bytes": 10814
+    },
+    "mck_NaCl": {
+      "source": "MolCrysKit non-CSD examples (MIT)",
+      "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/NaCl.cif",
+      "path": "data/structures/mck/mck_NaCl.cif",
+      "sha256": "4204922e5ef5fa5e3b2ae691c1372642de6e8d8ccec2b4f658ac5f367389cc6a",
+      "bytes": 1069
+    },
+    "mck_Diamond": {
+      "source": "MolCrysKit non-CSD examples (MIT)",
+      "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/Diamond.cif",
+      "path": "data/structures/mck/mck_Diamond.cif",
+      "sha256": "2733466a2deb473aeb0755bb2880ce61ef6691f0c67675a7a091c2f139b826a5",
+      "bytes": 1039
+    },
+    "mck_DAP-4_order": {
+      "source": "MolCrysKit non-CSD examples (MIT)",
+      "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/DAP-4_order.cif",
+      "path": "data/structures/mck/mck_DAP-4_order.cif",
+      "sha256": "b126b65d267ae4a6930e203c2124af09c137d466d27613792f83cf519bbc454b",
+      "bytes": 46099
+    },
+    "mck_368K": {
+      "source": "MolCrysKit non-CSD examples (MIT)",
+      "url": "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/368K.cif",
+      "path": "data/structures/mck/mck_368K.cif",
+      "sha256": "c78ac5041073ca276a259f75132ce9f05e8ef4a65d4ed604d255cc247f24504b",
+      "bytes": 100635
+    },
+    "cod_1000043": {
+      "source": "COD seed (MatterVis cod_test list)",
+      "url": "https://www.crystallography.net/cod/1000043.cif",
+      "path": "data/structures/cod/cod_1000043.cif",
+      "sha256": "ed4fc6d25246923cf64ea4346cefd9f57073d05f00feba581fc5b378666e89a1",
+      "bytes": 4783
+    },
+    "cod_1011185": {
+      "source": "COD seed (MatterVis cod_test list)",
+      "url": "https://www.crystallography.net/cod/1011185.cif",
+      "path": "data/structures/cod/cod_1011185.cif",
+      "sha256": "8ca845888f0cbf356844468ff278f1b55dc5c613af4d72f4193e37c89582d3d9",
+      "bytes": 2672
+    },
+    "cod_1501794": {
+      "source": "COD seed (MatterVis cod_test list)",
+      "url": "https://www.crystallography.net/cod/1501794.cif",
+      "path": "data/structures/cod/cod_1501794.cif",
+      "sha256": "76fef5942463d21001c5f2875f7ecae308ff002556c769abeabb325023145521",
+      "bytes": 18116
+    },
+    "cod_2013196": {
+      "source": "COD seed (MatterVis cod_test list)",
+      "url": "https://www.crystallography.net/cod/2013196.cif",
+      "path": "data/structures/cod/cod_2013196.cif",
+      "sha256": "845ba235d725a57cfd323009551957977977a227a22338277f2bf8820e1d51eb",
+      "bytes": 17586
+    },
+    "cod_2013465": {
+      "source": "COD seed (MatterVis cod_test list)",
+      "url": "https://www.crystallography.net/cod/2013465.cif",
+      "path": "data/structures/cod/cod_2013465.cif",
+      "sha256": "6160923566994cf87d6b7ea3528d3cccf1d2b3e0313d5f285ef670e13ac1d7a6",
+      "bytes": 19851
+    },
+    "cod_4002052": {
+      "source": "COD seed (MatterVis cod_test list)",
+      "url": "https://www.crystallography.net/cod/4002052.cif",
+      "path": "data/structures/cod/cod_4002052.cif",
+      "sha256": "112862d5ba30eabe7d00c16919d4864efaeefb3ee8dd87bd84d178760d4a9b5a",
+      "bytes": 11673
+    },
+    "cod_9000629": {
+      "source": "COD seed (MatterVis cod_test list)",
+      "url": "https://www.crystallography.net/cod/9000629.cif",
+      "path": "data/structures/cod/cod_9000629.cif",
+      "sha256": "13e13dd4ffecc864efe30f4d0e3b008e670c697053bc56a4c9e50bca1bd95d61",
+      "bytes": 4632
+    },
+    "cod_9001364": {
+      "source": "COD seed (MatterVis cod_test list)",
+      "url": "https://www.crystallography.net/cod/9001364.cif",
+      "path": "data/structures/cod/cod_9001364.cif",
+      "sha256": "82fa52c62dd404e322d0b9cc840e25e45965669d57c057ca5f06b448ab549ae9",
+      "bytes": 5910
+    },
+    "cod_2223290": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2223290.cif",
+      "path": "data/structures/cod/cod_2223290.cif",
+      "sha256": "7499d5207825183c8e9168cd27870e819fb02decc087b6fe4b55dd55a7c4730e",
+      "bytes": 17762
+    },
+    "cod_1530150": {
+      "source": "COD seed (MatterVis cod_test list)",
+      "url": "https://www.crystallography.net/cod/1530150.cif",
+      "path": "data/structures/cod/cod_1530150.cif",
+      "sha256": "fac50c55bd4300c87d5751ce89ca6267ccaf5be18709c7a843b8a3cbf0da46e1",
+      "bytes": 2128
+    },
+    "cod_9002348": {
+      "source": "COD seed (MatterVis cod_test list)",
+      "url": "https://www.crystallography.net/cod/9002348.cif",
+      "path": "data/structures/cod/cod_9002348.cif",
+      "sha256": "01ea718c0d268921f776c8153d6ac8f204747a098b8aca6b861c2d76d91f82db",
+      "bytes": 2305
+    },
+    "cod_1000022": {
+      "source": "COD seed (local copy of MatterVis cod_test; COD timed out)",
+      "url": "https://www.crystallography.net/cod/1000022.cif",
+      "path": "data/structures/cod/cod_1000022.cif",
+      "sha256": "b1ee97152eb789f98594bbab9d68c3faf520c5d2fc2f04d17cefa80bd16ddde9",
+      "bytes": 3120
+    },
+    "cod_1008775": {
+      "source": "COD seed (local copy of MatterVis cod_test; COD timed out)",
+      "url": "https://www.crystallography.net/cod/1008775.cif",
+      "path": "data/structures/cod/cod_1008775.cif",
+      "sha256": "a4ded98bdcb9d64e31003b5d74b97b3dae1e59165e7cf26cdd0be37629be91c0",
+      "bytes": 3091
+    },
+    "cod_4501702": {
+      "source": "COD seed (local copy of MatterVis cod_test; COD timed out)",
+      "url": "https://www.crystallography.net/cod/4501702.cif",
+      "path": "data/structures/cod/cod_4501702.cif",
+      "sha256": "fb2123a37016faf08cff05b4d437c52c367b18ab512792f80dbb924f2b668999",
+      "bytes": 13935
+    },
+    "cod_9008789": {
+      "source": "COD seed (local copy of MatterVis cod_test; COD timed out)",
+      "url": "https://www.crystallography.net/cod/9008789.cif",
+      "path": "data/structures/cod/cod_9008789.cif",
+      "sha256": "776b7702628ce1963c06d88fb7ed0fcd19d48a56654507f28f115e16ec5b20d3",
+      "bytes": 2529
+    },
+    "cod_2106345": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2106345.cif",
+      "path": "data/structures/cod/cod_2106345.cif",
+      "sha256": "b5c4fec30794938955a7e00d19a9629e0ed1ba924076df1332921ba00edf07a0",
+      "bytes": 2781
+    },
+    "cod_2238135": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2238135.cif",
+      "path": "data/structures/cod/cod_2238135.cif",
+      "sha256": "edb96344d7f68e83526a03e0639c7c2199cadd6085718e4e08531edac9316c85",
+      "bytes": 12822
+    },
+    "cod_2104603": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2104603.cif",
+      "path": "data/structures/cod/cod_2104603.cif",
+      "sha256": "e59e5596be9aa927c86dc32eaa928ef270eef87a178727f04dd10611e7ae80f4",
+      "bytes": 9319
+    },
+    "cod_2004754": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2004754.cif",
+      "path": "data/structures/cod/cod_2004754.cif",
+      "sha256": "0a730b1df3c4dbc6a9f2a7a3c7d272fcaec43574b2b41b95cb0a09fb39e6aa51",
+      "bytes": 12734
+    },
+    "cod_2014128": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2014128.cif",
+      "path": "data/structures/cod/cod_2014128.cif",
+      "sha256": "317ffa7a25dcad695a37bd0c26f5915561e496d26a481bda3f6cc3b352b23e85",
+      "bytes": 18918
+    },
+    "cod_2016228": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2016228.cif",
+      "path": "data/structures/cod/cod_2016228.cif",
+      "sha256": "c74c23590d816259e9380ec1ca87b42a8ca28a0cefcd9b1fd1ee8959dcefbe5b",
+      "bytes": 20549
+    },
+    "cod_2208931": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2208931.cif",
+      "path": "data/structures/cod/cod_2208931.cif",
+      "sha256": "13fe90b67d9fc355116b12cb252513c90ee8eccf5141077b4f2a6630195f37cd",
+      "bytes": 12817
+    },
+    "cod_2014451": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2014451.cif",
+      "path": "data/structures/cod/cod_2014451.cif",
+      "sha256": "fd7a4aa76388b17a78a081fae125e95af60977216716c85781a0c65507996c86",
+      "bytes": 12105
+    },
+    "cod_2013129": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2013129.cif",
+      "path": "data/structures/cod/cod_2013129.cif",
+      "sha256": "c8c0d5bbd159fe0772dc7be90fcdaacc1af65f7c92c7090446d7e5777128edcf",
+      "bytes": 11854
+    },
+    "cod_2237963": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2237963.cif",
+      "path": "data/structures/cod/cod_2237963.cif",
+      "sha256": "f2a6083c5d4d158e1cfe1c73965b6a08fc9adcae3bc266c7d4f9cdeab9b64ae9",
+      "bytes": 13716
+    },
+    "cod_2003349": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2003349.cif",
+      "path": "data/structures/cod/cod_2003349.cif",
+      "sha256": "ad1d08cae82257b6931a2f3db1e2f07ae7db762558c6400b1fdc73866a32b078",
+      "bytes": 8483
+    },
+    "cod_2211248": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2211248.cif",
+      "path": "data/structures/cod/cod_2211248.cif",
+      "sha256": "3203f7a614dc645cafbd0f04964947b1f6da367f139f6a5e99102f1eddb76aeb",
+      "bytes": 13004
+    },
+    "cod_2224411": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2224411.cif",
+      "path": "data/structures/cod/cod_2224411.cif",
+      "sha256": "f9dc4a95b1220b7363d45e22db48d817ccee1cfafbfd76667323a21945cbb96d",
+      "bytes": 11925
+    },
+    "cod_2022524": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2022524.cif",
+      "path": "data/structures/cod/cod_2022524.cif",
+      "sha256": "2156ee369442190848d655558210f6ec49f68b5f73f1acb2bcf79fb6722ccf62",
+      "bytes": 297185
+    },
+    "cod_2211700": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2211700.cif",
+      "path": "data/structures/cod/cod_2211700.cif",
+      "sha256": "9b398cd2fe7f62a491939d71472b9e4dbedea4439420b11317a6f8a7c262deb2",
+      "bytes": 12962
+    },
+    "cod_2100352": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2100352.cif",
+      "path": "data/structures/cod/cod_2100352.cif",
+      "sha256": "878d490863c15f2ad626106890c0fe7082df4bd7d12729c7df45927432eb7540",
+      "bytes": 21221
+    },
+    "cod_2212532": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2212532.cif",
+      "path": "data/structures/cod/cod_2212532.cif",
+      "sha256": "bb2c01e2542e382d0f1c5eaf951aa81376fd1bd145ae99469bfedd0734b971c0",
+      "bytes": 17586
+    },
+    "cod_2003967": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2003967.cif",
+      "path": "data/structures/cod/cod_2003967.cif",
+      "sha256": "97ad85285d87b1ca755c9188ef32791cda1cb541fd41738f40f849e475a86068",
+      "bytes": 11398
+    },
+    "cod_2202969": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2202969.cif",
+      "path": "data/structures/cod/cod_2202969.cif",
+      "sha256": "9dde5a4b603dbf93b43112de549fe72900325686151ea377f53bf2c2db1919c0",
+      "bytes": 16543
+    },
+    "cod_2019279": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2019279.cif",
+      "path": "data/structures/cod/cod_2019279.cif",
+      "sha256": "f38b2dde8a5ce2b3f9a014941d821c8bbda190f13a3f01455381fb1a211bf682",
+      "bytes": 14846
+    },
+    "cod_2012216": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2012216.cif",
+      "path": "data/structures/cod/cod_2012216.cif",
+      "sha256": "d0dd4ffce46a52877740e01f3609e74ef29c2c2e96b06a513f46093d35d5077f",
+      "bytes": 23901
+    },
+    "cod_2241263": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2241263.cif",
+      "path": "data/structures/cod/cod_2241263.cif",
+      "sha256": "301f63c866e3955f27ad586c28fdccc71aef9c8c4622b4ce596996d3fe56593d",
+      "bytes": 19664
+    },
+    "cod_2022300": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2022300.cif",
+      "path": "data/structures/cod/cod_2022300.cif",
+      "sha256": "d04bdebe6a7869ebe0703542636f8d4b9d6c4cbaf69ad9a3c3456cc94985a9ab",
+      "bytes": 306870
+    },
+    "cod_2001434": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2001434.cif",
+      "path": "data/structures/cod/cod_2001434.cif",
+      "sha256": "784b4447af5357aeb97155fcb4c179dbd3417298a444462a1accc45746a96d8f",
+      "bytes": 8369
+    },
+    "cod_2213328": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2213328.cif",
+      "path": "data/structures/cod/cod_2213328.cif",
+      "sha256": "1d339023e1a6ceb43832b7ec2f9aba05f3a4018dab2793aad925ca96af3ff70d",
+      "bytes": 11070
+    },
+    "cod_2236038": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2236038.cif",
+      "path": "data/structures/cod/cod_2236038.cif",
+      "sha256": "872211381e7b3dcf072031dca958c92646339308b150427239da23b45a9f81dd",
+      "bytes": 13809
+    },
+    "cod_2204677": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2204677.cif",
+      "path": "data/structures/cod/cod_2204677.cif",
+      "sha256": "e09f040a372b5a8d8593a25d7842a375c6e2493384c4bcfae408a576f1c37689",
+      "bytes": 20601
+    },
+    "cod_2215326": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2215326.cif",
+      "path": "data/structures/cod/cod_2215326.cif",
+      "sha256": "6853f9311a8d5dcd73a5d426689765826d6bec55418c18d5cfa28ce3182547c7",
+      "bytes": 17655
+    },
+    "cod_2219952": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2219952.cif",
+      "path": "data/structures/cod/cod_2219952.cif",
+      "sha256": "822fe35a7c4b0e460a5902d62a15599182d38d93d3a65e83cf4f747ead486c1f",
+      "bytes": 11776
+    },
+    "cod_2228035": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2228035.cif",
+      "path": "data/structures/cod/cod_2228035.cif",
+      "sha256": "e2de2119bffdf039107fe59ec7a023ea23e428ce3855a50945e73cca1a7de769",
+      "bytes": 12746
+    },
+    "cod_2228819": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2228819.cif",
+      "path": "data/structures/cod/cod_2228819.cif",
+      "sha256": "d0574efa048cb8021f229279ce0da842ca8e662cad043c7c3fe14e784d7daade",
+      "bytes": 17364
+    },
+    "cod_2217746": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2217746.cif",
+      "path": "data/structures/cod/cod_2217746.cif",
+      "sha256": "28ea76ed938f8f7a67334efa4a213151f957b9e70fcb59f2c29a48ce391b43b3",
+      "bytes": 10401
+    },
+    "cod_2102172": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2102172.cif",
+      "path": "data/structures/cod/cod_2102172.cif",
+      "sha256": "b33e9fba5a5f680dd59db907eb05f7c8c57deae539cd0ba293c8c023a0eb59b4",
+      "bytes": 10376
+    },
+    "cod_2201125": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2201125.cif",
+      "path": "data/structures/cod/cod_2201125.cif",
+      "sha256": "771880368fec8ef396dd30073dc63fc6c4930fe9a18d904c256fbb88bde35148",
+      "bytes": 12747
+    },
+    "cod_2230084": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2230084.cif",
+      "path": "data/structures/cod/cod_2230084.cif",
+      "sha256": "64f6c1f5cee20547f57f19d7f917ed6bfd260ece813c740d968d161b951a206d",
+      "bytes": 11603
+    },
+    "cod_2207659": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2207659.cif",
+      "path": "data/structures/cod/cod_2207659.cif",
+      "sha256": "4d34d8fda9048ab256d87211341db23ca6cd1ccfff6eee0044ffac248ea2c774",
+      "bytes": 14290
+    },
+    "cod_2001125": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2001125.cif",
+      "path": "data/structures/cod/cod_2001125.cif",
+      "sha256": "1323fbf2a801c479fa595befc3d1de1926be496d750447d7f7a4a781503ad8d0",
+      "bytes": 11219
+    },
+    "cod_2207519": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2207519.cif",
+      "path": "data/structures/cod/cod_2207519.cif",
+      "sha256": "5b057e95e88792cef29d6ad1c743019327a5bd80cd22bf3ba37ccdbb9fae39e9",
+      "bytes": 14479
+    },
+    "cod_2203991": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2203991.cif",
+      "path": "data/structures/cod/cod_2203991.cif",
+      "sha256": "0182416a44321caf435592b1971afab9a4eb167cd8422ad47ca71548017d22a7",
+      "bytes": 14278
+    },
+    "cod_2011852": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2011852.cif",
+      "path": "data/structures/cod/cod_2011852.cif",
+      "sha256": "a12a4bad40d0b97df6c7ac3662b4f689df8d0009055f5c2f63d7a4e27359efc5",
+      "bytes": 8527
+    },
+    "cod_2018386": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2018386.cif",
+      "path": "data/structures/cod/cod_2018386.cif",
+      "sha256": "3fbb1228b8bb9eef56d9e15b2be755225df4b287982cd20eeb267be3d5f56cf4",
+      "bytes": 19363
+    },
+    "cod_2216029": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2216029.cif",
+      "path": "data/structures/cod/cod_2216029.cif",
+      "sha256": "39248e65733db3d4389d2bc527083c1b340a016a904b99cdfb40615b5be2a36a",
+      "bytes": 15947
+    },
+    "cod_2201336": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2201336.cif",
+      "path": "data/structures/cod/cod_2201336.cif",
+      "sha256": "a7a6aa0a001070cb0dee1552fdc36c8d6e8bd5bb9e0af2bc5b78ca47be0d8acb",
+      "bytes": 16555
+    },
+    "cod_2228564": {
+      "source": "COD random sample seed=20261021",
+      "url": "https://www.crystallography.net/cod/2228564.cif",
+      "path": "data/structures/cod/cod_2228564.cif",
+      "sha256": "a9ab6cc1d5829fd777d9a09d39ab71b539003d4c8e02497fc945b0d35155ebbd",
+      "bytes": 11036
+    }
+  },
+  "rejected": {
+    "cod_1530150": "download failed",
+    "cod_9002348": "download failed",
+    "cod_2143182": "missing/timeout",
+    "cod_2100890": "filtered (not organic/molecular or cell > 3000 A^3)",
+    "cod_2152131": "missing/timeout",
+    "cod_2002836": "filtered (not organic/molecular or cell > 3000 A^3)",
+    "cod_2082346": "missing/timeout",
+    "cod_2167293": "missing/timeout",
+    "cod_2168586": "missing/timeout",
+    "cod_2061135": "missing/timeout",
+    "cod_2099921": "missing/timeout",
+    "cod_2126315": "missing/timeout",
+    "cod_2000033": "filtered (not organic/molecular or cell > 3000 A^3)",
+    "cod_2057592": "missing/timeout",
+    "cod_2106006": "filtered (not organic/molecular or cell > 3000 A^3)",
+    "cod_2107101": "filtered (not organic/molecular or cell > 3000 A^3)",
+    "cod_2164950": "missing/timeout",
+    "cod_2031503": "missing/timeout",
+    "cod_2121038": "missing/timeout",
+    "cod_2153774": "missing/timeout",
+    "cod_2178593": "missing/timeout",
+    "cod_2163755": "missing/timeout",
+    "cod_2023724": "missing/timeout",
+    "cod_2080770": "missing/timeout",
+    "cod_2028598": "missing/timeout",
+    "cod_2197370": "missing/timeout",
+    "cod_2176543": "missing/timeout",
+    "cod_2046858": "missing/timeout",
+    "cod_2222296": "filtered (not organic/molecular or cell > 3000 A^3)",
+    "cod_2067926": "missing/timeout",
+    "cod_2036900": "missing/timeout",
+    "cod_2039996": "missing/timeout",
+    "cod_2170935": "missing/timeout",
+    "cod_2029953": "missing/timeout",
+    "cod_2185128": "missing/timeout",
+    "cod_2031053": "missing/timeout",
+    "cod_2192629": "missing/timeout",
+    "cod_2066374": "missing/timeout",
+    "cod_2044606": "missing/timeout",
+    "cod_2093809": "missing/timeout",
+    "cod_2195537": "missing/timeout",
+    "cod_2189182": "missing/timeout",
+    "cod_2226261": "filtered (not organic/molecular or cell > 3000 A^3)",
+    "cod_2154118": "missing/timeout",
+    "cod_2146383": "missing/timeout",
+    "cod_2095972": "missing/timeout",
+    "cod_2073328": "missing/timeout",
+    "cod_2138583": "missing/timeout",
+    "cod_2027758": "missing/timeout",
+    "cod_2039938": "missing/timeout",
+    "cod_2027091": "missing/timeout",
+    "cod_2079450": "missing/timeout",
+    "cod_2120851": "missing/timeout",
+    "cod_2026427": "missing/timeout",
+    "cod_2147848": "missing/timeout",
+    "cod_2056480": "missing/timeout",
+    "cod_2148825": "missing/timeout",
+    "cod_2168011": "missing/timeout",
+    "cod_2103927": "filtered (not organic/molecular or cell > 3000 A^3)",
+    "cod_2024935": "missing/timeout",
+    "cod_2111108": "missing/timeout",
+    "cod_2053361": "missing/timeout",
+    "cod_2171459": "missing/timeout",
+    "cod_2041112": "missing/timeout",
+    "cod_2086236": "missing/timeout",
+    "cod_2145944": "missing/timeout",
+    "cod_2175470": "missing/timeout",
+    "cod_2168716": "missing/timeout",
+    "cod_2069987": "missing/timeout",
+    "cod_2190988": "missing/timeout",
+    "cod_2179033": "missing/timeout",
+    "cod_2160795": "missing/timeout",
+    "cod_2156686": "missing/timeout",
+    "cod_2007901": "filtered (not organic/molecular or cell > 3000 A^3)",
+    "cod_2183956": "missing/timeout",
+    "cod_2069071": "missing/timeout",
+    "cod_2208902": "filtered (not organic/molecular or cell > 3000 A^3)",
+    "cod_2138170": "missing/timeout",
+    "cod_2063355": "missing/timeout",
+    "cod_2194578": "missing/timeout",
+    "cod_2162348": "missing/timeout",
+    "cod_2085422": "missing/timeout",
+    "cod_2082386": "missing/timeout",
+    "cod_2066889": "missing/timeout",
+    "cod_2185897": "missing/timeout",
+    "cod_2046449": "missing/timeout",
+    "cod_2138086": "missing/timeout",
+    "cod_2070989": "missing/timeout",
+    "cod_2066026": "missing/timeout",
+    "cod_2135573": "missing/timeout",
+    "cod_2097566": "missing/timeout",
+    "cod_2188897": "missing/timeout",
+    "cod_2159084": "missing/timeout",
+    "cod_2017411": "filtered (not organic/molecular or cell > 3000 A^3)",
+    "cod_2186656": "missing/timeout",
+    "cod_2145926": "missing/timeout",
+    "cod_2073730": "missing/timeout",
+    "cod_2175416": "missing/timeout",
+    "cod_2054212": "missing/timeout",
+    "cod_2060060": "missing/timeout",
+    "cod_2056850": "missing/timeout",
+    "cod_2014701": "filtered (not organic/molecular or cell > 3000 A^3)",
+    "cod_2122260": "missing/timeout",
+    "cod_2057136": "missing/timeout",
+    "cod_2039499": "missing/timeout",
+    "cod_2034795": "missing/timeout",
+    "cod_2189282": "missing/timeout",
+    "cod_2135088": "missing/timeout",
+    "cod_2145020": "missing/timeout",
+    "cod_2047517": "missing/timeout",
+    "cod_2133252": "missing/timeout",
+    "cod_2122983": "missing/timeout",
+    "cod_2090749": "missing/timeout",
+    "cod_2146903": "missing/timeout",
+    "cod_2045254": "missing/timeout",
+    "cod_2081216": "missing/timeout",
+    "cod_2113803": "missing/timeout",
+    "cod_2058388": "missing/timeout",
+    "cod_2125837": "missing/timeout",
+    "cod_2156113": "missing/timeout",
+    "cod_2133456": "missing/timeout",
+    "cod_2097565": "missing/timeout",
+    "cod_2183259": "missing/timeout",
+    "cod_2117992": "missing/timeout",
+    "cod_2065433": "missing/timeout",
+    "cod_2015030": "filtered (not organic/molecular or cell > 3000 A^3)",
+    "cod_2040778": "missing/timeout",
+    "cod_2073285": "missing/timeout",
+    "cod_2076001": "missing/timeout",
+    "cod_2039664": "missing/timeout",
+    "cod_2095974": "missing/timeout",
+    "cod_2023678": "missing/timeout",
+    "cod_2185701": "missing/timeout",
+    "cod_2166481": "missing/timeout",
+    "cod_2117585": "missing/timeout",
+    "cod_2072030": "missing/timeout",
+    "cod_2120612": "missing/timeout",
+    "cod_2170994": "missing/timeout",
+    "cod_2085935": "missing/timeout",
+    "cod_2044586": "missing/timeout",
+    "cod_2058698": "missing/timeout",
+    "cod_2012420": "filtered (not organic/molecular or cell > 3000 A^3)",
+    "cod_2085603": "missing/timeout",
+    "cod_2055687": "missing/timeout",
+    "cod_2096287": "missing/timeout",
+    "cod_2192537": "missing/timeout",
+    "cod_2176003": "missing/timeout",
+    "cod_2186521": "missing/timeout",
+    "cod_2171355": "missing/timeout",
+    "cod_2067318": "missing/timeout",
+    "cod_2135708": "missing/timeout",
+    "cod_2145016": "missing/timeout",
+    "cod_2198343": "missing/timeout",
+    "cod_2231218": "filtered (not organic/molecular or cell > 3000 A^3)",
+    "cod_2167858": "missing/timeout",
+    "cod_2038699": "missing/timeout",
+    "cod_2186292": "missing/timeout",
+    "cod_2198915": "missing/timeout",
+    "cod_2177672": "missing/timeout",
+    "cod_2165821": "missing/timeout",
+    "cod_2072098": "missing/timeout",
+    "cod_2187374": "missing/timeout",
+    "cod_2053384": "missing/timeout",
+    "cod_2032736": "missing/timeout",
+    "cod_2133900": "missing/timeout",
+    "cod_2180761": "missing/timeout",
+    "cod_2061668": "missing/timeout",
+    "cod_2149860": "missing/timeout",
+    "cod_2028901": "missing/timeout",
+    "cod_2180466": "missing/timeout",
+    "cod_2201302": "filtered (not organic/molecular or cell > 3000 A^3)",
+    "cod_2027163": "missing/timeout",
+    "cod_2107895": "filtered (not organic/molecular or cell > 3000 A^3)"
   }
- },
- "rejected": {
-  "cod_1530150": "download failed",
-  "cod_9002348": "download failed",
-  "cod_2143182": "missing/timeout",
-  "cod_2100890": "filtered (not organic/molecular or cell > 3000 A^3)",
-  "cod_2152131": "missing/timeout",
-  "cod_2002836": "filtered (not organic/molecular or cell > 3000 A^3)",
-  "cod_2082346": "missing/timeout",
-  "cod_2167293": "missing/timeout",
-  "cod_2168586": "missing/timeout",
-  "cod_2061135": "missing/timeout",
-  "cod_2099921": "missing/timeout",
-  "cod_2126315": "missing/timeout",
-  "cod_2000033": "filtered (not organic/molecular or cell > 3000 A^3)",
-  "cod_2057592": "missing/timeout",
-  "cod_2106006": "filtered (not organic/molecular or cell > 3000 A^3)",
-  "cod_2107101": "filtered (not organic/molecular or cell > 3000 A^3)",
-  "cod_2164950": "missing/timeout",
-  "cod_2031503": "missing/timeout",
-  "cod_2121038": "missing/timeout",
-  "cod_2153774": "missing/timeout",
-  "cod_2178593": "missing/timeout",
-  "cod_2163755": "missing/timeout",
-  "cod_2023724": "missing/timeout",
-  "cod_2080770": "missing/timeout",
-  "cod_2028598": "missing/timeout",
-  "cod_2197370": "missing/timeout",
-  "cod_2176543": "missing/timeout",
-  "cod_2046858": "missing/timeout",
-  "cod_2222296": "filtered (not organic/molecular or cell > 3000 A^3)",
-  "cod_2067926": "missing/timeout",
-  "cod_2036900": "missing/timeout",
-  "cod_2039996": "missing/timeout",
-  "cod_2170935": "missing/timeout",
-  "cod_2029953": "missing/timeout",
-  "cod_2185128": "missing/timeout",
-  "cod_2031053": "missing/timeout",
-  "cod_2192629": "missing/timeout",
-  "cod_2066374": "missing/timeout",
-  "cod_2044606": "missing/timeout",
-  "cod_2093809": "missing/timeout",
-  "cod_2195537": "missing/timeout",
-  "cod_2189182": "missing/timeout",
-  "cod_2226261": "filtered (not organic/molecular or cell > 3000 A^3)",
-  "cod_2154118": "missing/timeout",
-  "cod_2146383": "missing/timeout",
-  "cod_2095972": "missing/timeout",
-  "cod_2073328": "missing/timeout",
-  "cod_2138583": "missing/timeout",
-  "cod_2027758": "missing/timeout",
-  "cod_2039938": "missing/timeout",
-  "cod_2027091": "missing/timeout",
-  "cod_2079450": "missing/timeout",
-  "cod_2120851": "missing/timeout",
-  "cod_2026427": "missing/timeout",
-  "cod_2147848": "missing/timeout",
-  "cod_2056480": "missing/timeout",
-  "cod_2148825": "missing/timeout",
-  "cod_2168011": "missing/timeout",
-  "cod_2103927": "filtered (not organic/molecular or cell > 3000 A^3)",
-  "cod_2024935": "missing/timeout",
-  "cod_2111108": "missing/timeout",
-  "cod_2053361": "missing/timeout",
-  "cod_2171459": "missing/timeout",
-  "cod_2041112": "missing/timeout",
-  "cod_2086236": "missing/timeout",
-  "cod_2145944": "missing/timeout",
-  "cod_2175470": "missing/timeout",
-  "cod_2168716": "missing/timeout",
-  "cod_2069987": "missing/timeout",
-  "cod_2190988": "missing/timeout",
-  "cod_2179033": "missing/timeout",
-  "cod_2160795": "missing/timeout",
-  "cod_2156686": "missing/timeout",
-  "cod_2007901": "filtered (not organic/molecular or cell > 3000 A^3)",
-  "cod_2183956": "missing/timeout",
-  "cod_2069071": "missing/timeout",
-  "cod_2208902": "filtered (not organic/molecular or cell > 3000 A^3)",
-  "cod_2138170": "missing/timeout",
-  "cod_2063355": "missing/timeout",
-  "cod_2194578": "missing/timeout",
-  "cod_2162348": "missing/timeout",
-  "cod_2085422": "missing/timeout",
-  "cod_2082386": "missing/timeout",
-  "cod_2066889": "missing/timeout",
-  "cod_2185897": "missing/timeout",
-  "cod_2046449": "missing/timeout",
-  "cod_2138086": "missing/timeout",
-  "cod_2070989": "missing/timeout",
-  "cod_2066026": "missing/timeout",
-  "cod_2135573": "missing/timeout",
-  "cod_2097566": "missing/timeout",
-  "cod_2188897": "missing/timeout",
-  "cod_2159084": "missing/timeout",
-  "cod_2017411": "filtered (not organic/molecular or cell > 3000 A^3)",
-  "cod_2186656": "missing/timeout",
-  "cod_2145926": "missing/timeout",
-  "cod_2073730": "missing/timeout",
-  "cod_2175416": "missing/timeout",
-  "cod_2054212": "missing/timeout",
-  "cod_2060060": "missing/timeout",
-  "cod_2056850": "missing/timeout",
-  "cod_2014701": "filtered (not organic/molecular or cell > 3000 A^3)",
-  "cod_2122260": "missing/timeout",
-  "cod_2057136": "missing/timeout",
-  "cod_2039499": "missing/timeout",
-  "cod_2034795": "missing/timeout",
-  "cod_2189282": "missing/timeout",
-  "cod_2135088": "missing/timeout",
-  "cod_2145020": "missing/timeout",
-  "cod_2047517": "missing/timeout",
-  "cod_2133252": "missing/timeout",
-  "cod_2122983": "missing/timeout",
-  "cod_2090749": "missing/timeout",
-  "cod_2146903": "missing/timeout",
-  "cod_2045254": "missing/timeout",
-  "cod_2081216": "missing/timeout",
-  "cod_2113803": "missing/timeout",
-  "cod_2058388": "missing/timeout",
-  "cod_2125837": "missing/timeout",
-  "cod_2156113": "missing/timeout",
-  "cod_2133456": "missing/timeout",
-  "cod_2097565": "missing/timeout",
-  "cod_2183259": "missing/timeout",
-  "cod_2117992": "missing/timeout",
-  "cod_2065433": "missing/timeout",
-  "cod_2015030": "filtered (not organic/molecular or cell > 3000 A^3)",
-  "cod_2040778": "missing/timeout",
-  "cod_2073285": "missing/timeout",
-  "cod_2076001": "missing/timeout",
-  "cod_2039664": "missing/timeout",
-  "cod_2095974": "missing/timeout",
-  "cod_2023678": "missing/timeout",
-  "cod_2185701": "missing/timeout",
-  "cod_2166481": "missing/timeout",
-  "cod_2117585": "missing/timeout",
-  "cod_2072030": "missing/timeout",
-  "cod_2120612": "missing/timeout",
-  "cod_2170994": "missing/timeout",
-  "cod_2085935": "missing/timeout",
-  "cod_2044586": "missing/timeout",
-  "cod_2058698": "missing/timeout",
-  "cod_2012420": "filtered (not organic/molecular or cell > 3000 A^3)",
-  "cod_2085603": "missing/timeout",
-  "cod_2055687": "missing/timeout",
-  "cod_2096287": "missing/timeout",
-  "cod_2192537": "missing/timeout",
-  "cod_2176003": "missing/timeout",
-  "cod_2186521": "missing/timeout",
-  "cod_2171355": "missing/timeout",
-  "cod_2067318": "missing/timeout",
-  "cod_2135708": "missing/timeout",
-  "cod_2145016": "missing/timeout",
-  "cod_2198343": "missing/timeout",
-  "cod_2231218": "filtered (not organic/molecular or cell > 3000 A^3)",
-  "cod_2167858": "missing/timeout",
-  "cod_2038699": "missing/timeout",
-  "cod_2186292": "missing/timeout",
-  "cod_2198915": "missing/timeout",
-  "cod_2177672": "missing/timeout",
-  "cod_2165821": "missing/timeout",
-  "cod_2072098": "missing/timeout",
-  "cod_2187374": "missing/timeout",
-  "cod_2053384": "missing/timeout",
-  "cod_2032736": "missing/timeout",
-  "cod_2133900": "missing/timeout",
-  "cod_2180761": "missing/timeout",
-  "cod_2061668": "missing/timeout",
-  "cod_2149860": "missing/timeout",
-  "cod_2028901": "missing/timeout",
-  "cod_2180466": "missing/timeout",
-  "cod_2201302": "filtered (not organic/molecular or cell > 3000 A^3)",
-  "cod_2027163": "missing/timeout",
-  "cod_2107895": "filtered (not organic/molecular or cell > 3000 A^3)"
- }
 }

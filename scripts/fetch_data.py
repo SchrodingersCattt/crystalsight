@@ -1,13 +1,16 @@
 """Fetch the public CrystalSight structure set.
 
-Sources (both public, open licences):
+Sources (public / open where noted):
   * COD (Crystallography Open Database, CC0-like open data): a fixed seed list
     (the 14 IDs used in MatterVis cod_test) plus a reproducible random sample
     of IDs from the 2xxxxxx (IUCr Acta Cryst.) range, which is dominated by
     small-molecule / molecular crystals.
-  * MolCrysKit `examples/` from the public GitHub repository (MIT).
+  * A subset of MolCrysKit `examples/` that are safe to redistribute (MIT /
+    non-CSD). Many other MolCrysKit example CIFs are CSD/CCDC downloads and
+    must NOT be fetched or committed; see data/structures/README.md.
 
-No data from any unpublished benchmark is used.
+No CSD/CCDC crystal data is redistributed. No data from any unpublished
+benchmark is used.
 Stdlib only, so it can run before the venv is ready.
 """
 
@@ -33,12 +36,10 @@ COD_SEED = [
 ]
 MCK_RAW = "https://raw.githubusercontent.com/SchrodingersCattt/MolCrysKit/main/examples/"
 MCK_EXAMPLES = [
-    "Acetaminophen_HXACAN.cif", "anhydrousCaffeine2_CGD_2007_7_1406.cif",
-    "anhydrousCaffeine_CGD_2007_7_1406.cif", "BRCRIM10.cif", "DACMOR.cif",
-    "DACMOR01.cif", "ISATIN.cif", "MAF-4-no-water.cif", "MAF-4.cif", "MAP.cif",
-    "MAP_H.cif", "OCHTET12.cif", "PETN_PERYTN10.cif", "PUBMUU03.cif", "SUXRUA.cif",
-    "ZIF-4.cif", "ZIF-8.cif", "NaCl.cif", "Diamond.cif", "DAP-4_order.cif",
-    "DAN-2.cif", "DAC-4.cif", "PAP-M5.cif", "368K.cif",
+    # Non-CSD / redistributable MolCrysKit examples only (see data/structures/README.md).
+    "anhydrousCaffeine2_CGD_2007_7_1406.cif",
+    "anhydrousCaffeine_CGD_2007_7_1406.cif",
+    "MAP_H.cif", "NaCl.cif", "Diamond.cif", "DAP-4_order.cif", "368K.cif",
 ]
 UA = {"User-Agent": "CrystalSight/0.1 (OSI hackathon 2026; research use)"}
 
@@ -98,7 +99,7 @@ def main() -> None:
         url = MCK_RAW + name
         blob = get(url)
         if blob:
-            store(sid, "MolCrysKit examples (MIT)", url, blob, "mck")
+            store(sid, "MolCrysKit non-CSD examples (MIT)", url, blob, "mck")
             print("ok", sid, flush=True)
         else:
             R[sid] = "download failed"
