@@ -19,6 +19,13 @@ author: "Open Scientific Intelligence Hackathon 2026"
 
 Structures come from the Crystallography Open Database and MolCrysKit examples, plus a few licensed CSD entries used locally under anonymous ids and not redistributed.
 
+:::
+
+::: topright
+![](../figures/fig_side_by_side.png)
+:::
+:::
+
 **Gold answers from geometry.** Gold answers are computed from symmetry-expanded coordinates. A hydrogen bond is D–H···A with D and A in {N, O}, H···A ≤ 2.5 Å and an angle of at least 120°. Every answer is recomputed with all cutoffs shifted by ±5 %, and questions whose answer changed were replaced. Scoring gives partial credit per JSON field.
 
 **Five channels, one at a time:**
@@ -28,12 +35,6 @@ Structures come from the Crystallography Open Database and MolCrysKit examples, 
 - **geometry tools**: MolCrysKit plus six small tools built for this benchmark (H-bond list, nearest atoms, H-bond path, H-bond ring, neighbour shell, disorder components). The tools return raw lists, which the model must still count and interpret.
 
 Both sets were run with GPT-6-Luna and DeepSeek-v4.1-Flash (text only), at temperature 0 with up to 32k output tokens.
-:::
-
-::: topright
-![](../figures/fig_side_by_side.png)
-:::
-:::
 
 ![](../figures/v4_fig1_channels.png){.channels width=100%}
 
