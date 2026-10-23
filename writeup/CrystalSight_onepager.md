@@ -19,7 +19,7 @@ author: "Open Scientific Intelligence Hackathon 2026"
 
 Structures come from the Crystallography Open Database and MolCrysKit examples, plus a few licensed CSD entries used locally under anonymous ids and not redistributed.
 
-**Gold answers from geometry.** Gold answers are computed from symmetry-expanded coordinates. A hydrogen bond is D–H···A with D and A in {N, O}, H···A ≤2.5 Å and an angle of at least 120°. Every answer is recomputed with all cutoffs shifted by ±5 %, and questions whose answer changed were replaced. Scoring gives partial credit per JSON field.
+**Gold answers from geometry.** Gold answers are computed from symmetry-expanded coordinates. A hydrogen bond is D–H···A with D and A in {N, O}, H···A ≤ 2.5 Å and an angle of at least 120°. Every answer is recomputed with all cutoffs shifted by ±5 %, and questions whose answer changed were replaced. Scoring gives partial credit per JSON field.
 
 **Five channels, one at a time:**
 
@@ -35,13 +35,13 @@ Both sets were run with GPT-6-Luna and DeepSeek-v4.1-Flash (text only), at tempe
 :::
 :::
 
+![](../figures/v4_fig1_channels.png){.channels width=100%}
+
 ![](../figures/v4_fig2_families.png){.side}
-**Results.** On the easy set, CIF text alone scores 0.70–0.82, and images and the viewer about 0.40. On the hard set, GPT-6-Luna’s text scores fall to 0.37 (CIF) and 0.43 (unstripped CIF). DeepSeek returned no answer to 15 of 20 CIF questions: it reasoned until the 32k-token limit. Images (0.10) and the viewer (0.20–0.22) stay near chance. With geometry tools, both models reach 0.75–0.78 (strict 0.75). On the easy set, geometry tools score below CIF text (0.49 and 0.44).
+**Results.** On the easy set, CIF text alone scores 0.70–0.82, and images and the viewer about 0.40. On the hard set, GPT-6-Luna's text scores fall to 0.37 (CIF) and 0.43 (unstripped CIF). DeepSeek returned no answer to 15 of 20 CIF questions: it reasoned until the 32k-token limit. Images (0.10) and the viewer (0.20–0.22) stay near chance. With geometry tools, both models reach 0.75–0.78 (strict 0.75). On the easy set, geometry tools score below CIF text (0.49 and 0.44).
 
 The heatmap shows where text survives. G1 nearest contact is solved from text (0.85–1.00). Paths, rings and counts mostly are not, and disorder replicas defeat every channel, tools included (0.25–0.38).
 
-**Leak found and removed.** Many published CIFs include a precomputed hydrogen-bond table with symmetry codes. That table gives away G1 answers and the edges of the G2/G3 network, so for the hard set we remove it from both text channels. We also fixed a text-stripping bug that dropped the `loop_` keyword from CIF tables. GPT-6-Luna’s text channels were re-run on the clean input (CIF 0.31 → 0.37, unstripped CIF unchanged at 0.43). DeepSeek’s CIF result and all easy-set text results still use the old input.
+**Leak found and removed.** Many published CIFs include a precomputed hydrogen-bond table with symmetry codes. That table gives away G1 answers and the edges of the G2/G3 network, so for the hard set we remove it from both text channels. We also fixed a text-stripping bug that dropped the `loop_` keyword from CIF tables. GPT-6-Luna's text channels were re-run on the clean input (CIF 0.31 → 0.37, unstripped CIF unchanged at 0.43). DeepSeek's CIF result and all easy-set text results still use the old input.
 
 **Limitations.** 20 questions per set, 2 models, one run each (one question moves a score by 0.05). Tools were written for these question types, so they show what the right tools make possible, not a general agent. An earlier 247-question structure-check set showed the same ordering: text above images and the viewer. Code, tasks, gold and scored results: [CrystalSight](https://github.com/SchrodingersCattt/crystalsight). Geometry: [MolCrysKit](https://github.com/SchrodingersCattt/MolCrysKit); ASCII 3D viewer: [MatterVis](https://github.com/SchrodingersCattt/MatterVis).
-
-![](../figures/v4_fig1_channels.png){.charts}
