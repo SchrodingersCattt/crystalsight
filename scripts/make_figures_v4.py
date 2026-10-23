@@ -75,7 +75,7 @@ def random_baseline(rows: list[dict]) -> float:
 
 
 def fig_channels(T: dict, base: dict, out: Path) -> None:
-    fig, axes = plt.subplots(1, 2, figsize=(11, 4.1), sharey=True)
+    fig, axes = plt.subplots(1, 2, figsize=(11, 5.6), sharey=True)
     for ax, ver, title in ((axes[0], "v3", "Easy set (v3): one contact, one plane"),
                            (axes[1], "v4", "Hard set (v4): enumerate, trace, count")):
         ys = list(range(len(CHANNELS)))[::-1]

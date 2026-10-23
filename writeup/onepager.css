@@ -1,22 +1,25 @@
-﻿@page { size: A4; margin: 7mm 9mm 6mm 9mm; }
-html { font-family: Arial, Helvetica, sans-serif; font-size: 7.55pt; line-height: 1.22; color: #1F2328; background: #fff; }
+@page { size: A4; margin: 5.5mm 7.5mm 3mm 7.5mm; }
+html { font-family: Arial, Helvetica, sans-serif; font-size: 7.4pt; line-height: 1.18; color: #1F2328; background: #fff; }
 body { margin: 0; max-width: none; padding: 0; }
-header#title-block-header { margin: 0 0 2pt 0; padding-bottom: 2pt; border-bottom: 1px solid #D0D7DE; }
-h1.title { font-size: 11.8pt; margin: 0 0 1pt 0; line-height: 1.1; font-weight: 700; color: #1F2328; }
-p.author { margin: 0; color: #6E7781; font-size: 7.2pt; }
-p { margin: 0 0 2.8pt 0; color: #1F2328; }
-ul { margin: 0 0 2.8pt 0; padding-left: 12pt; }
-li { margin: 0 0 0.8pt 0; }
-div.headline { border: 1px solid #D0D7DE; border-left: 3px solid #2F6FEB; border-radius: 5px; padding: 3.5pt 6pt; margin: 3pt 0 4pt 0; background: #fff; }
-div.headline p { margin: 0; font-size: 8.6pt; color: #1F2328; }
-figure { margin: 1.5pt 0 3pt 0; text-align: center; }
+header#title-block-header { margin: 0 0 1.5pt 0; padding-bottom: 1.5pt; border-bottom: 1px solid #D0D7DE; }
+h1.title { font-size: 11.6pt; margin: 0 0 1pt 0; line-height: 1.1; font-weight: 700; color: #1F2328; }
+p.author { margin: 0; color: #6E7781; font-size: 7pt; }
+p { margin: 0 0 2.1pt 0; color: #1F2328; }
+ul { margin: 0 0 2.1pt 0; padding-left: 11pt; }
+li { margin: 0 0 0.5pt 0; }
+div.headline { border: 1px solid #D0D7DE; border-left: 3px solid #2F6FEB; border-radius: 5px; padding: 3pt 5.5pt; margin: 2.5pt 0 3pt 0; background: #fff; }
+div.headline p { margin: 0; font-size: 8.35pt; color: #1F2328; }
+div.topgrid { display: flex; flex-direction: row; align-items: flex-start; gap: 6pt; margin: 0 0 2pt 0; }
+div.topleft { flex: 1 1 0; min-width: 0; }
+div.topright { flex: 0 0 47%; max-width: 47%; }
+div.topright p { margin: 0; }
+div.topright img { width: 100%; max-width: 100%; max-height: 80mm; height: auto; object-fit: contain; display: block; margin: 0; }
+figure { margin: 1pt 0 2pt 0; text-align: center; }
 figure img { width: 100%; }
 figcaption { display: none; }
 strong { color: #1F2328; }
-code { font-family: Consolas, "Courier New", monospace; font-size: 7.2pt; background: #F6F8FA; border: 1px solid #EAEEF2; border-radius: 3px; padding: 0 2px; color: #1F2328; }
-img { max-width: 100%; height: auto; display: block; margin: 1.5pt auto 2pt auto; }
-img.side { float: right; width: 44%; max-width: 44%; max-height: 55mm; object-fit: contain; margin: 0 0 2pt 6pt; }
-img.sbs { width: 92%; max-width: 92%; max-height: 34mm; object-fit: contain; margin: 1pt auto 2pt auto; }
-/* shrink the full-width results chart */
-body > p > img:not(.side):not(.sbs), body > figure > img { max-height: 42mm; object-fit: contain; width: auto; margin-left: auto; margin-right: auto; }
+code { font-family: Consolas, "Courier New", monospace; font-size: 7pt; background: #F6F8FA; border: 1px solid #EAEEF2; border-radius: 3px; padding: 0 2px; color: #1F2328; }
+img { max-width: 100%; height: auto; display: block; margin: 1pt auto 1.5pt auto; }
+img.side { float: right; width: 45%; max-width: 45%; max-height: 50mm; object-fit: contain; margin: 0 0 2pt 5pt; }
+img.charts { display: block; clear: both; width: 100%; max-width: 100%; height: auto; object-fit: contain; margin: 3pt 0 0 0; }
 a { color: #2F6FEB; }
