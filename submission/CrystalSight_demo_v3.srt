@@ -100,112 +100,66 @@ Tool access to MolCrysKit is reported separately as a reference upper bound,
 because those tools compute the gold answers.
 
 25
-00:01:33,110 --> 00:01:36,666
-These structure checks put
-text ahead of pictures, but
+00:01:33,110 --> 00:01:39,399
+So can AI actually see a crystal—not
+as a spreadsheet, but as space?
 
 26
-00:01:36,666 --> 00:01:39,893
-most could be answered
-from one line of the file.
+00:01:39,949 --> 00:01:43,350
+We asked hundreds of
+spatial questions on real
 
 27
-00:01:39,893 --> 00:01:43,449
-So we added two spatial sets
-of twenty questions each.
+00:01:43,350 --> 00:01:47,417
+structures, from easy neighbor
+checks to hard geometry.
 
 28
-00:01:43,449 --> 00:01:46,873
-Gold answers are computed
-from geometry and stay the
+00:01:47,967 --> 00:01:53,980
+On easy text prompts, models already
+land around seven to eight tenths.
 
 29
-00:01:46,873 --> 00:01:49,836
-same when every cutoff
-moves by five percent.
+00:01:54,530 --> 00:01:58,751
+On the hard set, text-only
+scores fall to roughly
 
 30
-00:01:50,436 --> 00:01:55,888
-On the easy set, CIF text
-alone scores 0.70 to 0.82.
+00:01:58,751 --> 00:02:02,713
+two to four tenths—words
+alone are not enough.
 
 31
-00:01:55,888 --> 00:02:02,387
-On the hard set, which asks for
-symmetry copies, hydrogen-bond
+00:02:03,263 --> 00:02:06,562
+Hand them tools to look
+and measure, and hard
 
 32
-00:02:02,387 --> 00:02:08,468
-paths, rings and shell counts,
-text drops to 0.20 to 0.43.
+00:02:06,562 --> 00:02:09,567
+accuracy climbs back near three-quarters.
 
 33
-00:02:09,068 --> 00:02:14,528
-Rendered images and the ASCII viewer
-stay near chance, at 0.10 to 0.22,
+00:02:10,117 --> 00:02:14,428
+CrystalSight’s takeaway:
+structure becomes readable when
 
 34
-00:02:14,528 --> 00:02:19,835
-even with a hydrogen-bond overlay
-and a distance query in the viewer.
+00:02:14,428 --> 00:02:18,200
+models can perceive, not
+only predict from prose.
 
 35
-00:02:20,435 --> 00:02:24,090
-Give the same models six
-small geometry tools that
-
-36
-00:02:24,090 --> 00:02:27,306
-return raw lists, and
-both reach about 0.75.
-
-37
-00:02:27,306 --> 00:02:31,838
-Here one call to the ring tool
-is enough for the right answer.
-
-38
-00:02:32,438 --> 00:02:37,382
-Per family, only the nearest-partner
-question is solved without tools.
-
-39
-00:02:37,382 --> 00:02:40,630
-Disorder replicas stay
-hard for every channel.
-
-40
-00:02:41,230 --> 00:02:45,715
-We found that published hydrogen-bond
-tables leaked answers, removed
-
-41
-00:02:45,715 --> 00:02:50,068
-them, fixed a stripping bug and
-re-ran the affected text channels.
-
-42
-00:02:50,068 --> 00:02:52,970
-The sets are small,
-with two models, and the
-
-43
-00:02:52,970 --> 00:02:55,872
-tools were written for
-these question types.
-
-44
-00:02:56,697 --> 00:02:59,907
+00:02:19,020 --> 00:02:22,230
 The code, tasks, ground truth and figures are open,
 
-45
-00:02:59,907 --> 00:03:02,803
+36
+00:02:22,230 --> 00:02:25,126
 and a mock run like this one needs no API key.
 
-46
-00:03:03,023 --> 00:03:04,831
+37
+00:02:25,346 --> 00:02:27,154
 Try your own model, or add a channel.
 
-47
-00:03:05,051 --> 00:03:05,892
+38
+00:02:27,374 --> 00:02:28,215
 The link is below.
